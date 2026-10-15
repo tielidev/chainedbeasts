@@ -68,7 +68,7 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
 {
   show && (
     <>
-      <div class="ad-size-container">
+      <div class="ad-size-container" data-await-consent={consentBannerActive ? '1' : undefined}>
       <div
         class:list={[
           'my-8 flex-col items-center justify-center',
@@ -123,6 +123,8 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
                 }
                 frame.removeAttribute('data-adsterra-defer');
                 frame.removeAttribute('data-src');
+                var placement = frame.closest('.ad-size-container');
+                if (placement) placement.removeAttribute('data-await-consent');
               }
             };
             var wire = function () {
@@ -179,7 +181,7 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
 
 <style>
   .ad-size-container { container-type: inline-size; }
-  .ad-size-container[data-empty] { height: 0; overflow: hidden; visibility: hidden; }
+  .ad-size-container[data-empty], .ad-size-container[data-await-consent] { height: 0; overflow: hidden; visibility: hidden; }
   @container (max-width: 727px) {
     .ad-wide { display: none; }
   }
