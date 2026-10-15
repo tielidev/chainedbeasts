@@ -22,13 +22,13 @@
  * the iframe 404s as an empty box.
  *
  * Consent-gated like GA/AdSense: when the cookie banner is active (its own
- * render condition in BaseLayout = PUBLIC_GA_ID or PUBLIC_ADSENSE_CLIENT
+ * render condition in BaseLayout includes enabled Adsterra slots, GA or AdSense
  * set), the iframe mounts WITHOUT src (data-src holds the real URL) and a
  * small ES2018 inline script promotes data-src → src only after the visitor
  * has consented — either a stored 'accepted' in CookieConsent's localStorage
  * flag, or the `aw:consent-accepted` event it dispatches on accept. Declined
  * or unchosen → the unit never loads, matching the banner's promise that
- * ads wait for consent. No tracking env vars → banner never renders → the
+ * ads wait for consent. No enabled tracking or advertising → banner never renders → the
  * iframe loads directly (out-of-box zero-consent behavior unchanged).
  */
 interface Props {
@@ -78,6 +78,7 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
           <span class="mb-1 text-[10px] uppercase tracking-wider text-muted-foreground">{adLabel}</span>
         )}
         <iframe
+          data-ad-unit={name}
           src={consentBannerActive ? undefined : iframeSrc}
           data-src={consentBannerActive ? iframeSrc : undefined}
           data-adsterra-defer={consentBannerActive ? '1' : undefined}
@@ -101,10 +102,18 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
           (function () {
             var CONSENT_KEY = 'aw-cookie-consent';
             var CONSENT_EVENT = 'aw:consent-accepted';
-            var activate = function () {
+            var granted = false;
+            var activate = function (event) {
+              if (event && event.type === CONSENT_EVENT) granted = true;
+              var consent = null;
+              try { consent = localStorage.getItem(CONSENT_KEY); } catch (e) { /* wait */ }
+              if (consent === 'accepted') granted = true;
+              if (!granted) return;
               var pending = document.querySelectorAll('iframe[data-adsterra-defer]');
               for (var i = 0; i < pending.length; i++) {
                 var frame = pending[i];
+                // A desktop creative hidden by a media query must not load on phones.
+                if (!frame.getClientRects().length) continue;
                 var src = frame.getAttribute('data-src');
                 if (src) {
                   frame.src = src;
@@ -114,6 +123,17 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
               }
             };
             var wire = function () {
+              window.addEventListener('resize', activate);
+              var native = document.querySelector('iframe[data-ad-unit="native-banner"]');
+              if (native && !native.hasAttribute('data-resize-wired')) {
+                native.setAttribute('data-resize-wired', '1');
+                window.addEventListener('message', function (event) {
+                  if (event.origin !== location.origin || event.source !== native.contentWindow) return;
+                  var data = event.data;
+                  if (!data || data.type !== 'wiki-native-height' || typeof data.height !== 'number') return;
+                  if (data.height >= 80 && data.height <= 5000) native.style.height = Math.ceil(data.height) + 'px';
+                });
+              }
               var stored = null;
               try {
                 stored = localStorage.getItem(CONSENT_KEY);
