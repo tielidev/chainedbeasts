@@ -1,0 +1,44 @@
+---
+import { googlePreferredSource } from '~/config/preferred-source';
+import { type Locale } from '~/i18n/routing';
+import { getUi } from '~/i18n/ui';
+
+interface Props {
+  locale: Locale;
+  placement: 'article' | 'footer';
+}
+
+const { locale, placement } = Astro.props;
+const label = getUi(locale).shared.preferredSourceLabel;
+const loading = placement === 'article' ? 'eager' : 'lazy';
+---
+
+{googlePreferredSource.enabled && (
+  <a
+    href={googlePreferredSource.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={label}
+    data-google-preferred-source={placement}
+    class="mt-4 block w-full max-w-[338px] rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-nav"
+  >
+    <img
+      src={googlePreferredSource.badges.light}
+      alt=""
+      width="676"
+      height="213"
+      loading={loading}
+      decoding="async"
+      class="block h-auto w-full dark:hidden"
+    />
+    <img
+      src={googlePreferredSource.badges.dark}
+      alt=""
+      width="676"
+      height="213"
+      loading={loading}
+      decoding="async"
+      class="hidden h-auto w-full dark:block"
+    />
+  </a>
+)}

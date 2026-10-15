@@ -51,3 +51,13 @@ Preflight passed: production-environment release gate, Astro build, Pagefind ind
 
 Aside checks confirm the official marks, fan-site notice, sampled article images and sources, Steam Cloud/Xbox directory navigation and search-result navigation. Further pre-release and production acceptance results are recorded in the pull request. Phone viewport control is unavailable in the current Aside API; this remains an uncompleted manual check. Any evidence obtained by the earlier coordinate fallback is excluded. No other browser is used.
 
+## Google Preferred Sources preparation — October 15, 2026
+
+The shared button is placed below article metadata and above the cover, plus the footer brand area. It uses Google's unmodified English light/dark @2x badges (676×213), served locally with a338px maximum display width and proportional resizing. Theme selection follows the existing `.dark` class, including AMOLED mode. Sources and original hashes are recorded separately under Google ownership in `docs/media-sources.json`.
+
+`src/config/preferred-source.ts` is the sole display switch and is deliberately `enabled: false`. Disabled renders contain no button, badge images, outbound preference link or empty wrapper. The link is derived from the configured canonical domain, never the browser hostname: `https://www.google.com/preferences/source?q=chained-beasts.com`. It opens in a new tab with an accessible English label. This is a static user-initiated link, without publisher.js, API credentials, an OAuth flow or a fabricated added state.
+
+Initial read-only Google checks returned No results for this site. Before enabling, open the official source picker and verify that the exact canonical domain appears with an enabled selection control. An HTTP200 response or an indexed homepage is insufficient evidence. Stop before changing any personal source preference. Once verified, set the configuration switch to true, validate a preview and publish through the normal GitHub → Cloudflare flow. Until then the production switch stays false; this preparation does not start automatic availability polling.
+
+Validation covers an isolated enabled build and the disabled production build: one footer button on the homepage, two correctly placed links on an article, correct canonical-domain destination and new-tab attributes, no disabled output in74HTML files,145-file typecheck,249passing tests with5platform-dependent skips, configuration/content/i18n checks,3,991internal links, and existing launch/favicon/search checks. Aside browser findings and deployment checks are retained in the pull request; unsupported phone viewport checks remain uncompleted.
+

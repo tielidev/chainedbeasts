@@ -24,6 +24,7 @@ import AffiliateSuggestion from '~/components/ads/AffiliateSuggestion.astro';
 import Comments from '~/components/article/Comments.astro';
 import TableOfContents from '~/components/article/TableOfContents.astro';
 import ShareButton from '~/components/article/ShareButton.astro';
+import PreferredSourceButton from '~/components/PreferredSourceButton.astro';
 import BossStatCard from '~/components/article/BossStatCard.astro';
 import CodesTable from '~/components/article/CodesTable.astro';
 import ArticleGallery from '~/components/article/ArticleGallery.astro';
@@ -262,6 +263,7 @@ const jsonLd = [
           />
         </span>
       </div>
+      <PreferredSourceButton locale={locale} placement="article" />
     </header>
 
     {entry.data.image && <figure class="mt-6"><Image src={entry.data.image} alt={entry.data.title} width={1200} height={675} widths={[400,800,1200]} sizes="(max-width: 1024px) 100vw, 768px" class="aspect-video w-full rounded-lg object-cover" loading="eager" /></figure>}
