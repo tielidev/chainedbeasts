@@ -1,7 +1,7 @@
 {
   "checked": "2026-10-15",
   "target": 50,
-  "policy": "Existing production stays unchanged until all 50 independent articles pass source and editorial review. Candidate keywords are not search-volume estimates. Merge overlapping intents rather than publishing doorway pages.",
+  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents.",
   "articles": [
     {
       "title": "Rhino and Ibex in Chained Beasts: What Is Confirmed?",
@@ -22,7 +22,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/beasts.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -46,7 +46,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/beasts.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -68,7 +68,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -94,7 +94,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/germania.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -117,7 +117,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -141,7 +141,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -165,7 +165,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -188,7 +188,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -213,7 +213,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/skills.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -238,7 +238,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/trainer.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -263,7 +263,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/shop.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -288,7 +288,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/germania.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -311,7 +311,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -333,7 +333,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -355,7 +355,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/boss.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -378,7 +378,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/goliath.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -402,7 +402,7 @@
       "version": "Launch information",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -425,7 +425,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Public discussion; answer quality must be verified.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -449,7 +449,7 @@
       "version": "Version-labelled",
       "image": "../../../../assets/covers/goliath.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -475,7 +475,7 @@
       "version": "Version-labelled",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -498,7 +498,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -521,7 +521,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -545,7 +545,7 @@
       "version": "Platform guidance",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -587,7 +587,7 @@
       "version": "Platform guidance",
       "image": "../../../../assets/covers/skills.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -612,7 +612,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -637,7 +637,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -661,7 +661,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -684,7 +684,7 @@
       "version": "Platform guidance",
       "image": "../../../../assets/covers/germania.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Public discussion; answer quality must be verified.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -748,7 +748,7 @@
       "version": "Platform guidance",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -773,7 +773,7 @@
       "version": "Platform guidance",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -832,7 +832,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -855,7 +855,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -879,7 +879,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/chains.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -938,7 +938,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/germania.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -961,7 +961,7 @@
       "version": "Version-labelled",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -984,7 +984,7 @@
       "version": "Version-labelled",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -1007,7 +1007,7 @@
       "version": "Version-labelled",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -1067,7 +1067,7 @@
       "version": "Launch preview",
       "image": "../../../../assets/covers/shop.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -1109,7 +1109,7 @@
       "version": "Platform guidance",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -1134,7 +1134,7 @@
       "version": "Platform guidance",
       "image": "../../../../assets/covers/camp.webp",
       "status": "ready",
-      "publication": "new-article-held",
+      "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
@@ -1143,6 +1143,53 @@
   "deferredTopics": [],
   "readyCount": 40,
   "remainingCount": 10,
-  "releaseStatus": "hold-production-unchanged",
-  "reviewLimitations": "40 reviewed articles, including 17 expanded originals and 23 new articles. Ten research topics are not publishable articles. No production deployment or search-engine resubmission is authorized until the complete set passes review."
+  "releaseStatus": "approved-for-validation-and-publication",
+  "reviewLimitations": "40 reviewed articles: 17 expanded originals and 23 new articles. Ten research topics are not public article files. No hands-on game test claimed. Mobile acceptance remains limited by the available Aside API.",
+  "release": {
+    "target": 40,
+    "authorizedAt": "2026-10-15",
+    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred.",
+    "urls": [
+      "/beasts/rhino-and-ibex/",
+      "/beasts/unlocks-and-variants/",
+      "/co-op/chain-teamwork/",
+      "/co-op/crossplay-and-platforms/",
+      "/co-op/local-co-op/",
+      "/co-op/multiplayer-guide/",
+      "/combat/afflictions-and-healing/",
+      "/combat/combat-basics/",
+      "/combat/crowd-and-executions/",
+      "/combat/skills-and-shopping/",
+      "/combat/weapons-and-equipment/",
+      "/guides/acts-and-progression/",
+      "/guides/beginner-guide/",
+      "/guides/controls-and-controller/",
+      "/guides/solo-guide/",
+      "/news/post-launch-roadmap/",
+      "/news/release-date-platforms/",
+      "/guides/save-and-checkpoints/",
+      "/guides/difficulty-levels/",
+      "/guides/demo-vs-full-game/",
+      "/guides/pc-system-requirements/",
+      "/guides/mac-system-requirements/",
+      "/guides/controller-troubleshooting/",
+      "/guides/steam-input-setup/",
+      "/guides/supported-languages/",
+      "/guides/accessibility-options/",
+      "/guides/game-pass-guide/",
+      "/guides/xbox-play-anywhere/",
+      "/co-op/remote-play-together-setup/",
+      "/co-op/remote-play-input-troubleshooting/",
+      "/co-op/switch-local-coop/",
+      "/co-op/ps5-local-coop/",
+      "/co-op/xbox-local-coop/",
+      "/combat/arena-hazards/",
+      "/combat/shields-and-blocking/",
+      "/combat/affliction-reference/",
+      "/combat/demo-enemy-types/",
+      "/guides/price-and-launch-discount/",
+      "/guides/steam-cloud-saves/",
+      "/guides/report-bugs-and-find-updates/"
+    ]
+  }
 }

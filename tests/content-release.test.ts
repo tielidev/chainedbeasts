@@ -19,7 +19,7 @@ function fixture() {
       "---\nimage: '../../../../../cover.webp'\n---\n\nSource-reviewed content.\n");
     return { url: `/guides/article-${index}/`, status: 'ready', reviewedAt: '2026-10-15', sources: ['https://example.com/source'] };
   });
-  const map = { target: 50, articles };
+  const map = { target: 50, articles, release: { target: 50, authorizedAt: '2026-10-15', urls: articles.map(article => article.url) } };
   const save = () => fs.writeFileSync(path.join(cwd, 'docs/content-map.json'), JSON.stringify(map));
   save();
   const run = (branch = 'main', args: string[] = []) => spawnSync(process.execPath, [script, ...args], {
@@ -54,5 +54,24 @@ describe('complete content release gate', () => {
     f.save();
     expect(f.run().stderr).toContain('Duplicate article URLs');
     expect(f.run().stderr).toContain('missing review date or sources');
+  });
+
+  it('releases only 40 approved articles while keeping ten research topics unpublished', () => {
+    const f = fixture();
+    f.map.release.target = 40;
+    f.map.release.urls = f.map.articles.slice(0, 40).map(article => article.url);
+    for (let index = 40; index < 50; index++) {
+      f.map.articles[index].status = 'research-draft';
+      fs.writeFileSync(path.join(f.cwd, `src/content/wiki/en/guides/article-${index}.mdx`),
+        "---\nimage: '../../../../../cover.webp'\ndraft: true\n---\n");
+    }
+    f.save();
+    expect(f.run('main', ['--production']).status).toBe(0);
+    fs.writeFileSync(path.join(f.cwd, 'src/content/wiki/en/guides/article-49.mdx'),
+      "---\nimage: '../../../../../cover.webp'\n---\n");
+    expect(f.run().stderr).toContain('outside the approved release');
+    f.map.release.urls[0] = f.map.articles[49].url;
+    f.save();
+    expect(f.run().stderr).toContain('research-draft');
   });
 });
