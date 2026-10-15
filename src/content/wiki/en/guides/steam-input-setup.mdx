@@ -1,0 +1,57 @@
+---
+title: "Chained Beasts Steam Input and Controller Profiles Explained"
+description: "Understand Steam Input mapping, controller identity and profile choices before changing Chained Beasts controls or diagnosing duplicate input."
+category: "guides"
+date: "2026-10-15"
+lastModified: "2026-10-15"
+image: "../../../../assets/covers/skills.webp"
+tags: ["controls","platforms"]
+summary: "Steam Input can translate a physical controller into keyboard, mouse or gamepad events. Chained Beasts lists controller support, but that does not make every custom profile appropriate. Identify whether your layout sends the inputs the game expects, keep the original configuration and avoid changing multiple mapping layers at once."
+gameVersion: "Platform guidance"
+---
+
+## What does Steam Input do?
+
+Valve's player documentation describes legacy mapping from physical controls to keyboard, mouse or gamepad input. Emulated gamepad buttons are delivered as XInput events. This is a platform mechanism, not an extra Chained Beasts character ability or a requirement to use a particular community layout.
+
+It helps explain why a controller can be detected correctly while an individual action still behaves differently from the prompt. The physical button, Steam mapping and game binding are separate parts of the path. Changing the wrong part can make a working input harder to understand.
+
+| Layer | The question it answers |
+| --- | --- |
+| Physical device | Which button, stick or trigger did you move? |
+| Steam Input profile | Which keyboard, mouse or gamepad event does it send? |
+| Game binding | Which action does the installed game assign to that event? |
+
+## Which controller types are documented by Valve?
+
+Valve's published Steam Input device documentation lists Steam Controller, PlayStation 4, Xbox 360 and Xbox One families, Switch Pro, Steam Link mobile touch controls, PlayStation 3 and DirectInput gamepads. The list describes the configurator's supported device categories; it is not a complete certification of all 2026 hardware for this game.
+
+The Chained Beasts Steam page separately lists full controller support, Xbox and PlayStation controller tags and a developer recommendation to use a gamepad. Use the product's current listing and your actual device behavior together. A platform-wide device list cannot prove a particular wireless connection or custom adapter works in every game.
+
+## How should you evaluate a profile change?
+
+Use a controlled comparison rather than importing several changes together. The exact Steam interface can change, and Valve's documentation includes older UI examples, so this page explains what to inspect instead of claiming a tested route through the latest client menus.
+
+1. Note the active layout and the game's current binding for the action.
+2. Identify whether the relevant control sends a gamepad event or an emulated keyboard/mouse event.
+3. Change one mapping only if you can explain the intended result.
+4. Retest the same menu or tutorial action.
+5. Restore the earlier layout if the change does not solve the identified problem.
+
+A community layout can be a useful starting point, but its popularity is not proof of the correct bindings for your build. Do not describe a copied profile as an officially recommended Chained Beasts configuration without a developer source.
+
+## Why might the controller name differ from the device in your hand?
+
+Valve explains that an external remapper may expose a PlayStation controller as an Xbox 360 device. Steam Input then sees the emulated identity rather than the original controller directly. That is a reason to document active mapping software, not a recommendation to install another remapper.
+
+For a failure investigation, use the [controller diagnostic sequence](/guides/controller-troubleshooting/). For a guest in a streamed local session, use [Remote Play input permissions](/co-op/remote-play-input-troubleshooting/). Those questions should be resolved before guessing that a different beast or a new in-game binding will fix the problem.
+
+## Sources and verification
+
+Sources reviewed October 15, 2026. Official statements, historical details and platform guidance are identified in the relevant sections. This article is source-based; no hands-on game test is claimed.
+
+- [Valve Steam Input player documentation](https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_players?l=english)
+- [Valve supported device categories](https://partner.steamgames.com/doc/features/steam_controller/device?l=english)
+- [Chained Beasts controller listing](https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english)
+
+See our [editorial policy](/editorial-policy/) for evidence standards and corrections.

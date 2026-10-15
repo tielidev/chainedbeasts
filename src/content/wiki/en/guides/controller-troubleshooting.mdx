@@ -1,0 +1,61 @@
+---
+title: "Chained Beasts Controller Not Working: Diagnostic Guide"
+description: "Separate device detection, Steam Input, local-player assignment and Remote Play problems using official platform guidance, without promising a game-specific fix."
+category: "guides"
+date: "2026-10-15"
+lastModified: "2026-10-15"
+image: "../../../../assets/covers/combat.webp"
+tags: ["controls","platforms"]
+summary: "Start by identifying where controller input stops: operating-system recognition, Steam detection, the game menu, a local player slot or a Remote Play guest. Chained Beasts lists full controller support and recommends a gamepad. The checks here are platform diagnostics, not a developer-confirmed cure for every input issue."
+gameVersion: "Platform guidance"
+---
+
+## Where does controller input stop working?
+
+Test the stages separately before changing a configuration. The Steam listing confirms full controller support and names Xbox and PlayStation controller families, but that does not certify every model, wireless mode or remapping combination. A controller working in one application does not prove it is assigned to the intended player in another.
+
+| Observed result | Investigate next |
+| --- | --- |
+| The computer does not recognize the device | The device, connection and operating-system support |
+| Steam does not recognize a connected controller | Steam's controller detection and supported device mode |
+| Menus work but an action fails | The installed game's bindings and the specific action |
+| One local player works and another does not | Player assignment and the active input devices |
+| A Remote Play guest sees video but cannot move | The guest's device and the host's sharing permissions |
+
+Record the first failing stage. “Nothing works” is less useful than “Steam detects the controller, the menu responds, but the second local player cannot join.” The latter gives the developer a much smaller problem to reproduce.
+
+## How should you test a local controller?
+
+Start with one controller and the intended game window in focus. Confirm menu navigation, then check the tutorial or binding screen for the action that fails. Keep a note of the original settings before experimenting. If multiple unused input devices or remapping applications are active, simplify the setup rather than adding another layer immediately.
+
+Steam Input can translate physical controls into keyboard, mouse or gamepad events. An external remapper can also expose a device under an emulated controller identity. This explains why displayed device names and physical hardware may differ; it does not establish that Steam Input must always be disabled or that a third-party tool should be installed.
+
+The [Steam Input explanation](/guides/steam-input-setup/) covers that distinction. Change one reversible setting, retest the same action, then decide whether to retain it. Avoid a blanket enable/disable prescription without evidence about the failing stage.
+
+## What changes when several people share one PC?
+
+The official listing says at least one gamepad is required for same-screen co-op. It does not document a complete independent-keyboard or controller-slot matrix. Do not assume that several keyboards become separate players simply because the operating system detects them.
+
+Confirm that the first player's input is reliable before adding a second. Watch the join prompts presented by the current build and test each person's movement. See [local co-op preparation](/co-op/local-co-op/) for the distinction between shared-system and streamed sessions.
+
+## How should a Remote Play guest investigate input?
+
+Steam's Remote Play help recommends checking client-side controller recognition when no streamed game recognizes the device. The host also controls access to shared keyboard and mouse input. Start there if the picture arrives but the guest cannot act; that symptom is different from a stream that never connects.
+
+Follow the [Remote Play input guide](/co-op/remote-play-input-troubleshooting/) for the relevant checks. These are general Steam procedures. The presence of a Chained Beasts player complaint does not prove a cause or demonstrate that a particular procedure fixed it.
+
+## What should a useful bug report include?
+
+Provide platform, game version, controller model, connection method, Steam Input state, other active devices and the exact step that fails. State whether menus, solo gameplay, local co-op and a streamed session behave differently. If a change helps, describe the before-and-after setup instead of claiming that it fixes every controller.
+
+The [controls overview](/guides/controls-and-controller/) remains the starting point for learning actions. This diagnostic guide does not substitute a guessed keyboard chart or console button assignment for the current game's bindings.
+
+## Sources and verification
+
+Sources reviewed October 15, 2026. Official statements, historical details and platform guidance are identified in the relevant sections. This article is source-based; no hands-on game test is claimed.
+
+- [Official controller and local-input listing](https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english)
+- [Steam Input player documentation](https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_players?l=english)
+- [Steam Remote Play troubleshooting](https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2)
+
+See our [editorial policy](/editorial-policy/) for evidence standards and corrections.
