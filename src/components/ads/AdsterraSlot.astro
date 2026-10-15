@@ -127,6 +127,22 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
             };
             var wire = function () {
               window.addEventListener('resize', activate);
+              var unitFrames = document.querySelectorAll('iframe[data-ad-unit]');
+              for (var j = 0; j < unitFrames.length; j++) {
+                (function (unitFrame) {
+                  if (unitFrame.hasAttribute('data-state-wired')) return;
+                  unitFrame.setAttribute('data-state-wired', '1');
+                  window.addEventListener('message', function (event) {
+                    if (event.origin !== location.origin || event.source !== unitFrame.contentWindow) return;
+                    var state = event.data;
+                    if (!state || state.type !== 'wiki-ad-state' || state.unit !== unitFrame.getAttribute('data-ad-unit') || typeof state.filled !== 'boolean') return;
+                    var container = unitFrame.closest('.ad-size-container');
+                    if (!container) return;
+                    if (state.filled) container.removeAttribute('data-empty');
+                    else container.setAttribute('data-empty', '1');
+                  });
+                })(unitFrames[j]);
+              }
               var native = document.querySelector('iframe[data-ad-unit="native-banner"]');
               if (native && !native.hasAttribute('data-resize-wired')) {
                 native.setAttribute('data-resize-wired', '1');
@@ -163,6 +179,7 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
 
 <style>
   .ad-size-container { container-type: inline-size; }
+  .ad-size-container[data-empty] { height: 0; overflow: hidden; visibility: hidden; }
   @container (max-width: 727px) {
     .ad-wide { display: none; }
   }

@@ -15,5 +15,7 @@ Screenshots and temporary browser logs remain local under ignored directories.
 
 ## Ad placement preparation
 
-Local placeholder creatives confirmed that decline causes zero ad-document requests, phones load only the responsive native placement, and widening the viewport activates desktop placements after consent. Native height adjusts from 560px on phone to 180px on desktop without horizontal overflow. These checks do not establish real Adsterra fill: vendor codes are still required.
+Local placeholder creatives confirmed that decline causes zero ad-document requests, phones load only the responsive native placement, and widening the viewport activates desktop placements after consent. Native height adjusts from 560px on phone to 180px on desktop without horizontal overflow. These checks establish layout behavior independently of network fill.
+
+The approved three unit codes were retrieved from the publisher dashboard and deployed on October 15. Production decline and privacy reset passed. Acceptance starts the correct distinct unit requests. In this test network the native host returned a local DNS error (Cloudflare public DNS resolved it), and both banner script responses were HTTP200 with zero-length bodies. Actual creative fill therefore could not be confirmed; network-side delivery can vary. Empty wrappers collapse after ten seconds and reopen if content arrives. Original vendor snippets and URLs remain unchanged.
 
