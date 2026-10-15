@@ -91,6 +91,14 @@ export const site: SiteConfig = {
   ogImageHeight: 900,
 };
 
+/** Directory verification links for this site; these do not imply approval. */
+export const directoryProfiles: Array<{ name: string; href: string; image?: string; width?: number }> = [
+  { name: 'ShowMySites', href: 'https://www.showmysites.com' },
+  { name: 'Uno Directory', href: 'https://uno.directory', image: 'https://uno.directory/uno-directory.svg', width: 120 },
+  { name: 'Lovable App', href: 'https://lovableapp.org', image: 'https://lovableapp.org/lovable-app-badge.svg', width: 160 },
+  { name: 'ufind.best', href: 'https://ufind.best/products/chained-beasts-wiki-guides', image: 'https://ufind.best/badges/ufind-best-badge-light.svg', width: 150 },
+];
+
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */
 export const siteUrl: string = (process.env.SITE_URL || `https://${site.domain}`).replace(
   /\/$/,
