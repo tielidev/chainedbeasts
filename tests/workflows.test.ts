@@ -57,9 +57,16 @@ const readWorkflow = (rel: string): unknown =>
 // against the exact code that postbuild ships. The script's main-module
 // guard keeps this import side-effect-free — this line existing is itself
 // the pin for that guard.
-const { lowerRangeMedia } = (await import(
+const { lowerRangeMedia, searchBundleVersion } = (await import(
   pathToFileURL(join(root, 'scripts/transpile-pagefind.mjs')).href
-)) as { lowerRangeMedia: (s: string) => string };
+)) as { lowerRangeMedia: (s: string) => string; searchBundleVersion: (ui:string, entry:string)=>string };
+
+test('content-only deployments invalidate the search loader and index cache', () => {
+  const before = '{"languages":{"en":{"hash":"en_old","page_count":16}}}';
+  const after = '{"languages":{"en":{"hash":"en_new","page_count":17}}}';
+  expect(searchBundleVersion('unchanged UI',before)).not.toBe(searchBundleVersion('unchanged UI',after));
+  expect(searchBundleVersion('unchanged UI',after)).toBe(searchBundleVersion('unchanged UI',after));
+});
 
 const GATES = '.github/actions/gates/action.yml';
 const CI = '.github/workflows/ci.yml';

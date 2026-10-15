@@ -59,6 +59,10 @@ export const lowerRangeMedia = (s) =>
     return prelude.startsWith('(') ? `@media${lowered}` : `@media ${lowered}`;
   });
 
+// A content-only deploy changes index chunk names even when the UI is identical.
+export const searchBundleVersion = (ui, entry) =>
+  createHash('sha256').update(ui).update(entry).digest('hex').slice(0, 10);
+
 const main = async () => {
   const dist = join(process.cwd(), 'dist');
   const dir = join(dist, 'pagefind');
@@ -80,9 +84,10 @@ const main = async () => {
     }
   }
 
-  // 2. Per-deploy version query (hash of the lowered UI bundle).
+  // 2. Version UI and worker imports with both code AND index identity.
   const ui = await readFile(join(dir, 'pagefind-ui.js'), 'utf8');
-  const v = createHash('sha256').update(ui).digest('hex').slice(0, 10);
+  const entry = await readFile(join(dir, 'pagefind-entry.json'), 'utf8');
+  const v = searchBundleVersion(ui, entry);
   /* Only template-literal URL constructions are versioned: in the shipped
      bundles every fetch/import site ends with the filename right before a
      closing backtick, while regex literals (`/^(.*\/)pagefind.js.*$/` — the
