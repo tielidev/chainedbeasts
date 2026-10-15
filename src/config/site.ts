@@ -24,6 +24,8 @@ export interface SiteConfig {
    * if you run no social channels, set this.
    */
   contactEmail?: string;
+  contactUrl?: string;
+  defaultTheme?: string;
   social: {
     /** Official game website URL (the game itself, not the wiki). */
     official: string;
@@ -62,39 +64,31 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: 'Anvil Quest Wiki',
-  shortName: 'AQ Wiki',
-  description:
-    'Complete Anvil Quest wiki with boss guides, tier lists, codes, item locations, and beginner tips. Every guide carries a last-verified date.',
-  domain: 'anvil.wiki',
-  tagline: 'Your forge for everything Anvil Quest',
-  legalNotice:
-    'Anvil Quest Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer.',
-  // 👉 APPLY TEMPLATE: set a real address if you run no social channels —
-  // the contact page renders it as a mailto link.
+  name: 'Chained Beasts Wiki & Guides',
+  shortName: 'Chained Beasts',
+  description: 'Chained Beasts guides, co-op tips, combat mechanics, beasts and official news. An independent English resource with clearly sourced advice.',
+  domain: 'chained-beasts.com',
+  tagline: 'Survive the arena. Together.',
+  legalNotice: 'An independent fan site. Not affiliated with Featherweight Games. Game artwork and trademarks belong to their respective owners.',
+  // Set a real address if you run no social channels — the contact page
+  // renders it as a mailto link.
   contactEmail: '',
+  contactUrl: 'https://github.com/tielidev/chainedbeasts/issues',
+  defaultTheme: 'dark',
   social: {
-    official: 'https://example.com/anvil-quest',
-    discord: 'https://discord.gg/example',
-    youtube: 'https://youtube.com/@example',
-    twitter: 'https://twitter.com/example',
-    reddit: 'https://reddit.com/r/anvilquest',
+    official: 'https://store.steampowered.com/app/3569420/Chained_Beasts/',
   },
-  // 👉 APPLY TEMPLATE: point these at the game's real canonical pages.
-  sameAs: [
-    'https://example.com/anvil-quest',
-    'https://en.wikipedia.org/wiki/Anvil_Quest',
-  ],
   game: {
-    name: 'Anvil Quest',
-    platform: 'Roblox',
-    developer: 'Forge Studios',
-    genre: 'Fantasy RPG',
-    releaseDate: '2026-01-15',
+    name: 'Chained Beasts',
+    platform: 'PC, PlayStation 5, Xbox Series X|S, Nintendo Switch',
+    developer: 'Featherweight Games',
+    genre: 'Co-op gladiator roguelike',
+    releaseDate: '2026-10-15',
   },
-  // hero.webp is 1200×630 (the recommended OG share aspect ratio).
-  ogImageWidth: 1200,
-  ogImageHeight: 630,
+  // og:image dims of the SHIPPED hero.webp — if you replace public/images/hero.webp,
+  // update these in src/config/site.ts to match (wrong dims mis-crop share cards).
+  ogImageWidth: 1600,
+  ogImageHeight: 900,
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */

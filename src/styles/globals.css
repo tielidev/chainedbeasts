@@ -12,11 +12,11 @@
 @layer base {
   :root {
     /* Light mode theme color — Anvil orange (forge fire). */
-    --brand: 22 90% 52%;
-    --brand-light: 22 90% 62%;
+    --brand: 36 44% 54%;
+    --brand-light: 36 44% 64%;
     /* Split H/S for derived shades (e.g. darker button backgrounds). */
-    --brand-h: 22;
-    --brand-s: 90%;
+    --brand-h: 36;
+    --brand-s: 44%;
     /* Text-safe shade of the brand: --brand at 52% lightness is only 3.1:1
        on white (WCAG AA needs 4.5:1 for text). Derived from the H/S splits,
        so fork themes that only edit --brand/--brand-light stay consistent. */
@@ -25,10 +25,10 @@
 
   .dark {
     /* Dark mode theme color — slightly deeper. */
-    --brand: 22 85% 48%;
-    --brand-light: 22 85% 58%;
-    --brand-h: 22;
-    --brand-s: 85%;
+    --brand: 36 39% 50%;
+    --brand-light: 36 39% 60%;
+    --brand-h: 36;
+    --brand-s: 39%;
     --brand-text: var(--brand-h) var(--brand-s) 52%;
   }
 }
@@ -46,13 +46,13 @@
   }
 
   .dark {
-    --background: 222 47% 7%;
-    --foreground: 210 40% 98%;
-    --muted: 217 33% 14%;
-    --muted-foreground: 215 20% 65%;
-    --border: 217 33% 18%;
-    --card: 222 47% 10%;
-    --card-foreground: 210 40% 98%;
+    --background: 36 12% 7%;
+    --foreground: 38 27% 90%;
+    --muted: 35 10% 13%;
+    --muted-foreground: 34 10% 65%;
+    --border: 35 13% 22%;
+    --card: 36 11% 10%;
+    --card-foreground: 38 27% 90%;
   }
 
   /* AMOLED black (html.dark.black) — pure-black surfaces for OLED phones:
@@ -64,6 +64,87 @@
     --border: 0 0% 16%;
     --card: 0 0% 4%;
   }
+}
+
+/* Editorial layouts use the same theme tokens as the wiki components. */
+.eyebrow { display:flex; align-items:center; gap:12px; color:hsl(var(--brand-light)); font-size:10px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; }
+.rule { width:30px; height:1px; background:hsl(var(--brand)); }
+.arena-hero { position:relative; min-height:590px; isolation:isolate; margin:-32px -16px 0; overflow:hidden; border-bottom:1px solid hsl(var(--border)); }
+.arena-hero-image { position:absolute; width:100%; height:100%; inset:0; object-fit:cover; object-position:70% center; z-index:-3; }
+.arena-hero-shade { position:absolute; inset:0; z-index:-2; background:linear-gradient(90deg,hsl(var(--background)/.98) 2%,hsl(var(--background)/.91) 28%,hsl(var(--background)/.28) 80%),linear-gradient(0deg,hsl(var(--background)),transparent 45%); }
+.arena-hero-content { padding:80px 48px 42px; max-width:750px; }
+.arena-hero h1 { font-family:Georgia,'Times New Roman',serif; font-weight:700; font-size:clamp(46px,5.9vw,82px); line-height:1.02; letter-spacing:-.045em; margin:25px 0; }
+.arena-hero h1 span { display:block; }
+.accent-title { color:hsl(var(--brand-light)); font-style:italic; }
+.hero-description { max-width:430px; color:hsl(var(--foreground)/.72); line-height:1.85; font-size:15px; }
+.hero-actions { display:flex; align-items:center; gap:25px; margin-top:30px; }
+.hero-actions .btn-primary { padding:14px 21px; border-radius:2px; }
+.hero-store { display:inline-flex; align-items:center; font-size:12px; color:hsl(var(--foreground)/.8); }
+.hero-stats { display:flex; gap:35px; margin-top:49px; }
+.hero-stats div { padding-right:32px; border-right:1px solid hsl(var(--border)); }
+.hero-stats div:last-child { border:0; }
+.hero-stats strong { display:block; font-family:Georgia,serif; font-size:25px; font-weight:400; }
+.hero-stats span { display:block; margin-top:5px; letter-spacing:.12em; font-size:8px; color:hsl(var(--muted-foreground)); }
+.hero-credit { position:absolute; right:25px; bottom:23px; display:flex; gap:8px; align-items:center; font-size:10px; color:hsl(var(--foreground)/.7); }
+.editorial-strip { display:flex; align-items:center; gap:12px; padding:19px 0; border-bottom:1px solid hsl(var(--border)); }
+.editorial-strip>span { font-size:9px; letter-spacing:.13em; font-weight:600; color:hsl(var(--muted-foreground)); }
+.editorial-strip a { margin-left:auto; display:flex; gap:10px; align-items:center; font-size:11px; }
+.field-section { padding-top:54px; padding-bottom:8px; }
+.section-heading { display:flex; justify-content:space-between; align-items:flex-end; gap:18px; margin-bottom:24px; }
+.section-heading h2 { font:700 clamp(25px,3vw,36px)/1.2 Georgia,serif; letter-spacing:-.025em; margin-top:10px; }
+.section-heading p:not(.eyebrow) { color:hsl(var(--muted-foreground)); font-size:13px; margin-top:10px; }
+.section-link { display:flex; align-items:center; gap:9px; font-size:11px; color:hsl(var(--brand-light)); flex-shrink:0; }
+.feature-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.feature-card { position:relative; height:355px; overflow:hidden; border:1px solid hsl(var(--border)); }
+.feature-card>img { width:100%; height:100%; object-fit:cover; transition:transform .3s; }
+.feature-card:hover>img { transform:scale(1.025); }
+.feature-shade { position:absolute; inset:0; background:linear-gradient(0deg,hsl(var(--background)/.96),hsl(var(--background)/.05)); }
+.feature-copy { position:absolute; inset:auto 25px 25px; }
+.feature-copy h3 { font:700 29px/1.13 Georgia,serif; max-width:340px; margin:13px 0; }
+.feature-copy p { color:hsl(var(--foreground)/.68); max-width:350px; font-size:12px; line-height:1.7; }
+.feature-arrow { position:absolute; right:0; bottom:4px; color:hsl(var(--brand-light)); }
+.article-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+.field-article { background:hsl(var(--card)); border:1px solid hsl(var(--border)); transition:border-color .2s; }
+.field-article:hover { border-color:hsl(var(--brand)); }
+.field-article>img { width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; }
+.field-article-body { padding:22px; }
+.field-article h3 { font:700 23px/1.2 Georgia,serif; margin:12px 0; }
+.field-article p { color:hsl(var(--muted-foreground)); font-size:12px; line-height:1.8; }
+.read-link { margin-top:24px; display:flex; align-items:center; gap:10px; font-size:11px; color:hsl(var(--brand-light)); }
+.news-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+.news-card { display:grid; grid-template-columns:145px 1fr; gap:20px; padding:20px 0; border-top:1px solid hsl(var(--border)); }
+.news-card>img { width:145px; height:110px; object-fit:cover; }
+.news-card time { color:hsl(var(--muted-foreground)); font-size:10px; text-transform:uppercase; letter-spacing:.07em; }
+.news-card h3 { font:700 22px/1.2 Georgia,serif; margin:8px 0; }
+.news-card p { color:hsl(var(--muted-foreground)); font-size:12px; line-height:1.7; }
+.editorial-note { margin-top:52px; padding:28px; background:hsl(var(--muted)/.5); border:1px solid hsl(var(--border)); display:flex; align-items:center; gap:22px; }
+.editorial-note h2 { font-size:10px; letter-spacing:.12em; font-weight:600; }
+.editorial-note p { color:hsl(var(--muted-foreground)); font-size:12px; line-height:1.8; margin-top:7px; }
+.editorial-note>a { margin-left:auto; }
+@media(min-width:1280px){.arena-hero { margin-left:0; margin-right:0; }}
+@media(max-width:767px){
+ .arena-hero { min-height:610px; }
+ .arena-hero-content { padding:62px 23px 45px; }
+ .arena-hero-image { object-position:60% center; }
+ .arena-hero-shade { background:linear-gradient(90deg,hsl(var(--background)/.96),hsl(var(--background)/.55)),linear-gradient(0deg,hsl(var(--background)),transparent); }
+ .arena-hero h1 { font-size:53px; }
+ .hero-description { max-width:320px; font-size:14px; }
+ .hero-stats { gap:18px; margin-top:43px; }
+ .hero-stats div { padding-right:17px; }
+ .hero-stats span { font-size:7px; }
+ .hero-credit { bottom:13px; right:16px; }
+ .editorial-strip { align-items:flex-start; flex-wrap:wrap; gap:9px; }
+ .editorial-strip>a { margin-left:29px; }
+ .feature-grid,.article-grid,.news-grid { grid-template-columns:1fr; }
+ .feature-card { height:330px; }
+ .feature-copy h3 { font-size:27px; }
+ .section-heading { align-items:flex-start; }
+ .section-heading .section-link { margin-top:13px; font-size:10px; }
+ .editorial-note { padding:21px; flex-wrap:wrap; gap:15px; }
+ .editorial-note>div { flex:1; min-width:200px; }
+ .editorial-note>a { margin-left:0; }
+ .news-card { grid-template-columns:100px 1fr; gap:15px; }
+ .news-card>img { width:100px; height:100px; }
 }
 
 @layer base {

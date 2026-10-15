@@ -58,7 +58,8 @@ const show = !!import.meta.env[envKey];
 // either is set the banner (and its consent promise) is live on every page.
 const consentBannerActive = !!(
   (import.meta.env.PUBLIC_GA_ID as string | undefined) ||
-  (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined)
+  (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined) ||
+  Object.entries(import.meta.env).some(([key,value]) => key.startsWith('PUBLIC_ADSTERRA_SLOT_') && !!value)
 );
 const iframeSrc = `/ads/${name}.html`;
 const sharedStrings = currentSharedStrings(Astro.currentLocale);

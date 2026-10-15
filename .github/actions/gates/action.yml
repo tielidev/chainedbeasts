@@ -8,7 +8,7 @@ inputs:
   site-url:
     description: 'SITE_URL for the build step (CI passes vars.SITE_URL; falls back to the demo domain).'
     required: false
-    default: 'https://anvil.wiki'
+    default: 'https://chained-beasts.com'
 
 runs:
   using: 'composite'
@@ -46,6 +46,10 @@ runs:
 
     - name: Internal link audit (dist/)
       run: pnpm check-links
+      shell: bash
+
+    - name: Production domain and favicon checks
+      run: node scripts/check-launch.mjs
       shell: bash
 
     - name: i18n UI key coverage (gate)

@@ -1,4 +1,22 @@
-# AnvilWiki ⚒️
+# Chained Beasts Wiki & Guides
+
+Independent English game guides for **https://chained-beasts.com**.
+
+Built from AnvilWiki v2.37.0 using Astro static output, MDX and Pagefind. Cloudflare Pages connects to this repository's `main` branch.
+
+- `pnpm install --frozen-lockfile` — install dependencies (Node 22.13+).
+- `pnpm dev` — local authoring.
+- `pnpm build` — generate static pages and search.
+- `node scripts/check-launch.mjs` — verify the production domain, sitemap, favicon and populated categories.
+- See [launch and advertising operations](docs/LAUNCH.md) and [media provenance](docs/media-sources.json).
+
+Code retains the upstream MIT license. Third-party game screenshots and trademarks belong to their rights holders and are not licensed by that code notice. No AI-generated game imagery is used.
+
+The upstream template documentation below is retained for reference; its fictional demo and project-marketing routes are not published by this site.
+
+---
+
+# Upstream AnvilWiki documentation
 
 > 带 AI 内容工作流的游戏 wiki 模板——广告收入 100% 归你。
 > 开源、Cloudflare Pages 原生优化、零成本免费部署上线。

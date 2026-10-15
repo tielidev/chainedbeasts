@@ -50,3 +50,10 @@
 # unit pages themselves. Same-origin framing is unaffected.
 /ads/*
   Content-Security-Policy: frame-ancestors 'self'
+  X-Robots-Tag: noindex, nofollow
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+
+https://:branch.chainedbeasts.pages.dev/*
+  X-Robots-Tag: noindex, nofollow

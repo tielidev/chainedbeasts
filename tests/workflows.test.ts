@@ -78,6 +78,7 @@ const EIGHT_GATES = [
   'pnpm build',
   'pnpm check-content',
   'pnpm check-links',
+  'node scripts/check-launch.mjs',
   'pnpm check-i18n --strict-ui',
 ];
 
@@ -120,7 +121,7 @@ describe('shared gates composite action', () => {
   test('the i18n gate can actually fail (strict-ui, not report-only)', () => {
     // The eighth gate was report-only at v2.0.0 — "eight gates" must mean
     // eight gates that can go red.
-    expect(EIGHT_GATES[7]).toBe('pnpm check-i18n --strict-ui');
+    expect(EIGHT_GATES.at(-1)).toBe('pnpm check-i18n --strict-ui');
   });
 
   test('build step forwards the site-url input', () => {

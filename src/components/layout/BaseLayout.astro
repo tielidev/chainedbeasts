@@ -127,6 +127,7 @@ const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
 const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefined;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
+const adsterraActive = Object.entries(import.meta.env).some(([key,value]) => key.startsWith('PUBLIC_ADSTERRA_SLOT_') && !!value);
 
 // Consent banner labels: wiki locales derive them from the locale JSON
 // (hardcoded English fallbacks for a locale whose JSON hasn't been translated
@@ -152,16 +153,14 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
 ---
 
 <!doctype html>
-<html lang={mainLocale} class="scroll-smooth">
+<html lang={mainLocale} class={site.defaultTheme === 'dark' ? 'dark' : undefined}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {/* pnpm gen-assets regenerates these in place with the live brand color.
-        SVG first (sharp modern browsers), 32px PNG fallback; the legacy
-        favicon.ico stays in public/ but is never referenced (sharp can't
-        emit ICO — see scripts/gen-assets.ts). */}
+    {/* Stable raster icon is discoverable without executing JavaScript. */}
+    <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="alternate" type="application/rss+xml" title={site.name} href="/rss.xml" />
@@ -244,7 +243,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
       the visitor accepts. See GDPR note in AGENTS.md. No tracking env vars
       → this block renders nothing → zero JS.
     */}
-    {(gaId || adsenseClient) && (
+    {(gaId || adsenseClient || adsterraActive) && (
       <script is:inline define:vars={{ gaId, adsenseClient }}>
         window.__awLoadTrackers = () => {
           if (window.__awTrackersLoaded) return;
@@ -301,6 +300,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
           /* storage unavailable */
         }
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'light') document.documentElement.classList.remove('dark');
         if (stored === 'dark' || stored === 'black' || (!stored && prefersDark)) {
           document.documentElement.classList.add('dark');
           if (stored === 'black') document.documentElement.classList.add('black');
@@ -334,7 +334,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
   <body class="min-h-screen bg-background text-foreground antialiased">
     <slot />
     {/* Consent banner — only rendered when tracking env vars are set. */}
-    {(gaId || adsenseClient) && (
+    {(gaId || adsenseClient || adsterraActive) && (
       <CookieConsent
         labels={{
           title: consentLabels.title,

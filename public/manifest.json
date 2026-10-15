@@ -1,11 +1,10 @@
 {
-  "name": "Anvil Quest Wiki",
-  "short_name": "AQ Wiki",
-  "description": "Complete Anvil Quest wiki with boss guides, codes, and tier lists.",
+  "name": "Chained Beasts Wiki & Guides",
+  "short_name": "CB Wiki",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#f36716",
+  "background_color": "#191714",
+  "theme_color": "#bd9354",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

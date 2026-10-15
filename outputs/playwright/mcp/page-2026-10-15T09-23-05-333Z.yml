@@ -1,0 +1,160 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link "Chained Beasts Wiki & Guides" [ref=f3e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f3e6]: Chained Beasts
+      - generic [ref=f3e7]:
+        - button "Search" [ref=f3e8] [cursor=pointer]
+        - button "Toggle theme" [ref=f3e11] [cursor=pointer]
+        - group [ref=f3e14]:
+          - generic [ref=f3e15] [cursor=pointer]
+  - main [ref=f3e18]:
+    - article [ref=f3e20]:
+      - navigation "Breadcrumb" [ref=f3e21]:
+        - link "Home" [ref=f3e22] [cursor=pointer]:
+          - /url: /
+        - text: /
+        - link "Chained Beasts Combat" [ref=f3e23] [cursor=pointer]:
+          - /url: /combat/
+      - generic [ref=f3e24]:
+        - generic [ref=f3e25]: Chained Beasts Combat
+        - heading "Chained Beasts Afflictions, Healing and the Surgeon" [level=1] [ref=f3e29]
+        - paragraph [ref=f3e30]: Learn why healing adds drawbacks, what the Surgeon was announced to do, and how to evaluate afflictions before your next arena battle.
+        - generic [ref=f3e31]:
+          - generic [ref=f3e32]: 10/15/2026
+          - generic "Game version" [ref=f3e35]: Launch information
+          - generic [ref=f3e38]: "Last updated: 10/15/2026"
+          - generic [ref=f3e41]: 3 min read
+          - button "Share" [ref=f3e46] [cursor=pointer]
+      - complementary [ref=f3e50]:
+        - generic [ref=f3e54]:
+          - generic [ref=f3e55]:
+            - paragraph [ref=f3e56]: Quick Answer
+            - button "Copy quick answer" [ref=f3e57] [cursor=pointer]
+          - paragraph [ref=f3e60]: "Healing in Chained Beasts comes with a trade-off: the developer describes accepting afflictions when recovering between rounds. These drawbacks can affect movement, perception or decisions. Judge recovery by your ability to handle the next fight, not just by the health you gain immediately."
+      - navigation "On this page" [ref=f3e62]:
+        - group [ref=f3e63]:
+          - generic "On this page" [ref=f3e64] [cursor=pointer]
+      - generic [ref=f3e65]:
+        - paragraph [ref=f3e66]: "Healing in Chained Beasts comes with a trade-off: the developer describes accepting afflictions when recovering between rounds. These drawbacks can affect movement, perception or decisions. Judge recovery by your ability to handle the next fight, not just by the health you gain immediately."
+        - heading "Why does healing have side effects?" [level=2] [ref=f3e67]
+        - paragraph [ref=f3e68]: The official description presents wounds and potion side effects as part of the run’s challenge. The October 10 announcement says the launch game contains more than seventy afflictions. A large total does not mean every effect is a simple numerical penalty.
+        - paragraph [ref=f3e69]: For example, that announcement describes Annoying as prompting nearby allies to attack, Impulsive as forcing certain skill and shopping decisions, and Infatuated as changing camera focus around an ally. Those examples show why you should read the effect instead of deciding from the name alone.
+        - heading "How should a team evaluate an affliction?" [level=2] [ref=f3e70]
+        - paragraph [ref=f3e71]: Our recommendation is to explain the drawback aloud before committing. Ask whether it changes how closely you can move together, what you can see or what you can choose between battles. Someone else’s normal positioning may become risky after your condition changes.
+        - paragraph [ref=f3e72]:
+          - text: Revisit your
+          - link "chain plan" [ref=f3e73] [cursor=pointer]:
+            - /url: /co-op/chain-teamwork/
+          - text: after a major drawback. In
+          - link "solo play" [ref=f3e74] [cursor=pointer]:
+            - /url: /guides/solo-guide/
+          - text: ", evaluate the same effect without assuming a teammate can compensate."
+        - heading "What does the Surgeon do?" [level=2] [ref=f3e75]
+        - paragraph [ref=f3e76]: The July beta update introduced a Surgeon between acts who can help manage afflictions or offer body augmentations that grant skills. The developer noted that procedures have costs. We do not infer exact prices, guaranteed cures or unrestricted access from that announcement.
+        - paragraph [ref=f3e77]: Read the actual offer in the current game before spending resources. Surgery is part of a wider recovery decision, not evidence that all earlier choices can be undone without consequence.
+        - heading "What information should you trust?" [level=2] [ref=f3e78]
+        - paragraph [ref=f3e79]:
+          - text: Use current in-game descriptions for specific effects. Treat this page as a sourced explanation of the system and our suggested decision process. For related choices, see
+          - link "skills and shopping" [ref=f3e80] [cursor=pointer]:
+            - /url: /combat/skills-and-shopping/
+          - text: ; we avoid publishing a complete affliction database until each entry can be checked.
+        - heading "Sources and verification" [level=2] [ref=f3e81]
+        - paragraph [ref=f3e82]: Checked October 15, 2026 against the sources below. Tactical recommendations are editorial advice, not a claim of hands-on testing. Screenshots are official promotional imagery and may show earlier builds.
+        - list [ref=f3e83]:
+          - listitem [ref=f3e84]:
+            - link "Official Steam store" [ref=f3e85] [cursor=pointer]:
+              - /url: https://store.steampowered.com/app/3569420/Chained_Beasts/
+          - listitem [ref=f3e86]:
+            - 'link "Featherweight Games: New Afflictions to Look Forward to at Launch" [ref=f3e87] [cursor=pointer]':
+              - /url: https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067936316
+          - listitem [ref=f3e88]:
+            - 'link "Featherweight Games: Open Beta Now Live: Head North to Germania" [ref=f3e89] [cursor=pointer]':
+              - /url: https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292
+        - paragraph [ref=f3e90]:
+          - text: See our
+          - link "editorial policy" [ref=f3e91] [cursor=pointer]:
+            - /url: /editorial-policy/
+          - text: for how we handle evidence and corrections.
+      - generic [ref=f3e92]:
+        - link "afflictions" [ref=f3e93] [cursor=pointer]:
+          - /url: /tags/afflictions/
+        - link "survival" [ref=f3e96] [cursor=pointer]:
+          - /url: /tags/survival/
+      - generic [ref=f3e99]:
+        - heading "Related Articles" [level=2] [ref=f3e100]
+        - generic [ref=f3e101]:
+          - link [ref=f3e102] [cursor=pointer]:
+            - /url: /combat/combat-basics/
+            - paragraph [ref=f3e103]: combat
+            - 'heading "Chained Beasts Combat Guide: Weapons, Space and Hazards" [level=3] [ref=f3e104]'
+            - paragraph [ref=f3e105]: Learn the confirmed combat systems in Chained Beasts and a practical way to think about attacks, thrown weapons and environmental hazards.
+          - link [ref=f3e106] [cursor=pointer]:
+            - /url: /guides/beginner-guide/
+            - paragraph [ref=f3e107]: guides
+            - 'heading "Chained Beasts Beginner Guide: Your First Run" [level=3] [ref=f3e108]'
+            - paragraph [ref=f3e109]: "Start Chained Beasts with a practical first-run plan: tutorial priorities, chain movement, weapon safety and decisions between battles."
+          - link [ref=f3e110] [cursor=pointer]:
+            - /url: /guides/solo-guide/
+            - paragraph [ref=f3e111]: guides
+            - heading "Can You Play Chained Beasts Solo? A Starter Guide" [level=3] [ref=f3e112]
+            - paragraph [ref=f3e113]: Chained Beasts supports single-player. Learn how to approach solo runs, arena hazards and recovery without assuming co-op rules apply unchanged.
+      - navigation "Article pagination" [ref=f3e114]:
+        - link [ref=f3e115] [cursor=pointer]:
+          - /url: /combat/combat-basics/
+          - paragraph [ref=f3e116]: Previous
+          - paragraph [ref=f3e119]: "Chained Beasts Combat Guide: Weapons, Space and Hazards"
+      - generic [ref=f3e120]:
+        - paragraph [ref=f3e121]: Was this helpful?
+        - generic [ref=f3e122]:
+          - button "Yes" [ref=f3e123] [cursor=pointer]
+          - button "No" [ref=f3e126] [cursor=pointer]
+    - button "Back to top" [ref=f3e129] [cursor=pointer]
+  - contentinfo [ref=f3e132]:
+    - generic [ref=f3e133]:
+      - generic [ref=f3e134]:
+        - generic [ref=f3e135]:
+          - generic [ref=f3e136]: Chained Beasts Wiki & Guides
+          - paragraph [ref=f3e138]: Survive the arena. Together.
+          - paragraph [ref=f3e139]:
+            - link "Recent Updates" [ref=f3e140] [cursor=pointer]:
+              - /url: /recent/
+            - text: ·
+            - link "All Tags" [ref=f3e141] [cursor=pointer]:
+              - /url: /tags/
+        - generic [ref=f3e142]:
+          - heading "Official game links" [level=2] [ref=f3e143]
+          - list [ref=f3e144]:
+            - listitem [ref=f3e145]:
+              - link "Get Chained Beasts" [ref=f3e146] [cursor=pointer]:
+                - /url: https://store.steampowered.com/app/3569420/Chained_Beasts/
+        - generic [ref=f3e149]:
+          - heading "The field guide" [level=2] [ref=f3e150]
+          - list [ref=f3e151]:
+            - listitem [ref=f3e152]:
+              - link "About" [ref=f3e153] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=f3e154]:
+              - link "FAQ" [ref=f3e155] [cursor=pointer]:
+                - /url: /faq/
+            - listitem [ref=f3e156]:
+              - link "Privacy Policy" [ref=f3e157] [cursor=pointer]:
+                - /url: /privacy-policy/
+            - listitem [ref=f3e158]:
+              - link "Terms of Service" [ref=f3e159] [cursor=pointer]:
+                - /url: /terms-of-service/
+            - listitem [ref=f3e160]:
+              - link "Copyright" [ref=f3e161] [cursor=pointer]:
+                - /url: /copyright/
+            - listitem [ref=f3e162]:
+              - link "Contact" [ref=f3e163] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=f3e164]:
+              - link "Editorial Policy" [ref=f3e165] [cursor=pointer]:
+                - /url: /editorial-policy/
+      - generic [ref=f3e166]:
+        - paragraph [ref=f3e167]: © 2026 Chained Beasts Wiki. All rights reserved.
+        - paragraph [ref=f3e168]: An independent fan site. Not affiliated with Featherweight Games. Game artwork and trademarks belong to their respective owners.

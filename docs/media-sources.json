@@ -1,0 +1,49 @@
+{
+  "checked": "2026-10-15",
+  "owner": "Featherweight Games",
+  "usage": "Official promotional screenshots used for editorial coverage and game identification. No ownership or blanket redistribution license claimed. Remove or replace on a substantiated rights request.",
+  "source": "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+  "assets": [
+    {
+      "file": "chains.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/27c1b81a3c373420573c6de9a32218689de6b3ff/ss_27c1b81a3c373420573c6de9a32218689de6b3ff.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "goliath.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/11b9af2ff2fa963edb66065a8861cf7d5e1a8d69/ss_11b9af2ff2fa963edb66065a8861cf7d5e1a8d69.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "combat.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/061447f3ae89ae7867d542d25de1055e513a980c/ss_061447f3ae89ae7867d542d25de1055e513a980c.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "camp.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/b62f68bc18334ffbeb031f12fb820950ae69224a/ss_b62f68bc18334ffbeb031f12fb820950ae69224a.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "trainer.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/2804ef2bb797821cedf5d2bc2391336ec6180b0d/ss_2804ef2bb797821cedf5d2bc2391336ec6180b0d.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "boss.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/729a5240cffda195da621f27345a24bf634426be/ss_729a5240cffda195da621f27345a24bf634426be.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "shop.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/ec1757b25a0f09418208c41a026e0132df9d214a/ss_ec1757b25a0f09418208c41a026e0132df9d214a.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "germania.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/7f21d7684755eb6478b9b6411b271c3a72569a5f/ss_7f21d7684755eb6478b9b6411b271c3a72569a5f.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "skills.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/6841950f44c7977b4edd73d8bfcf15673e14565a/ss_6841950f44c7977b4edd73d8bfcf15673e14565a.1920x1080.jpg?t=1792042747"
+    },
+    {
+      "file": "beasts.webp",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/efd976dda1b2db1f00fc18a63c7fa75d1b5ede2e/ss_efd976dda1b2db1f00fc18a63c7fa75d1b5ede2e.1920x1080.jpg?t=1792042747"
+    }
+  ],
+  "favicon": "Site-specific chain mark drawn as SVG; not the official game logo. No AI-generated images."
+}
