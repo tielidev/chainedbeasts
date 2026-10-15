@@ -15,6 +15,13 @@ Goal: let beginners deploy a game wiki site to Cloudflare Pages for free (unlimi
 - **`docs/PRD.md`** — the single source of truth for architecture, data models, module design, and roadmap. **Read before any code change.** 15 chapters + 3 appendices.
 - `README.md` — project pitch + quick start (Chinese + English).
 
+## Browser Operations — User Requirement (2026-10-15)
+
+- **所有浏览器操作统一使用 Aside 浏览器及 `aside-browser` 技能**，包括网页读取、登录、后台配置、广告排查和线上桌面/手机验收。
+- 不使用其他 Chrome/Edge 配置、Codex 内置浏览器、CUA、独立 Playwright 浏览器或其他浏览器控制接口作为替代；只有用户明确更改这条要求时才可例外。
+- Aside 出现拦截、登录验证或连接超时时，保留现场并向用户说明具体阻碍，等待恢复后继续，不自动切换浏览器。
+- 命令行构建、测试及只读 HTTP/DNS 诊断可照常进行，但不得借这些手段控制其他浏览器或绕过上述浏览器约定。
+
 ## Intended Tech Stack (verified, as of 2026-09-14)
 
 | Layer       | Choice                                          | Notes                                                                                                                                                                                               |
