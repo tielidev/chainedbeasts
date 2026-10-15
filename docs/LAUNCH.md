@@ -5,7 +5,7 @@ GitHub: https://github.com/tielidev/chainedbeasts
 
 ## Deployment
 
-Cloudflare Pages uses GitHub native Git integration, production branch `main`, build command `pnpm build`, output directory `dist`, Node 22. Domain and optional public settings live in `wrangler.toml`. Preview branches must remain noindex; `_headers` supplies this for Pages preview hosts. Only the exact production Pages hostname redirects to the custom domain; branch previews remain usable.
+Cloudflare Pages uses GitHub native Git integration, production branch `main`, build command `pnpm build`, output directory `dist`, Node 22. Domain and optional public settings live in `wrangler.toml`. Preview branches must remain noindex; `_headers` supplies this for Pages preview hosts. Canonical-host redirects use account-level Bulk Redirects for the exact production Pages hostname and www host; branch previews remain usable. Enable subpath matching and preserve path suffix/query; do not include Pages subdomains.
 
 Verify locally with `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm check-content`, `pnpm check-config`, `pnpm build`, `node scripts/check-launch.mjs`, `pnpm check-links`, and `pnpm check-i18n --strict-ui`.
 

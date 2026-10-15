@@ -1,2 +1,2 @@
-https://www.chained-beasts.com/* https://chained-beasts.com/:splat 301
-https://chainedbeasts.pages.dev/* https://chained-beasts.com/:splat 301
+# Canonical-host redirects are configured with account-level Cloudflare Bulk Redirects.
+# Path-only catch-all rules here would also redirect the canonical domain into a loop.
