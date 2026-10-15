@@ -68,10 +68,12 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
 {
   show && (
     <>
+      <div class="ad-size-container">
       <div
         class:list={[
           'my-8 flex-col items-center justify-center',
           hideOnMobile ? 'hidden md:flex' : 'flex',
+          hideOnMobile && 'ad-wide',
         ]}
       >
         {label && (
@@ -87,6 +89,7 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
           sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
           title={adLabel}
         />
+      </div>
       </div>
       {consentBannerActive && (
         <script is:inline>
@@ -157,3 +160,10 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
     </>
   )
 }
+
+<style>
+  .ad-size-container { container-type: inline-size; }
+  @container (max-width: 727px) {
+    .ad-wide { display: none; }
+  }
+</style>

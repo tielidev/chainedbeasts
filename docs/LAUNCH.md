@@ -30,6 +30,12 @@ Only request banner/native formats. Do not request Popunder, Social Bar or mobil
 
 Contact uses the public GitHub issues page until a verified operator email is supplied. No invented email address is published.
 
+### Approved units — October 15, 2026
+
+Adsterra website ID `6124805` is Approved. The three units are Active: Native Banner `31743487`, sidebar 160×300 `31743488`, and leaderboard 728×90 `31743489`. Their original Get code snippets are stored in the respective HTML wrappers under `public/ads/`; public slot IDs enable them in `wrangler.toml`. Adult ads remain off. The inspected unit dialogs and website About menu supplied no ads.txt seller records, so that file remains comments-only. Do not substitute unit IDs for seller IDs.
+
+Advertising waits for the visitor's consent. Fixed desktop units are hidden on phones; the leaderboard also hides when its actual content column is narrower than 728px. Native content reports its height to the parent so mobile cards are not clipped. Local fixtures verify consent and resizing; real delivery must also be checked on the deployed domain.
+
 ## Content and media
 
 Sources and build/version limits are recorded in each article. `docs/media-sources.json` records official promotional screenshot URLs and rights attribution. The MIT code license does not grant a license to third-party game artwork. Original UI icon artwork is a site-specific SVG chain mark; no AI-generated game artwork is used.

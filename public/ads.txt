@@ -1,12 +1,3 @@
-# ads.txt — authorized digital sellers.
-#
-# BEFORE AdSense approval: leave this file comments-only (that is valid —
-# a placeholder pub-ID would be an INVALID data line).
-#
-# AFTER AdSense approves your site: replace pub-XXXXXXXXXXXXXXXX with your
-# real publisher ID (shown in the AdSense dashboard) and DELETE the leading
-# "#" from the line below:
-#
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-#
-# Learn more: https://iabtechlab.com/ads-txt/
+# Authorized digital sellers for chained-beasts.com.
+# No seller records have been supplied in the approved Adsterra unit dialogs.
+# Add only records provided by the network; ad unit IDs are not seller IDs.
