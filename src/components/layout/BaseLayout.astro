@@ -124,6 +124,7 @@ const xDefaultHref = defaultAlt
 
 // Optional analytics / verification / ads (env-var gated — empty = not injected).
 const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
+const gaHostname = new URL(siteUrl).hostname;
 const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefined;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
@@ -244,11 +245,12 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
       → this block renders nothing → zero JS.
     */}
     {(gaId || adsenseClient || adsterraActive) && (
-      <script is:inline define:vars={{ gaId, adsenseClient }}>
+      <script is:inline define:vars={{ gaId, gaHostname, adsenseClient }}>
         window.__awLoadTrackers = () => {
           if (window.__awTrackersLoaded) return;
           window.__awTrackersLoaded = true;
-          if (gaId) {
+          // Keep local and Pages preview visits out of the production property.
+          if (gaId && location.hostname === gaHostname) {
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
@@ -258,7 +260,10 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
               dataLayer.push(arguments);
             }
             gtag('js', new Date());
-            gtag('config', gaId);
+            gtag('config', gaId, {
+              allow_google_signals: false,
+              allow_ad_personalization_signals: false,
+            });
           }
           if (adsenseClient) {
             const s = document.createElement('script');

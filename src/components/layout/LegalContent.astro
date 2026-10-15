@@ -23,9 +23,10 @@ const {page}=Astro.props;
  <h2>Local preferences</h2><p>Your browser may store theme preferences, article feedback and a cookie-consent choice in local storage. You can clear these through your browser settings. Site search uses an index served by this website.</p>
  <h2>Advertising</h2><p>This site uses Adsterra banner and native advertising to help fund its operation. Advertising may involve cookies, IP addresses, device information and third-party requests. Optional advertising loads only after accepting the consent prompt. Declining leaves the guides available without those ad requests. You can reopen privacy choices from this page.</p>
  <p>See <a href="https://adsterra.com/privacy-policy/">Adsterra's privacy policy</a> for its practices. Advertising approval and availability do not affect our editorial conclusions. We do not sell user accounts or submitted personal information.</p>
- <h2>External links and media</h2><p>Official game screenshots are served locally. Following links to Steam, GitHub, console stores or other services exposes your request to those services under their policies. We do not currently embed video players or enable Google Analytics.</p>
+ <h2>Analytics</h2><p>With your consent, Google Analytics 4 helps us understand page visits, reading engagement, outbound links and file downloads. Google may process browser and device information, identifiers, visited URLs and interaction events. Analytics cookies and requests load only after you accept the consent prompt. Declining prevents these optional requests. We do not enable Google Signals or advertising personalization. See <a href="https://policies.google.com/privacy">Google's privacy policy</a> for more information.</p>
+ <h2>External links and media</h2><p>Official game screenshots are served locally. Following links to Steam, GitHub, console stores or other services exposes your request to those services under their policies. We do not currently embed video players.</p>
  <h2>Your choices and contact</h2><p>You can block optional cookies or scripts in your browser, clear local storage, or <a href="/contact/">contact the site operator</a> with a privacy question. Do not put personal information in a public GitHub issue.</p>
- <button type="button" class="btn-outline" id="reset-consent">Reset advertising consent choice</button><p id="consent-reset-result" role="status"></p>
+ <button type="button" class="btn-outline" id="reset-consent">Reset analytics and advertising consent choice</button><p id="consent-reset-result" role="status"></p>
  <h2>Updates</h2><p>We will revise this notice when the services used by the site change. The date at the top indicates the latest revision.</p>
 </>}
 {page==='terms-of-service'&&<>
@@ -43,6 +44,6 @@ const {page}=Astro.props;
 </>}
 <script>
 document.getElementById('reset-consent')?.addEventListener('click',()=>{
- try {localStorage.removeItem('aw-cookie-consent');location.reload();} catch {const result=document.getElementById('consent-reset-result');if(result)result.textContent='Please clear site storage in your browser settings.';}
+ try {localStorage.removeItem('aw-cookie-consent-v2');location.reload();} catch {const result=document.getElementById('consent-reset-result');if(result)result.textContent='Please clear site storage in your browser settings.';}
 });
 </script>

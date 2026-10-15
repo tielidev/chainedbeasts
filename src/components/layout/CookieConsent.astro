@@ -79,7 +79,7 @@ const { labels, privacyHref, privacyLabel } = Astro.props;
   (() => {
     // Script can't see frontmatter imports — duplicates of the canonical
     // constants in src/lib/shared-ui.ts; tests/consent.test.ts pins all copies.
-    const KEY = 'aw-cookie-consent';
+    const KEY = 'aw-cookie-consent-v2';
     const ACCEPTED_EVENT = 'aw:consent-accepted';
     const banner = document.getElementById('cookie-consent');
     if (!banner) return;
