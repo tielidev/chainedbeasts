@@ -45,5 +45,39 @@
       "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/efd976dda1b2db1f00fc18a63c7fa75d1b5ede2e/ss_efd976dda1b2db1f00fc18a63c7fa75d1b5ede2e.1920x1080.jpg?t=1792042747"
     }
   ],
-  "favicon": "Site-specific chain mark drawn as SVG; not the official game logo. No AI-generated images."
+  "favicon": "Official lion hero artwork cropped to its mane and face; no generated or redrawn imagery. Stable PNG and ICO exports replace the previous chain mark.",
+  "brandAssets": [
+    {
+      "file": "public/images/game-logo.webp",
+      "source": "https://drive.google.com/file/d/1PAaB0qq97--hw6ZhB0XJCPuX01Br6a-j/view",
+      "sourceDirectory": "https://drive.google.com/drive/folders/1aIPN4jp4UWzvTVTGvTYrXF0P-6-mK2HZ",
+      "original": "chained_beasts_logo.png",
+      "originalWidth": 1228,
+      "originalHeight": 720,
+      "operation": "Proportional resize to 492x288 and WebP optimization; original logo retained."
+    },
+    {
+      "files": [
+        "favicon-16x16.png",
+        "favicon-32x32.png",
+        "favicon-96x96.png",
+        "favicon.ico",
+        "apple-touch-icon.png",
+        "android-chrome-192x192.png",
+        "android-chrome-512x512.png"
+      ],
+      "source": "https://drive.google.com/file/d/1emHx7mYs9yp1IFwl4Pczcp6O0dYIyxkp/view",
+      "sourceDirectory": "https://drive.google.com/drive/folders/1_0It_9u3w7DF2D7xqb_wwJZzVrcpnI0i",
+      "original": "chained_beasts_key_art_b_lion_hero.png",
+      "originalWidth": 2680,
+      "originalHeight": 3052,
+      "crop": {
+        "left": 1000,
+        "top": 0,
+        "width": 960,
+        "height": 960
+      },
+      "operation": "Square crop, flatten transparent pixels on site background, resize; no AI generation, repainting or added lettering."
+    }
+  ]
 }

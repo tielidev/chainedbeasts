@@ -1,0 +1,1195 @@
+{
+  "checked": "2026-10-15",
+  "target": 50,
+  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents.",
+  "articles": [
+    {
+      "title": "Rhino and Ibex in Chained Beasts: What Is Confirmed?",
+      "url": "/beasts/rhino-and-ibex/",
+      "category": "beasts",
+      "primaryQuery": "chained beasts rhino and ibex",
+      "relatedQueries": [
+        "chained beasts rhino abilities",
+        "chained beasts ibex character",
+        "chained beasts demo beast differences"
+      ],
+      "distinctScope": "Expanded existing article: Rhino and Ibex were added in the official beast rework. See what the announcement confirms and what still needs current in-game verification.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530891044",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925838"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/beasts.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts: Beast Unlocks and Variants Explained",
+      "url": "/beasts/unlocks-and-variants/",
+      "category": "beasts",
+      "primaryQuery": "chained beasts unlocks and variants",
+      "relatedQueries": [
+        "chained beasts how to unlock beasts",
+        "chained beasts character variants",
+        "chained beasts beast experience"
+      ],
+      "distinctScope": "Expanded existing article: The launch overview announces eight unlockable beasts. Understand beast progression, variants and why a verified roster differs from a tier list.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925838",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530891044"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/beasts.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Chain Tactics: Move and Fight as a Team",
+      "url": "/co-op/chain-teamwork/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts chain teamwork",
+      "relatedQueries": [
+        "chained beasts chain tactics",
+        "chained beasts trip enemies with chain",
+        "chained beasts co-op positioning"
+      ],
+      "distinctScope": "Expanded existing article: Coordinate movement, avoid tangling around obstacles and use your chain deliberately with these practical Chained Beasts co-op principles.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Cross-play and Platforms: Confirmed Details",
+      "url": "/co-op/crossplay-and-platforms/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts crossplay and platforms",
+      "relatedQueries": [
+        "chained beasts is chained beasts cross platform",
+        "chained beasts steam xbox crossplay",
+        "chained beasts cross save support"
+      ],
+      "distinctScope": "Expanded existing article: Check the official Chained Beasts platforms, cross-play announcement and the limits of what has been confirmed about shared progress.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "https://www.xbox.com/en-US/games/xbox-play-anywhere",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925838",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705172"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/germania.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Local Co-op and Remote Play Together",
+      "url": "/co-op/local-co-op/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts local co op",
+      "relatedQueries": [
+        "chained beasts couch co op requirements",
+        "chained beasts same screen multiplayer",
+        "chained beasts local player count"
+      ],
+      "distinctScope": "Expanded existing article: Set expectations for Chained Beasts couch co-op, controllers and Steam Remote Play Together without assuming unverified mixed-session support.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705172"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Multiplayer Guide: Local and Online Co-op",
+      "url": "/co-op/multiplayer-guide/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts multiplayer guide",
+      "relatedQueries": [
+        "chained beasts how many players",
+        "chained beasts online versus local co op",
+        "chained beasts multiplayer modes"
+      ],
+      "distinctScope": "Expanded existing article: Prepare a Chained Beasts party with the confirmed player count, local and online options, and a practical checklist before joining a run.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705172",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940833"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Afflictions, Healing and the Surgeon",
+      "url": "/combat/afflictions-and-healing/",
+      "category": "combat",
+      "primaryQuery": "chained beasts afflictions and healing",
+      "relatedQueries": [
+        "chained beasts how to heal",
+        "chained beasts surgeon between acts",
+        "chained beasts healing affliction tradeoff"
+      ],
+      "distinctScope": "Expanded existing article: Learn why healing adds drawbacks, what the Surgeon was announced to do, and how to evaluate afflictions before your next arena battle.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067936316",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Combat Guide: Weapons, Space and Hazards",
+      "url": "/combat/combat-basics/",
+      "category": "combat",
+      "primaryQuery": "chained beasts combat basics",
+      "relatedQueries": [
+        "chained beasts combat tips for beginners",
+        "chained beasts recover after throwing",
+        "chained beasts arena positioning tips"
+      ],
+      "distinctScope": "Expanded existing article: Learn the confirmed combat systems in Chained Beasts and a practical way to think about attacks, thrown weapons and environmental hazards.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530891044"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Crowd and Executions Explained",
+      "url": "/combat/crowd-and-executions/",
+      "category": "combat",
+      "primaryQuery": "chained beasts crowd and executions",
+      "relatedQueries": [
+        "chained beasts crowd favour",
+        "chained beasts execute downed enemies",
+        "chained beasts execution rewards"
+      ],
+      "distinctScope": "Expanded existing article: See what official announcements confirm about crowd approval and executions, with practical advice for deciding when an execution is safe.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530891044",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783562921",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/skills.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Skills, Training and Shopping Guide",
+      "url": "/combat/skills-and-shopping/",
+      "category": "combat",
+      "primaryQuery": "chained beasts skills and shopping",
+      "relatedQueries": [
+        "chained beasts skills and items",
+        "chained beasts shop choices",
+        "chained beasts upgrade decisions"
+      ],
+      "distinctScope": "Expanded existing article: Make sense of skill choices, training trade-offs and equipment purchases between battles using the developer’s documented systems.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925838",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772228988",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067936316"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/trainer.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Weapons and Equipment: A Practical Guide",
+      "url": "/combat/weapons-and-equipment/",
+      "category": "combat",
+      "primaryQuery": "chained beasts weapons and equipment",
+      "relatedQueries": [
+        "chained beasts throwing weapons",
+        "chained beasts equipment pickups",
+        "chained beasts weapon recovery"
+      ],
+      "distinctScope": "Expanded existing article: Understand thrown weapons, pickups, shields and equipment decisions without relying on an unverified weapon tier list or damage table.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530891044",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772228988"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/shop.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Acts, Arenas and Campaign Progression",
+      "url": "/guides/acts-and-progression/",
+      "category": "guides",
+      "primaryQuery": "chained beasts acts and progression",
+      "relatedQueries": [
+        "chained beasts how many acts",
+        "chained beasts Carthage Germania Rome",
+        "chained beasts campaign battle structure"
+      ],
+      "distinctScope": "Expanded existing article: Understand the announced three-act route through Carthage, Germania and Rome, plus the difference between the campaign and the old Demo.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705172",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925838",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/germania.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Beginner Guide: Your First Run",
+      "url": "/guides/beginner-guide/",
+      "category": "guides",
+      "primaryQuery": "chained beasts beginner guide",
+      "relatedQueries": [
+        "chained beasts getting started",
+        "chained beasts first run tips",
+        "chained beasts beginner mistakes"
+      ],
+      "distinctScope": "Expanded existing article: Start Chained Beasts with a practical first-run plan: tutorial priorities, chain movement, weapon safety and decisions between battles.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925838"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Controls and Controller Setup",
+      "url": "/guides/controls-and-controller/",
+      "category": "guides",
+      "primaryQuery": "chained beasts controls and controller",
+      "relatedQueries": [
+        "chained beasts controller support",
+        "chained beasts controls overview",
+        "chained beasts gamepad requirements"
+      ],
+      "distinctScope": "Expanded existing article: Check controller support, in-game bindings and practical input preparation before playing Chained Beasts on PC or console.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Can You Play Chained Beasts Solo? A Starter Guide",
+      "url": "/guides/solo-guide/",
+      "category": "guides",
+      "primaryQuery": "chained beasts solo guide",
+      "relatedQueries": [
+        "chained beasts can you play alone",
+        "chained beasts single player mode",
+        "chained beasts solo preparation"
+      ],
+      "distinctScope": "Expanded existing article: Chained Beasts supports single-player. Learn how to approach solo runs, arena hazards and recovery without assuming co-op rules apply unchanged.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/boss.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Roadmap: Update 1.1 and Planned PvP",
+      "url": "/news/post-launch-roadmap/",
+      "category": "news",
+      "primaryQuery": "chained beasts post launch roadmap",
+      "relatedQueries": [
+        "chained beasts update 1.1 plans",
+        "chained beasts pvp roadmap",
+        "chained beasts future updates"
+      ],
+      "distinctScope": "Expanded existing article: The developer’s October roadmap targets a December 1.1 update and PvP in Q1 2027. Here is what is planned and what is not guaranteed.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940833"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/goliath.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Launch: Release Date, Platforms and Demo",
+      "url": "/news/release-date-platforms/",
+      "category": "news",
+      "primaryQuery": "chained beasts release date platforms",
+      "relatedQueries": [
+        "chained beasts release time",
+        "chained beasts console release",
+        "chained beasts demo availability"
+      ],
+      "distinctScope": "Expanded existing article: The official Chained Beasts launch date, global unlock time, announced platforms and what happens to the older Steam Demo.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705172",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951295327"
+      ],
+      "version": "Launch information",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Existing site topic; no search-volume estimate claimed.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Saves and Checkpoints: Resume a Run",
+      "url": "/guides/save-and-checkpoints/",
+      "category": "guides",
+      "primaryQuery": "chained beasts save and checkpoints",
+      "relatedQueries": [
+        "chained beasts how to save progress",
+        "chained beasts resume online run",
+        "chained beasts same host checkpoint restore"
+      ],
+      "distinctScope": "Single-player and same-host online restore flow; distinguish checkpoint from cross-device save.",
+      "sources": [
+        "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Public discussion; answer quality must be verified.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Difficulty Levels Explained",
+      "url": "/guides/difficulty-levels/",
+      "category": "guides",
+      "primaryQuery": "chained beasts difficulty levels",
+      "relatedQueries": [
+        "chained beasts how many difficulty levels",
+        "chained beasts demo difficulty names",
+        "chained beasts difficulty unlock evidence"
+      ],
+      "distinctScope": "Difficulty selection and documented modifiers; no invented unlock thresholds.",
+      "sources": [
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131"
+      ],
+      "version": "Version-labelled",
+      "image": "../../../../assets/covers/goliath.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Demo vs Full Game: What Changes?",
+      "url": "/guides/demo-vs-full-game/",
+      "category": "guides",
+      "primaryQuery": "chained beasts demo vs full game",
+      "relatedQueries": [
+        "chained beasts demo content limit",
+        "chained beasts full game differences",
+        "chained beasts demo first act"
+      ],
+      "distinctScope": "Version comparison and availability, distinct from release announcement.",
+      "sources": [
+        "https://store.steampowered.com/app/3978510/Chained_Beasts_Demo/",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813",
+        "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/"
+      ],
+      "version": "Version-labelled",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts PC System Requirements",
+      "url": "/guides/pc-system-requirements/",
+      "category": "guides",
+      "primaryQuery": "chained beasts pc system requirements",
+      "relatedQueries": [
+        "chained beasts minimum pc specs",
+        "chained beasts windows memory requirement",
+        "chained beasts recommended specs availability"
+      ],
+      "distinctScope": "Exact official PC requirements with compatibility interpretation, no benchmark claims.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://store.steampowered.com/app/3978510/Chained_Beasts_Demo/"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts on Mac: System Requirements and Co-op",
+      "url": "/guides/mac-system-requirements/",
+      "category": "guides",
+      "primaryQuery": "chained beasts mac system requirements",
+      "relatedQueries": [
+        "chained beasts mac support",
+        "chained beasts macOS minimum specs",
+        "chained beasts Apple M1 requirements"
+      ],
+      "distinctScope": "macOS hardware requirements and differences from the Windows requirement table.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://steamcommunity.com/app/3569420/discussions/0/562534024812314441/"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Controller Not Working: Diagnostic Guide",
+      "url": "/guides/controller-troubleshooting/",
+      "category": "guides",
+      "primaryQuery": "chained beasts controller troubleshooting",
+      "relatedQueries": [
+        "chained beasts controller not working",
+        "chained beasts gamepad recognized but no input",
+        "chained beasts local player assignment issues"
+      ],
+      "distinctScope": "Diagnose recognition versus game input using platform documentation, not a claimed game bug fix.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_players?l=english",
+        "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2"
+      ],
+      "version": "Platform guidance",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Keyboard and Mouse Support",
+      "url": "/guides/keyboard-and-mouse/",
+      "category": "guides",
+      "primaryQuery": "chained beasts keyboard controls",
+      "relatedQueries": [
+        "chained beasts mouse support"
+      ],
+      "distinctScope": "Verified PC input support and limitations; exact bindings require current evidence.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "No verified current key-binding table or independent keyboard/controller assignment matrix.",
+      "requiredEvidence": "No verified current key-binding table or independent keyboard/controller assignment matrix."
+    },
+    {
+      "title": "Chained Beasts Steam Input and Controller Profiles Explained",
+      "url": "/guides/steam-input-setup/",
+      "category": "guides",
+      "primaryQuery": "chained beasts steam input setup",
+      "relatedQueries": [
+        "chained beasts Steam Input controller mapping",
+        "chained beasts Xbox prompts on PlayStation controller",
+        "chained beasts controller translation"
+      ],
+      "distinctScope": "Steam configuration workflow, separated from general game controls and failure diagnosis.",
+      "sources": [
+        "https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_players?l=english",
+        "https://partner.steamgames.com/doc/features/steam_controller/device?l=english",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english"
+      ],
+      "version": "Platform guidance",
+      "image": "../../../../assets/covers/skills.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Supported Languages and Edition Differences",
+      "url": "/guides/supported-languages/",
+      "category": "guides",
+      "primaryQuery": "chained beasts supported languages",
+      "relatedQueries": [
+        "chained beasts Russian language support",
+        "chained beasts English voice audio",
+        "chained beasts Chinese subtitles platform differences"
+      ],
+      "distinctScope": "Official interface/audio/subtitle coverage; no invented in-game menu path.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html",
+        "https://steamcommunity.com/app/3569420/discussions/0/684111928013022319/"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Accessibility: Confirmed Features and Limits",
+      "url": "/guides/accessibility-options/",
+      "category": "guides",
+      "primaryQuery": "chained beasts accessibility options",
+      "relatedQueries": [
+        "chained beasts screen shake option",
+        "chained beasts difficulty accessibility",
+        "chained beasts pause and save labels"
+      ],
+      "distinctScope": "Documented accessibility options, developer commitments clearly separated from shipped settings.",
+      "sources": [
+        "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "https://steamcommunity.com/app/3569420/discussions/0/573795107742946598/",
+        "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts on Game Pass: Xbox, PC and Cloud Access",
+      "url": "/guides/game-pass-guide/",
+      "category": "guides",
+      "primaryQuery": "chained beasts game pass guide",
+      "relatedQueries": [
+        "chained beasts is chained beasts on Game Pass",
+        "chained beasts PC Game Pass availability",
+        "chained beasts cloud gaming availability"
+      ],
+      "distinctScope": "Official service/platform eligibility and install preparation; no unverified cloud or cross-save support.",
+      "sources": [
+        "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/",
+        "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Xbox Play Anywhere: Purchases and Saves",
+      "url": "/guides/xbox-play-anywhere/",
+      "category": "guides",
+      "primaryQuery": "chained beasts xbox play anywhere",
+      "relatedQueries": [
+        "chained beasts Xbox PC shared saves",
+        "chained beasts digital purchase entitlement",
+        "chained beasts Microsoft PC versus Steam edition"
+      ],
+      "distinctScope": "Microsoft digital-purchase and progress entitlements; distinct from Game Pass and multiplayer cross-play.",
+      "sources": [
+        "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "https://www.xbox.com/en-US/games/xbox-play-anywhere"
+      ],
+      "version": "Platform guidance",
+      "image": "../../../../assets/covers/germania.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Public discussion; answer quality must be verified.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "How Long Is Chained Beasts? Runs and Replayability",
+      "url": "/guides/game-length/",
+      "category": "guides",
+      "primaryQuery": "chained beasts game length",
+      "relatedQueries": [
+        "chained beasts how long to beat"
+      ],
+      "distinctScope": "Measured or developer-supported duration; speculative one-hour estimates are insufficient.",
+      "sources": [
+        "https://steamcommunity.com/app/3569420/discussions/0/582810614213308117/"
+      ],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/germania.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Public discussion; answer quality must be verified.",
+      "reviewNote": "Only player speculation found; no measured run or developer duration estimate.",
+      "requiredEvidence": "Only player speculation found; no measured run or developer duration estimate."
+    },
+    {
+      "title": "Chained Beasts Startup Screen Problems: Known Evidence",
+      "url": "/guides/startup-screen-problems/",
+      "category": "guides",
+      "primaryQuery": "chained beasts stuck on startup",
+      "relatedQueries": [
+        "chained beasts loading screen"
+      ],
+      "distinctScope": "Requires a substantiated diagnosis or fix; an unanswered bug report cannot become a fix guide.",
+      "sources": [
+        "https://steamcommunity.com/app/3569420/discussions/0/568174304851738515/"
+      ],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Public discussion; answer quality must be verified.",
+      "reviewNote": "A reported freeze has no verified resolution. Generic checks are not a confirmed game fix.",
+      "requiredEvidence": "A reported freeze has no verified resolution. Generic checks are not a confirmed game fix."
+    },
+    {
+      "title": "Chained Beasts Remote Play Together Setup",
+      "url": "/co-op/remote-play-together-setup/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts remote play together setup",
+      "relatedQueries": [
+        "chained beasts play with one copy",
+        "chained beasts Steam remote invite",
+        "chained beasts stream local co op"
+      ],
+      "distinctScope": "Host and guest setup for streaming local co-op with Steam official instructions.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "https://store.steampowered.com/remoteplay?l=english"
+      ],
+      "version": "Platform guidance",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Remote Play: Guest Input Troubleshooting",
+      "url": "/co-op/remote-play-input-troubleshooting/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts remote play input troubleshooting",
+      "relatedQueries": [
+        "chained beasts Remote Play guest cannot move",
+        "chained beasts shared keyboard permissions",
+        "chained beasts remote controller not recognized"
+      ],
+      "distinctScope": "Input-sharing and guest device assignment; keep streaming connectivity in the setup page.",
+      "sources": [
+        "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "https://store.steampowered.com/remoteplay?l=english",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://steamcommunity.com/app/3569420/discussions/0/583929850218181190/"
+      ],
+      "version": "Platform guidance",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Online Lobbies and Friend Invites",
+      "url": "/co-op/online-lobby-and-invites/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts invite friends",
+      "relatedQueries": [
+        "chained beasts online lobby"
+      ],
+      "distinctScope": "Current verified native online lobby flow, distinct from Steam Remote Play.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "Only an older Demo invitation workflow was found; full-release interface steps remain unverified.",
+      "requiredEvidence": "Only an older Demo invitation workflow was found; full-release interface steps remain unverified."
+    },
+    {
+      "title": "Chained Beasts Mixed Local and Online Co-op",
+      "url": "/co-op/mixed-local-online-coop/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts local and online together",
+      "relatedQueries": [
+        "chained beasts combo co-op"
+      ],
+      "distinctScope": "Requires developer or current platform evidence of supported party combinations.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "No official explanation or reproducible current-build device/party combination found.",
+      "requiredEvidence": "No official explanation or reproducible current-build device/party combination found."
+    },
+    {
+      "title": "Chained Beasts Switch Co-op: Players and Controller Requirements",
+      "url": "/co-op/switch-local-coop/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts switch local coop",
+      "relatedQueries": [
+        "chained beasts Switch controllers per player",
+        "chained beasts Nintendo Switch Online requirement",
+        "chained beasts Switch 2 compatibility"
+      ],
+      "distinctScope": "Nintendo-specific player/controller requirements; no extrapolation from PC.",
+      "sources": [
+        "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts PS5 Co-op: Local and Online Requirements",
+      "url": "/co-op/ps5-local-coop/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts ps5 local coop",
+      "relatedQueries": [
+        "chained beasts PS5 local player count",
+        "chained beasts PS Plus online requirement",
+        "chained beasts PlayStation Remote Play distinction"
+      ],
+      "distinctScope": "PlayStation-specific official local/online requirements; no unverified join button.",
+      "sources": [
+        "https://store.playstation.com/en-au/concept/10018409",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Xbox Co-op and Microsoft PC Requirements",
+      "url": "/co-op/xbox-local-coop/",
+      "category": "co-op",
+      "primaryQuery": "chained beasts xbox local coop",
+      "relatedQueries": [
+        "chained beasts Xbox local player count",
+        "chained beasts Xbox online co op",
+        "chained beasts Game Pass local versus cloud"
+      ],
+      "distinctScope": "Xbox-specific official requirements and guest input flow where verified.",
+      "sources": [
+        "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Goliath: Encounter and Attack Evidence",
+      "url": "/combat/goliath-encounter/",
+      "category": "combat",
+      "primaryQuery": "chained beasts goliath boss",
+      "relatedQueries": [
+        "chained beasts goliath attacks"
+      ],
+      "distinctScope": "Observed attack cues require footage; beta introduction alone does not prove a launch walkthrough.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/goliath.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "Developer preview establishes jumps and ground slams, but no complete move sequence, tells or tested counters.",
+      "requiredEvidence": "Developer preview establishes jumps and ground slams, but no complete move sequence, tells or tested counters."
+    },
+    {
+      "title": "Chained Beasts Praefectus and the Praetorian Guard",
+      "url": "/combat/praefectus-encounter/",
+      "category": "combat",
+      "primaryQuery": "chained beasts praefectus boss",
+      "relatedQueries": [
+        "chained beasts final boss"
+      ],
+      "distinctScope": "Final encounter tactics require current evidence beyond the announcement of its identity.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/boss.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "Encounter identity alone cannot support an actionable, verified boss walkthrough.",
+      "requiredEvidence": "Encounter identity alone cannot support an actionable, verified boss walkthrough."
+    },
+    {
+      "title": "Chained Beasts Arena Hazards and Environmental Attacks",
+      "url": "/combat/arena-hazards/",
+      "category": "combat",
+      "primaryQuery": "chained beasts arena hazards",
+      "relatedQueries": [
+        "chained beasts spike walls and snake pits",
+        "chained beasts chain pillars",
+        "chained beasts throw enemies into hazards"
+      ],
+      "distinctScope": "Documented hazard interactions and positioning examples beyond combat overview.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/germania.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Shields and Blocking: Documented Changes",
+      "url": "/combat/shields-and-blocking/",
+      "category": "combat",
+      "primaryQuery": "chained beasts shields and blocking",
+      "relatedQueries": [
+        "chained beasts shield durability rework",
+        "chained beasts block attack cancellation",
+        "chained beasts shield pickups history"
+      ],
+      "distinctScope": "Historical shield durability and blocking rework, explicitly separated from tested launch combat.",
+      "sources": [
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english"
+      ],
+      "version": "Version-labelled",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Affliction Reference: Verified Effects",
+      "url": "/combat/affliction-reference/",
+      "category": "combat",
+      "primaryQuery": "chained beasts affliction reference",
+      "relatedQueries": [
+        "chained beasts Annoying affliction effect",
+        "chained beasts Impulsive skill locking",
+        "chained beasts Infatuated damage preview"
+      ],
+      "distinctScope": "A sourced partial reference of named effects; healing decisions stay in the existing overview.",
+      "sources": [
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776274",
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599"
+      ],
+      "version": "Version-labelled",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Demo Enemies: Archers, Wrestlers and Shields",
+      "url": "/combat/demo-enemy-types/",
+      "category": "combat",
+      "primaryQuery": "chained beasts demo enemy types",
+      "relatedQueries": [
+        "chained beasts wrestler teammate rescue",
+        "chained beasts archer enemy role",
+        "chained beasts shielded swordsman demo"
+      ],
+      "distinctScope": "Updated-Demo ranged, pinning and shielded enemy roles; no invented launch counters.",
+      "sources": [
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english"
+      ],
+      "version": "Version-labelled",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Active and Passive Skills Explained",
+      "url": "/combat/active-and-passive-skills/",
+      "category": "combat",
+      "primaryQuery": "chained beasts active skills",
+      "relatedQueries": [
+        "chained beasts passive skills"
+      ],
+      "distinctScope": "Requires actual distinction and named examples from primary or current gameplay evidence.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/skills.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "No current complete skill text or verified active/passive classification was found.",
+      "requiredEvidence": "No current complete skill text or verified active/passive classification was found."
+    },
+    {
+      "title": "Chained Beasts Playable Beasts: Verified Roster",
+      "url": "/beasts/playable-beasts-roster/",
+      "category": "beasts",
+      "primaryQuery": "chained beasts all characters",
+      "relatedQueries": [
+        "chained beasts beasts roster"
+      ],
+      "distinctScope": "Name-and-evidence roster distinct from unlock and variant progression.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/beasts.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "Eight beasts are announced, but artwork filenames do not prove complete playable names, abilities or unlock conditions.",
+      "requiredEvidence": "Eight beasts are announced, but artwork filenames do not prove complete playable names, abilities or unlock conditions."
+    },
+    {
+      "title": "Chained Beasts Price and Announced Launch Discount",
+      "url": "/guides/price-and-launch-discount/",
+      "category": "guides",
+      "primaryQuery": "chained beasts price and launch discount",
+      "relatedQueries": [
+        "chained beasts launch price",
+        "chained beasts launch sale discount",
+        "chained beasts regular price in USD"
+      ],
+      "distinctScope": "Announced regular/launch price and discount window; region and observation limits.",
+      "sources": [
+        "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/"
+      ],
+      "version": "Launch preview",
+      "image": "../../../../assets/covers/shop.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Achievements and Trophies",
+      "url": "/guides/achievements-and-trophies/",
+      "category": "guides",
+      "primaryQuery": "chained beasts achievements",
+      "relatedQueries": [
+        "chained beasts trophy guide"
+      ],
+      "distinctScope": "Official achievement conditions and verifiable routes; never guess hidden requirements.",
+      "sources": [],
+      "version": "Pending source review",
+      "image": "../../../../assets/covers/boss.webp",
+      "status": "research-draft",
+      "publication": "not-written-not-public",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewNote": "The Steam feature badge is confirmed; actual names, conditions and trophy differences are not available in reviewed sources.",
+      "requiredEvidence": "The Steam feature badge is confirmed; actual names, conditions and trophy differences are not available in reviewed sources."
+    },
+    {
+      "title": "Chained Beasts Steam Cloud: Sync and Save Conflicts",
+      "url": "/guides/steam-cloud-saves/",
+      "category": "guides",
+      "primaryQuery": "chained beasts steam cloud saves",
+      "relatedQueries": [
+        "chained beasts Steam Cloud sync conflict",
+        "chained beasts offline save synchronization",
+        "chained beasts change computers safely"
+      ],
+      "distinctScope": "Platform synchronization, offline conflicts and changing computers; distinct from in-game checkpoint timing.",
+      "sources": [
+        "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "https://partner.steamgames.com/doc/features/cloud?language=english",
+        "https://help.steampowered.com/zh-cn/faqs/view/68D2-35AB-09A9-7678"
+      ],
+      "version": "Platform guidance",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Bug Reports and Official Update Sources",
+      "url": "/guides/report-bugs-and-find-updates/",
+      "category": "guides",
+      "primaryQuery": "chained beasts report bugs and find updates",
+      "relatedQueries": [
+        "chained beasts official bug report",
+        "chained beasts where to find patch notes",
+        "chained beasts version specific troubleshooting"
+      ],
+      "distinctScope": "Actual developer support routes and useful report evidence without claiming unresolved issues fixed.",
+      "sources": [
+        "https://steamcommunity.com/app/3569420/allnews/",
+        "https://steamcommunity.com/app/3569420/discussions/",
+        "https://www.featherweightgames.com/chainedbeasts",
+        "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/"
+      ],
+      "version": "Platform guidance",
+      "image": "../../../../assets/covers/camp.webp",
+      "status": "ready",
+      "publication": "approved-current-release",
+      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
+      "reviewedAt": "2026-10-15",
+      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    }
+  ],
+  "deferredTopics": [],
+  "readyCount": 40,
+  "remainingCount": 10,
+  "releaseStatus": "approved-for-validation-and-publication",
+  "reviewLimitations": "40 reviewed articles: 17 expanded originals and 23 new articles. Ten research topics are not public article files. No hands-on game test claimed. Mobile acceptance remains limited by the available Aside API.",
+  "release": {
+    "target": 40,
+    "authorizedAt": "2026-10-15",
+    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred.",
+    "urls": [
+      "/beasts/rhino-and-ibex/",
+      "/beasts/unlocks-and-variants/",
+      "/co-op/chain-teamwork/",
+      "/co-op/crossplay-and-platforms/",
+      "/co-op/local-co-op/",
+      "/co-op/multiplayer-guide/",
+      "/combat/afflictions-and-healing/",
+      "/combat/combat-basics/",
+      "/combat/crowd-and-executions/",
+      "/combat/skills-and-shopping/",
+      "/combat/weapons-and-equipment/",
+      "/guides/acts-and-progression/",
+      "/guides/beginner-guide/",
+      "/guides/controls-and-controller/",
+      "/guides/solo-guide/",
+      "/news/post-launch-roadmap/",
+      "/news/release-date-platforms/",
+      "/guides/save-and-checkpoints/",
+      "/guides/difficulty-levels/",
+      "/guides/demo-vs-full-game/",
+      "/guides/pc-system-requirements/",
+      "/guides/mac-system-requirements/",
+      "/guides/controller-troubleshooting/",
+      "/guides/steam-input-setup/",
+      "/guides/supported-languages/",
+      "/guides/accessibility-options/",
+      "/guides/game-pass-guide/",
+      "/guides/xbox-play-anywhere/",
+      "/co-op/remote-play-together-setup/",
+      "/co-op/remote-play-input-troubleshooting/",
+      "/co-op/switch-local-coop/",
+      "/co-op/ps5-local-coop/",
+      "/co-op/xbox-local-coop/",
+      "/combat/arena-hazards/",
+      "/combat/shields-and-blocking/",
+      "/combat/affliction-reference/",
+      "/combat/demo-enemy-types/",
+      "/guides/price-and-launch-discount/",
+      "/guides/steam-cloud-saves/",
+      "/guides/report-bugs-and-find-updates/"
+    ]
+  }
+}

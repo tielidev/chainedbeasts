@@ -41,3 +41,13 @@ Analytics was initially blocked in Aside with `ERR_BLOCKED_BY_CLIENT`. After the
 
 The code gates GA on both production hostname and affirmative consent, with a one-time loader and Google Signals/ad personalization disabled in configuration. Consent storage moves to v2 so older ad-only acceptance does not silently enable Analytics. Updated privacy copy and reset action use the same choice. Local checks passed: lint, 140-file typecheck, 246 tests (5 skipped), configuration/content checks, production-config build, 1,731 internal links, favicon/canonical/sitemap/search checks. Production browser verification follows deployment. Browser operations use Aside as recorded in AGENTS.md.
 
+## Forty-article content and official branding release — October 15, 2026
+
+The user approved publishing the forty source-reviewed articles now: seventeen expanded originals and twenty-three new articles. The long-term content map retains ten evidence-gated research topics. Those topics have no public article files. The release gate now validates the explicit forty-URL release scope, source review and cover assets; it still rejects an unapproved or out-of-scope indexable article. Tests cover the approved forty with ten unpublished drafts as well as invalid release cases.
+
+Official press-kit wordmark and cropped lion artwork replace the previous header/footer mark and favicon family. Original source URLs, crop and dimensions are recorded in `docs/media-sources.json`; exports are deterministic and contain no generated or repainted artwork. The stable96×96PNG path is retained, with ICO, Apple and manifest images. An HTTP download from the branch preview returned a real96×96PNG matching the local file byte-for-byte; the lion crop was visually inspected from those downloaded pixels.
+
+Preflight passed: production-environment release gate, Astro build, Pagefind index of40articles, typecheck of143files, lint,249tests with5platform-dependent skips, content/config/i18n checks,3,991internal links and launch checks for favicon/canonical/sitemap/search assets. Branch preview responses have `X-Robots-Tag: noindex, nofollow`; all forty article routes return200 with correct production canonicals, while all ten deferred routes return404.
+
+Aside checks confirm the official marks, fan-site notice, sampled article images and sources, Steam Cloud/Xbox directory navigation and search-result navigation. Further pre-release and production acceptance results are recorded in the pull request. Phone viewport control is unavailable in the current Aside API; this remains an uncompleted manual check. Any evidence obtained by the earlier coordinate fallback is excluded. No other browser is used.
+

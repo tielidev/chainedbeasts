@@ -1,0 +1,59 @@
+---
+title: "Chained Beasts Saves and Checkpoints: Resume a Run"
+description: "Understand the developer-confirmed day-start checkpoints, solo saves and same-host lobby restoration, without assuming cross-save or host transfer."
+category: "guides"
+date: "2026-10-15"
+lastModified: "2026-10-15"
+image: "../../../../assets/covers/camp.webp"
+tags: ["progression","co-op"]
+summary: "The developer says Chained Beasts checkpoints at the start of each in-game day. For online co-op, the same host creates a new lobby and restores its available checkpoint after everyone reconnects. Single-player uses the same checkpoint system. This is the announced full-release behavior, not proof that older Demo builds support it."
+gameVersion: "Launch preview"
+---
+
+## How does saving work in Chained Beasts?
+
+The clearest source is a Steam discussion answered by the developer. It describes a checkpoint at the beginning of each day, with the online host responsible for that session's checkpoint. A later developer reply explicitly says the same system applies to single-player. The replies describe the intended full-release feature; our research did not include playing the launch build.
+
+This matters because “save the run” can mean several different things. A day-start checkpoint is not automatically a save of the exact frame where you quit. It also does not establish cross-platform progress, a portable save file or the ability for another person to take over as host.
+
+| Question | What the developer's replies establish |
+| --- | --- |
+| When is a checkpoint made? | At the start of each in-game day |
+| Who holds the online checkpoint? | The online host |
+| Can an online party restore it? | The same host starts another lobby and restores the available checkpoint after reconnection |
+| Does solo play have checkpoints? | The developer says they work the same in single-player |
+| Can a different host continue it? | Not established by this discussion |
+
+## How does the host restore an online run?
+
+The described sequence begins with the original host. The wording does not provide an exact localized button label or a screenshot of the current lobby, so use the restore control actually presented by your installed version rather than looking for a label invented by a guide.
+
+1. Have the same host create a new lobby.
+2. Reconnect the party before attempting the restore.
+3. If the host has an available checkpoint, look for the lobby's checkpoint-restoration button.
+4. Confirm the game restores the intended run before treating the session as a continuation.
+
+If the control is absent, record the host, version and visible lobby state. The developer's reply does not give a repair procedure for a missing checkpoint. Repeatedly replacing files, changing hosts or deleting progress would add risks without answering whether the original host has a valid checkpoint.
+
+![Official promotional camp image; this is not a screenshot of the restore menu](/images/articles/camp.webp)
+
+## Why do some Demo discussions say there is no restore option?
+
+The same thread contains an important correction. In March, the developer clarified that run restoration would become available when the game launched, correcting an earlier statement that made it sound already available. An old quoted reply therefore cannot be used as evidence that every Demo build can resume a run.
+
+Later October replies explain the day-start and same-host workflow and confirm single-player support. Read the conversation chronologically rather than selecting the first reassuring answer. Our [Demo comparison](/guides/demo-vs-full-game/) explains other cases where historical Demo information differs from the announced full game.
+
+## Is this Steam Cloud or cross-save?
+
+No such equivalence is established. Steam lists Steam Cloud, but synchronization of supported Steam saves is a different question from the in-game rule for restoring a particular run. Neither source proves that a Steam checkpoint transfers to a console account.
+
+For platform distinctions, see [cross-play and shared progress](/co-op/crossplay-and-platforms/). For a new party, use the [multiplayer checklist](/co-op/multiplayer-guide/) before starting. This page deliberately leaves save-file paths, manual backup instructions and cross-host transfer undocumented until there is direct evidence for them.
+
+## Sources and verification
+
+Sources reviewed October 15, 2026. Official statements, historical details and platform guidance are identified in the relevant sections. This article is source-based; no hands-on game test is claimed.
+
+- [Developer replies: Will this game feature mid-run saves?](https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/)
+- [Official Steam listing](https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english)
+
+See our [editorial policy](/editorial-policy/) for evidence standards and corrections.

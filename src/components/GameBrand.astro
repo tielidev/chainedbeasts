@@ -1,0 +1,16 @@
+---
+interface Props { large?: boolean }
+const { large = false } = Astro.props;
+---
+<span class="inline-flex min-w-0 items-center gap-2.5">
+  <img
+    src="/images/game-logo.webp"
+    alt="Chained Beasts"
+    width="246"
+    height="144"
+    class:list={["w-auto shrink-0 object-contain", large ? "h-16" : "h-10 sm:h-12"]}
+  />
+  <span class="text-[10px] font-semibold uppercase leading-relaxed tracking-wider text-foreground/80 sm:text-xs">
+    Wiki <span class="block">&amp; Guides</span>
+  </span>
+</span>

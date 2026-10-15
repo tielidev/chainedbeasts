@@ -1,0 +1,2629 @@
+{
+  "checked": "2026-10-15",
+  "method": "Aside browser review of official pages, developer replies and explicitly labelled community reports. No game build was played.",
+  "observedBeforeLaunch": true,
+  "scopeLimitations": "No complete in-game database or post-launch build was accessed. Missing official text is explicit, not inferred absent from the game.",
+  "official": {
+    "sources": [
+      {
+        "id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "title": "Chained Beasts on Steam",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "read_status": "body_read; all 12 languages expanded; Windows and macOS requirements inspected",
+        "summary": "Authoritative current listing for hardware, languages, 1–4 players, co-op tags, controller support; not yet released at observation.",
+        "version_family": "launch"
+      },
+      {
+        "id": "A1",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776439",
+        "title": "Our Post-Launch Update Roadmap",
+        "date": "2026-10-12",
+        "version": "launch-roadmap",
+        "read_status": "full_body_read",
+        "summary": "Planned December 1.1 arena/boss/weapon/enemies, Q1 2027 PvP intention and possible later campaign additions; plans, not shipped content.",
+        "version_family": "launch"
+      },
+      {
+        "id": "A2",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776274",
+        "title": "New Afflictions to Look Forward to at Launch",
+        "date": "2026-10-10",
+        "version": "launch",
+        "read_status": "full_body_read",
+        "summary": "Healing-affliction tradeoff; three new launch afflictions with effects; six additional names without effects.",
+        "version_family": "launch"
+      },
+      {
+        "id": "A3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "title": "Chained Beasts - Launch Price Reveal",
+        "date": "2026-10-07",
+        "version": "launch",
+        "read_status": "full_body_read",
+        "summary": "Launch content counts, pricing, three-act structure and 8 beasts plus variants.",
+        "version_family": "launch"
+      },
+      {
+        "id": "A4",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813",
+        "title": "Chained Beasts is Coming to Consoles & Game Pass on October 15!",
+        "date": "2026-09-16",
+        "version": "launch",
+        "read_status": "full_body_read",
+        "summary": "Launch platforms/timing, three named chapters, Rome boss Praefectus and Praetorian Guard, demo removal at launch.",
+        "version_family": "launch"
+      },
+      {
+        "id": "A5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/684136922794165905",
+        "title": "Chained Beasts - Release Date Revealed!",
+        "date": "2026-08-26",
+        "version": "launch",
+        "read_status": "full_body_read",
+        "summary": "October 15 announcement; demo is Carthage, first of three launch chapters; demo to be removed at launch.",
+        "version_family": "launch"
+      },
+      {
+        "id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "title": "Open Beta Now Live: Head North to Germania",
+        "date": "2026-07-17",
+        "version": "Beta",
+        "read_status": "full_body_read",
+        "summary": "Limited July 16–19 open beta: Germania, Goliath, surgeon, 24 combined additions, axe and 2 difficulty additions; three named mechanics with beta values.",
+        "date_kind": "Steam displayed event start/listing date, not independently established publication timestamp",
+        "version_family": "Beta"
+      },
+      {
+        "id": "A7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639841",
+        "title": "Chained Beasts is Now Live in Steam Next Fest!",
+        "date": "2026-06-16",
+        "version": "Demo",
+        "read_status": "full_body_read",
+        "summary": "Next Fest updated-demo participation recap; new beasts, executions, dismemberment, weapons, enemies and difficulty options.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "A8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "title": "Chained Beasts Charges Into Steam Next Fest June 15–22!",
+        "date": "2026-06-12",
+        "version": "Demo",
+        "read_status": "full_body_read",
+        "summary": "Detailed updated-demo recap: Rhino/Ibex, beast XP and variants, bow, executions, enemy types, Twitch, four named difficulties, macOS.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "A9",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713403343824748762",
+        "title": "CHAINED BEASTS ARRIVES FALL 2026",
+        "date": "2026-06-04",
+        "version": "launch-preview",
+        "read_status": "full_body_read",
+        "summary": "Fall 2026 release-window announcement; 1–4 player co-op and environmental/improvised combat, demo reception.",
+        "version_family": "launch"
+      },
+      {
+        "id": "demo-store",
+        "url": "https://store.steampowered.com/app/3978510/Chained_Beasts_Demo/",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "title": "Chained Beasts Demo on Steam",
+        "version": "Demo",
+        "read_status": "body_read",
+        "summary": "Independent Demo listing has 4 GB Windows RAM minimum, 10 language support, expanded first act with 5 battles and rhino-mounted first boss; not interchangeable with main game listing.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "OLD-S1",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/667240813476971354",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/667240813476971354",
+        "title": "The Updated Chained Beasts Demo is LIVE!",
+        "date": "2026-05-29",
+        "time_sgt": "21:12",
+        "version": "Demo (updated)",
+        "read_status": "full_body_read",
+        "summary": "Demo加入处决、断肢、弓、Rhino与Ibex，所有旧兽重做，并以兽XP解锁变体；新增敌人、难度、Twitch伤病药水投票和Mac支持。",
+        "evidence": "Two new beasts, the Rhino and the Ibex ... Fight with a beast to earn XP and unlock powerful new variants.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "OLD-S2",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/663861210724172670",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/663861210724172670",
+        "title": "Chained Beasts is in this year’s ANZ IndieFest!",
+        "date": "2026-05-08",
+        "time_sgt": "17:18",
+        "version": "Demo",
+        "read_status": "full_body_read",
+        "summary": "参与ANZ IndieFest，正文仅推广当时Steam Demo，无新增具体战斗机制。",
+        "evidence": "Now’s a great time to jump in and check out Chained Beast’s demo on Steam",
+        "version_family": "Demo"
+      },
+      {
+        "id": "OLD-S3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/527625419561632009",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/527625419561632009",
+        "title": "Closed Beta Begins April 18: Enter the Arena",
+        "date": "2026-04-15",
+        "time_sgt": "22:13",
+        "version": "Beta (closed; begins April 18)",
+        "read_status": "full_body_read",
+        "summary": "4月18日起封闭Beta，开放第二幕、新竞技场敌人与首领，并预览武器药水技能调整、surgeon、处决与断肢。",
+        "evidence": "Players will be granted access to our 2nd act ... new ‘surgeon’ feature.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "OLD-S4",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/507358586993642013",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/507358586993642013",
+        "title": "Thank you for 120k wishlists!",
+        "date": "2026-04-10",
+        "time_sgt": "04:06",
+        "version": "Demo",
+        "read_status": "full_body_read",
+        "summary": "庆祝12万愿望单，邀请体验仍开放的Demo，没有新增具体机制。",
+        "evidence": "120,000?? Incredible ... jump into the demo while it’s still live on Steam!",
+        "version_family": "Demo"
+      },
+      {
+        "id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/596291366060818457",
+        "title": "Chained Beasts Demo Out Now!",
+        "date": "2025-11-13",
+        "time_sgt": "07:34 (event start)",
+        "version": "Demo (initial release)",
+        "read_status": "full_body_read",
+        "summary": "初始Demo含逃出罗马监狱营的教程、Carthage五天战斗与犀牛骑乘首领；列出四武器、升级、治疗药水伤病和解锁内容。",
+        "evidence": "Survive 5 days of battles in the scorching Carthage arena",
+        "date_kind": "Steam displayed event date",
+        "version_family": "Demo"
+      },
+      {
+        "id": "OLD-S6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/587283532327419914",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/587283532327419914",
+        "title": "Chained Beasts Demo Releases November 12",
+        "date": "2025-11-06",
+        "time_sgt": "09:27",
+        "version": "Demo (release announcement)",
+        "read_status": "full_body_read",
+        "summary": "预告11月12日3pm PDT开放Demo，含教程、Carthage五场战斗和骑Rhino的第一首领，可1至4人游玩。",
+        "evidence": "tutorial and five brutal battles in the Carthage arena ... first boss ... on a Rhino mount",
+        "version_family": "Demo"
+      },
+      {
+        "id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/509591996910797131",
+        "title": "What’s Next For Chained Beasts",
+        "date": "2025-09-25",
+        "time_sgt": "10:11",
+        "version": "Playtest retrospective / Demo planned changes",
+        "read_status": "full_body_read",
+        "summary": "公开测试结束后说明盾牌耐久、拾取、格挡眩晕与取消攻击改动；Pleb以上Trainer改为团队共同训练升级并冒个人伤病风险；预告11月Demo新增难度。",
+        "evidence": "Shields are now pickups with durability ... The Trainer is now interactive",
+        "version_family": "Demo"
+      },
+      {
+        "id": "OLD-S8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/523100892744909291",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/523100892744909291",
+        "title": "Play The Chained Beasts Public Playtest Now",
+        "date": "2025-08-29",
+        "time_sgt": "14:17 (event start)",
+        "version": "Playtest (public)",
+        "read_status": "full_body_read",
+        "summary": "公开测试已开放：1至4人，Carthage Arena为完整游戏第一幕的扩展测试版，含五场战斗和骑犀牛第一首领。",
+        "evidence": "5 brutal battles in an extended version of the full game’s Act I",
+        "date_kind": "Steam displayed event date",
+        "version_family": "Beta"
+      },
+      {
+        "id": "OLD-S9",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/523095184762732720",
+        "canonical_url": "https://steamcommunity.com/games/3569420/announcements/detail/523095184762732720",
+        "title": "Join the Chained Beasts Closed Playtest",
+        "date": "2025-06-25",
+        "time_sgt": "14:40",
+        "version": "Playtest (closed announcement)",
+        "read_status": "full_body_read",
+        "summary": "封闭测试预告含教程和前三天战斗，可单人、同屏合作或Steam线上合作。",
+        "evidence": "the tutorial and the first 3 days of combat ... singleplayer, same-screen co-op, or online co-op through Steam",
+        "version_family": "Beta"
+      },
+      {
+        "id": "website",
+        "url": "https://www.featherweightgames.com/chainedbeasts",
+        "title": "Official Chained Beasts website",
+        "date": null,
+        "version": "launch-preview-undated",
+        "read_status": "body_read",
+        "summary": "1–4 players; Oct 15, 2026 displayed; official platform store links; chain/environment, injury and progression descriptions; no enumerated roster or abilities.",
+        "version_family": "launch"
+      },
+      {
+        "id": "presskit",
+        "url": "https://drive.google.com/drive/folders/1Vs3Mgfo4GkyXnDUbf41CZ7iNJj3xvX6w",
+        "title": "Official media kit root",
+        "date": null,
+        "version": "undated",
+        "read_status": "directory_read",
+        "summary": "Nine media folders plus Factsheet: Character Renders, Company Logo, Game Logo, Gameplay Footage, Key Art, Location Art, Screenshots, Steam Video Loops, Trailer.",
+        "version_family": "undated"
+      },
+      {
+        "id": "factsheet",
+        "url": "https://docs.google.com/document/d/1eQNJxUyq_7T5QmgBapxw3nBWweUuHHCcwSfW4Hoc0Sg/edit?tab=t.0#heading=h.mhltv3tuinfm",
+        "title": "Factsheet - Chained Beasts",
+        "date": null,
+        "version": "launch-preview-undated",
+        "read_status": "full_body_read",
+        "read_method": "googleDocs.getLiveText: read-only browser selection; no cookie HTTP read/API used",
+        "summary": "Developed/published by Featherweight Games, Sydney; Steam, Game Pass Xbox Series X|S and Windows PC, PS5, Nintendo Switch; Oct 15 2026 10AM Pacific. Standard descriptions of chain/environment/injury/progression. Does not enumerate eight beasts, variants or their skills. Parent recovered full text after worker canvas-snapshot limitation.",
+        "version_family": "launch"
+      },
+      {
+        "id": "character-assets",
+        "url": "https://drive.google.com/drive/folders/1L0jn0sejQSmOpsW3_d1-gT1YcSHc-vsT",
+        "title": "Character Renders directory",
+        "date": null,
+        "version": "undated-assets",
+        "read_status": "directory_read-only",
+        "summary": "Five asset subfolder labels: CyanEagle, CyanWolf, FuchiaLioness, PurpleBear, YellowLion. Folder labels are not verified in-game beast/variant names or abilities.",
+        "version_family": "undated"
+      }
+    ],
+    "facts": [
+      {
+        "id": "F001",
+        "category": "requirements",
+        "entity": "Windows minimum",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "64-bit CPU/OS; Windows 10; Core i5-5257U or Ryzen 3 1200 equivalent; 8 GB RAM; GTX 1050 or RX 460 equivalent.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F002",
+        "category": "requirements",
+        "entity": "Windows recommended",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "not-specified-beyond-64-bit",
+        "summary": "Only a 64-bit CPU/OS is specified. No recommended CPU/GPU/RAM/storage/DirectX targets are published in the inspected listing.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F003",
+        "category": "requirements",
+        "entity": "macOS minimum",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "macOS 11; Apple M1 / Intel i7-8850H; 8 GB RAM; Apple M1 / Radeon Pro 560X. Recommended list is empty.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F004",
+        "category": "languages",
+        "entity": "12 supported languages",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "Interface and subtitles: English, French, Italian, German, Japanese, Korean, Brazilian Portuguese, Simplified Chinese, Latin American Spanish, Traditional Chinese, Russian, Turkish. Full audio is checked only for English.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F005",
+        "category": "players",
+        "entity": "Player count",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "1–4 total players. Do not interpret promotional wording “up to 4 friends” as 5-player support.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F006",
+        "category": "input",
+        "entity": "Controller and local co-op",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "Full controller support; Xbox and PlayStation controller tags; developer recommends controller; at least one gamepad is required for same-screen co-op.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F007",
+        "category": "multiplayer",
+        "entity": "Steam features",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "Single-player, Online Co-op, Shared/Split Screen Co-op, Cross-Platform Multiplayer and Remote Play Together are listed.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F008",
+        "category": "platform",
+        "entity": "Steam operating systems",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "observed-listing",
+        "summary": "Windows and macOS requirement tabs are present. No Linux native tab was observed.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F009",
+        "category": "release",
+        "entity": "Current pre-release state",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "observed-pre-release",
+        "summary": "At observation on Oct 15 Singapore time the game is not yet available; Steam local date is Oct 16, 2026.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F010",
+        "category": "environment",
+        "entity": "Arena interactions",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "Throw urns at enemies or enemies into urns; charge enemies into spike walls or snake pits.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F011",
+        "category": "weapons",
+        "entity": "Thrown weapons",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "Weapons can be thrown for ranged attacks, leaving the player needing another weapon at hand.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F012",
+        "category": "chains",
+        "entity": "Chain coordination",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "Chains can snag around pillars; coordinated movement can trip enemies.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F013",
+        "category": "afflictions",
+        "entity": "Injury examples",
+        "source_id": "store",
+        "url": "https://store.steampowered.com/app/3569420/?l=english",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-store-pre-release",
+        "status": "official-stated",
+        "summary": "Examples include a limp, missing left eye and hallucinations; potions may cause worse side effects; surgery is mentioned. Exact stat penalties are not given.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F014",
+        "category": "content-counts",
+        "entity": "Launch scope",
+        "source_id": "A3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "date": "2026-10-07",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "9 battles across 3 acts with bosses, before the final encounter. Do not silently treat the final encounter as one of the nine or a fourth act.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F015",
+        "category": "difficulty",
+        "entity": "Launch difficulties",
+        "source_id": "A3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "date": "2026-10-07",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "10 increasingly difficult levels announced; this source does not name all ten.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F016",
+        "category": "content-counts",
+        "entity": "Launch skills / afflictions / items",
+        "source_id": "A3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "date": "2026-10-07",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "More than 70 skills, over 70 afflictions, and 40+ purchasable items announced. These are category counts, not a published complete roster.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F017",
+        "category": "beasts",
+        "entity": "Launch roster size and variants",
+        "source_id": "A3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "date": "2026-10-07",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "8 different beasts; unlockable variants can differ in stats/abilities and cosmetics. The post does not enumerate all eight or all variants.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F018",
+        "category": "price",
+        "entity": "Announced launch pricing",
+        "source_id": "A3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "date": "2026-10-07",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Regular US$19.99; launch US$12.99 (35% off) for two weeks. Price announcement, not observed purchase availability.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F019",
+        "category": "platform",
+        "entity": "Announced launch platforms",
+        "source_id": "A4",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813",
+        "date": "2026-09-16",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Alongside Steam: PS5, Xbox Series X|S, Nintendo Switch, Game Pass for Xbox and Windows PC.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F020",
+        "category": "release",
+        "entity": "Global launch time",
+        "source_id": "A4",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813",
+        "date": "2026-09-16",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Oct 15, 2026 at 10:00 AM PDT / 17:00 UTC, equivalent to Oct 16 01:00 Singapore. This explains the Steam local-date difference.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F021",
+        "category": "chapters",
+        "entity": "Chapter order",
+        "source_id": "A4",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813",
+        "date": "2026-09-16",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Carthage → Germania → Rome. Full game has three arena chapters.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F022",
+        "category": "bosses",
+        "entity": "Praefectus",
+        "source_id": "A4",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813",
+        "date": "2026-09-16",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Rome boss Praefectus is backed by the Praetorian Guard. No numerical stats or full attack list is supplied.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F023",
+        "category": "Demo",
+        "entity": "Carthage demo availability",
+        "source_id": "A4",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/713412222387225813",
+        "date": "2026-09-16",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Free Steam demo covers Carthage and is announced to be removed at launch. It was still downloadable in the inspected pre-release store.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F024",
+        "category": "afflictions",
+        "entity": "Healing tradeoff",
+        "source_id": "A2",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776274",
+        "date": "2026-10-10",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Healing between rounds requires accepting one of a selection of afflictions.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F025",
+        "category": "afflictions",
+        "entity": "Annoying",
+        "source_id": "A2",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776274",
+        "date": "2026-10-10",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Makes allies often attack if the afflicted player gets too close.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F026",
+        "category": "afflictions",
+        "entity": "Impulsive",
+        "source_id": "A2",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776274",
+        "date": "2026-10-10",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Forces locking a new skill every second level and buying an item at every shop.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F027",
+        "category": "afflictions",
+        "entity": "Infatuated",
+        "source_id": "A2",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776274",
+        "date": "2026-10-10",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "official-stated",
+        "summary": "Camera follows a particular ally; +10% damage while that ally looks at the afflicted player. A pre-launch stated value, not measured launch-build data.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F028",
+        "category": "afflictions",
+        "entity": "Names without disclosed mechanics",
+        "source_id": "A2",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776274",
+        "date": "2026-10-10",
+        "observed_date": "2026-10-15",
+        "version": "launch",
+        "status": "name-only",
+        "summary": "Separation Anxiety, Bad Vibrations, Butterfingers, Narcissism, Gambling Problem, Nerve Damage are named as a guessing prompt. Effects remain unspecified in this source.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F029",
+        "category": "Beta",
+        "entity": "July open beta window",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "July 16 10am PT through July 19 11:59pm PT; announced as the only pre-launch preview of Act 2.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F030",
+        "category": "environment",
+        "entity": "Germania spike traps",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "Beta Act 2 is a frozen arena; throwing an enemy into new spike traps impales them.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F031",
+        "category": "bosses",
+        "entity": "Goliath",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "Germania boss has unpredictable jumps and ground-slam attacks.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F032",
+        "category": "progression",
+        "entity": "Surgeon",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "Between acts, surgeon manages afflictions or offers body augmentations granting skills; every procedure has a cost. No complete price table disclosed.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F033",
+        "category": "content-counts",
+        "entity": "Beta additions",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "24 combined new skills, afflictions and items; not 24 in each category. Also a new axe and two difficulty options.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F034",
+        "category": "afflictions",
+        "entity": "Psychosis",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "Beta: causes hallucinated weapons to appear in the arena.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F035",
+        "category": "skills",
+        "entity": "Untouchable",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "Beta only: grants 6 seconds of invulnerability after an execution. Do not carry this number into launch articles without new evidence.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F036",
+        "category": "items",
+        "entity": "Priceless Vase",
+        "source_id": "A6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675126551624286599",
+        "date": "2026-07-17",
+        "observed_date": "2026-10-15",
+        "version": "Beta",
+        "status": "official-stated",
+        "summary": "Beta only: pays 100 coins if held through a fight survived without taking damage. Do not assume launch payout.",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F037",
+        "category": "beasts",
+        "entity": "Rhino and Ibex",
+        "source_id": "A8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "date": "2026-06-12",
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Updated demo adds Rhino and Ibex; existing beasts reworked; earn beast XP and levels to unlock variants. No exact XP thresholds stated.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F038",
+        "category": "weapons",
+        "entity": "Bow",
+        "source_id": "A8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "date": "2026-06-12",
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Updated demo adds a ranged bow, with friendly-fire warning.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F039",
+        "category": "combat",
+        "entity": "Executions / dismemberment",
+        "source_id": "A8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "date": "2026-06-12",
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Updated demo permits executions on downed foes for crowd approval, and throwing severed limbs or heads as improvised weapons.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F040",
+        "category": "enemies",
+        "entity": "Archers / Wrestlers / Defensive Swordsmen",
+        "source_id": "A8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "date": "2026-06-12",
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Archers fire from range; wrestlers pin gladiators until a teammate rescues them; defensive swordsmen attack behind shields.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F041",
+        "category": "integration",
+        "entity": "Twitch",
+        "source_id": "A8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "date": "2026-06-12",
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Demo Twitch integration lets chat vote which affliction potion is drunk between rounds.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F042",
+        "category": "difficulty",
+        "entity": "Demo difficulty names",
+        "source_id": "A8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
+        "date": "2026-06-12",
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Four updated-demo difficulty choices: Pleb, Legionnaire, Centurion, Hades. This is not the complete launch ten-level list.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F043",
+        "category": "roadmap",
+        "entity": "Planned updates",
+        "source_id": "A1",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588776439",
+        "date": "2026-10-12",
+        "observed_date": "2026-10-15",
+        "version": "launch-roadmap",
+        "status": "announced-plan-not-shipped",
+        "summary": "December 1.1 planned new arena/boss/weapon/enemies; Q1 2027 PvP is an intention. Additional acts/beasts/variants/cosmetics are possible future additions, not launch content.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F044",
+        "category": "requirements",
+        "entity": "Demo Windows minimum",
+        "source_id": "demo-store",
+        "url": "https://store.steampowered.com/app/3978510/Chained_Beasts_Demo/",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Demo minimum lists 4 GB RAM, unlike main-game store minimum 8 GB. Other displayed Windows minimum CPU/GPU/OS match the main listing.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F045",
+        "category": "chapters",
+        "entity": "Demo run structure",
+        "source_id": "demo-store",
+        "url": "https://store.steampowered.com/app/3978510/Chained_Beasts_Demo/",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Carthage demo is an expanded version of the full game’s first act, with 5 battles and a first boss riding a rhino. No boss name is stated here.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F046",
+        "category": "languages",
+        "entity": "Demo language count",
+        "source_id": "demo-store",
+        "url": "https://store.steampowered.com/app/3978510/Chained_Beasts_Demo/",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "Demo",
+        "status": "official-stated",
+        "summary": "Demo lists 10 languages, compared with 12 in main game. Do not use Demo language matrix for launch.",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F047",
+        "source_id": "OLD-S1",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/667240813476971354",
+        "date": "2026-05-29",
+        "version": "Demo (updated)",
+        "category": "platform",
+        "entities": [
+          "Mac"
+        ],
+        "summary": "更新Demo新增Mac支持。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F048",
+        "source_id": "OLD-S3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/527625419561632009",
+        "date": "2026-04-15",
+        "version": "Beta (closed; begins April 18)",
+        "category": "beta_scope",
+        "entities": [
+          "Act II"
+        ],
+        "summary": "4月18日开始的封闭Beta允许1至4人测试第二幕及公开Demo系统改动。",
+        "scope_note": "仅该封闭Beta范围，不证明正式版内容或平衡。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F049",
+        "source_id": "OLD-S3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/527625419561632009",
+        "date": "2026-04-15",
+        "version": "Beta (closed; begins April 18)",
+        "category": "environment_boss",
+        "entities": [
+          "new arena",
+          "enemies",
+          "boss"
+        ],
+        "summary": "Beta预览新竞技场、敌人与一场首领战，但均未具名。",
+        "scope_note": "Beta内容预告；没有首领技能、环境名或数值。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F050",
+        "source_id": "OLD-S3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/527625419561632009",
+        "date": "2026-04-15",
+        "version": "Beta (closed; begins April 18)",
+        "category": "weapons_potions_skills",
+        "entities": [
+          "weapons",
+          "potions",
+          "skills"
+        ],
+        "summary": "Beta预览新武器药水技能及既有内容调整，未列具体名称与数值。",
+        "scope_note": "不能外推正式版数值。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F051",
+        "source_id": "OLD-S3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/527625419561632009",
+        "date": "2026-04-15",
+        "version": "Beta (closed; begins April 18)",
+        "category": "services",
+        "entities": [
+          "surgeon"
+        ],
+        "summary": "Beta新增名为surgeon的功能，仅提名称，没有治疗流程或效果细节。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F052",
+        "source_id": "OLD-S3",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/527625419561632009",
+        "date": "2026-04-15",
+        "version": "Beta (closed; begins April 18)",
+        "category": "combat",
+        "entities": [
+          "Executions",
+          "dismemberments"
+        ],
+        "summary": "Beta加入处决和断肢。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F053",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "weapons",
+        "entities": [
+          "sword",
+          "spear",
+          "mace",
+          "flail"
+        ],
+        "summary": "初始Demo明确列出剑、矛、钉头锤、连枷四种武器。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F054",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "tutorial_environment",
+        "entities": [
+          "Roman prison camp"
+        ],
+        "summary": "教程目标为逃离罗马监狱营并学习战斗基础。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F055",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "environment_chapter",
+        "entities": [
+          "Carthage"
+        ],
+        "summary": "初始Demo在炎热Carthage竞技场存活五天战斗。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F056",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "skills_progression",
+        "entities": [],
+        "summary": "升级可从数十种强化中选择，但未列强化名。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F057",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "potions_afflictions",
+        "entities": [
+          "healing potions"
+        ],
+        "summary": "治疗药水会附带身体和精神伤病，正文称有数十种。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F058",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "boss",
+        "entities": [
+          "rhino-mounted boss"
+        ],
+        "summary": "Demo最后战斗为骑犀牛首领，未给首领名字。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F059",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "beasts",
+        "entities": [
+          "fifth playable Beast"
+        ],
+        "summary": "可解锁第五只可玩兽，带有独特开局变化，但未列名称与效果。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F060",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "difficulty",
+        "entities": [],
+        "summary": "打败Demo首领可解锁带特殊修正的更高难度，本文未给难度名称。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F061",
+        "source_id": "OLD-S5",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/596291366060818457",
+        "date": "2025-11-13",
+        "version": "Demo (initial release)",
+        "category": "coop",
+        "entities": [],
+        "summary": "Demo支持单人或最多四人、本地和在线合作。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F062",
+        "source_id": "OLD-S6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/587283532327419914",
+        "date": "2025-11-06",
+        "version": "Demo (release announcement)",
+        "category": "availability",
+        "entities": [],
+        "summary": "正文预告Demo发布时间为11月12日3pm PDT，原样保留而不自行修正时区。",
+        "scope_note": "页面公告日期为2025-11-06 +08；发布时间为原文时区标签。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F063",
+        "source_id": "OLD-S6",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/587283532327419914",
+        "date": "2025-11-06",
+        "version": "Demo (release announcement)",
+        "category": "environment_boss",
+        "entities": [
+          "Carthage",
+          "Rhino mount"
+        ],
+        "summary": "预告Demo含教程与Carthage五场战斗，以骑Rhino的第一首领结尾。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F064",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "shield_prior",
+        "entities": [
+          "shield",
+          "stamina"
+        ],
+        "summary": "旧测试版所有玩家开局有盾；有体力就可持续格挡，挡中消耗少量体力，持续举盾降低体力恢复。",
+        "scope_note": "明确为Previously的旧Playtest行为。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F065",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "shield_rework",
+        "entities": [
+          "shield"
+        ],
+        "summary": "开发改动为开局无盾、改为场内拾取物；格挡不再消耗体力。",
+        "scope_note": "2025-09开发说明，不能据此断言正式版最终行为。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F066",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "shield_rework",
+        "entities": [
+          "shield"
+        ],
+        "summary": "每次格挡短暂眩晕击中盾的敌人，但损耗盾耐久，耗尽会破裂。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F067",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "items",
+        "entities": [
+          "shield"
+        ],
+        "summary": "击杀携盾敌人可拾取替换盾。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F068",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "combat",
+        "entities": [
+          "block cancel"
+        ],
+        "summary": "可用格挡取消攻击，无需等整个攻击动画结束。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F069",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "trainer_prior",
+        "entities": [
+          "Trainer",
+          "Pleb"
+        ],
+        "summary": "公开测试Trainer每次访问自动升级并提供数个perk选项；计划在最低Pleb难度保留此行为。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F070",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "trainer",
+        "entities": [
+          "Trainer"
+        ],
+        "summary": "Pleb以上难度访问Trainer时，玩家决定训练量，每次选择加入随机做1至3次动作。",
+        "scope_note": "开发改动说明的训练次数，不是正式版数值。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F071",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "trainer",
+        "entities": [
+          "Trainer",
+          "experience bar"
+        ],
+        "summary": "队员训练动作共同填充经验条，填满后全员升级。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F072",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "trainer_injuries",
+        "entities": [
+          "pain"
+        ],
+        "summary": "每次训练增加个人疼痛，过度训练会获得新伤。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F073",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "injuries",
+        "entities": [
+          "broken toe"
+        ],
+        "summary": "训练可能导致脚趾骨折，妨碍移动。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F074",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "injuries",
+        "entities": [
+          "dislocated shoulder"
+        ],
+        "summary": "训练可能导致肩脱臼，影响投掷。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F075",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "injuries",
+        "entities": [
+          "punctured lung"
+        ],
+        "summary": "训练可能导致肺穿孔，使人喘不过气。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F076",
+        "source_id": "OLD-S7",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131",
+        "date": "2025-09-25",
+        "version": "Playtest retrospective / Demo planned changes",
+        "category": "services_potions",
+        "entities": [
+          "Healer"
+        ],
+        "summary": "开发者以Healer药水选择作类比，强调训练同样需要权衡利弊；没有新增药水名。",
+        "observed_date": "2026-10-15",
+        "status": "historical-development-description-not-launch-verified",
+        "version_family": "Demo"
+      },
+      {
+        "id": "F077",
+        "source_id": "OLD-S8",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/523100892744909291",
+        "date": "2025-08-29",
+        "version": "Playtest (public)",
+        "category": "environment_chapter",
+        "entities": [
+          "Carthage Arena",
+          "Act I"
+        ],
+        "summary": "公开测试在Carthage Arena进行，是完整游戏第一幕的扩展测试版，需存活五场战斗。",
+        "scope_note": "五场是公开测试的扩展版本，不等于正式版Act I固定场次数。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F078",
+        "source_id": "OLD-S9",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/523095184762732720",
+        "date": "2025-06-25",
+        "version": "Playtest (closed announcement)",
+        "category": "playtest_scope",
+        "entities": [],
+        "summary": "封闭测试仅含教程与前三天战斗。",
+        "scope_note": "仅封闭Playtest内容范围。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F079",
+        "source_id": "OLD-S9",
+        "url": "https://steamcommunity.com/gid/103582791475150628/announcements/detail/523095184762732720",
+        "date": "2025-06-25",
+        "version": "Playtest (closed announcement)",
+        "category": "coop",
+        "entities": [],
+        "summary": "封闭测试可单人、同屏合作或经Steam线上合作。",
+        "observed_date": "2026-10-15",
+        "status": "official-stated",
+        "version_family": "Beta"
+      },
+      {
+        "id": "F080",
+        "category": "developer",
+        "entity": "Developer and publisher",
+        "source_id": "factsheet",
+        "url": "https://docs.google.com/document/d/1eQNJxUyq_7T5QmgBapxw3nBWweUuHHCcwSfW4Hoc0Sg/edit?tab=t.0#heading=h.mhltv3tuinfm",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-preview-undated",
+        "status": "official-stated",
+        "summary": "Featherweight Games, based in Sydney, Australia; Factsheet confirms published platform list and Oct 15 2026 10AM Pacific launch.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F081",
+        "category": "official-links",
+        "entity": "Platform store links",
+        "source_id": "website",
+        "url": "https://www.featherweightgames.com/chainedbeasts",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "launch-preview-undated",
+        "status": "official-stated",
+        "summary": "Official website links Steam app 3569420, PlayStation concept 10018409, Xbox product 9pkzrn4rjrc9 and Nintendo Switch product page.",
+        "version_family": "launch",
+        "verification_stage": "official-pre-release-statement"
+      },
+      {
+        "id": "F082",
+        "category": "media-metadata",
+        "entity": "Character render folder labels",
+        "source_id": "character-assets",
+        "url": "https://drive.google.com/drive/folders/1L0jn0sejQSmOpsW3_d1-gT1YcSHc-vsT",
+        "date": null,
+        "observed_date": "2026-10-15",
+        "version": "undated-assets",
+        "status": "asset-metadata-not-gameplay-proof",
+        "summary": "CyanEagle; CyanWolf; FuchiaLioness; PurpleBear; YellowLion are visible folder labels only. Do not translate them into verified player roster names or call them five of the launch eight.",
+        "version_family": "undated"
+      }
+    ],
+    "gaps": [
+      {
+        "category": "beasts-and-variants",
+        "status": "not-published-in-inspected-text",
+        "summary": "Launch count 8 is verified, but only Rhino and Ibex are explicitly named as playable beasts in the inspected announcement bodies. No complete eight-name roster, concrete variant names, beast starting skills, stat tables or unlock thresholds found. Asset folder labels are retained only as metadata."
+      },
+      {
+        "category": "skills-weapons-items",
+        "status": "partial",
+        "summary": "Named Beta skill Untouchable and Beta item Priceless Vase have effects and values. Named weapons sword/spear/mace/flail/bow/axe are established across dated versions. Full 70+ skill list, 40+ item list, weapon damage/cooldowns/shop prices not supplied by inspected text."
+      },
+      {
+        "category": "afflictions",
+        "status": "partial",
+        "summary": "Annoying/Impulsive/Infatuated have launch-preview effects; Psychosis is Beta. Six Oct names have no disclosed effects. Historical broken toe/dislocated shoulder/punctured lung and generic missing eye/limp/hallucinations are version-scoped; no full 70+ table."
+      },
+      {
+        "category": "difficulty",
+        "status": "partial",
+        "summary": "Launch has 10 levels; only four Demo names supplied. July Beta adds two unnamed options. Complete launch names and modifiers unverified."
+      },
+      {
+        "category": "bosses-and-environments",
+        "status": "partial",
+        "summary": "Three launch chapters, named Goliath and Praefectus, unnamed rhino-mounted first boss established. Full boss attack/stage/stat tables and comprehensive trap/enemy roster not supplied."
+      },
+      {
+        "category": "input",
+        "status": "partial",
+        "summary": "Controller support and at least one gamepad for same-screen co-op verified. Exact keyboard/mouse support, keybindings, split input combinations and max supported controller arrangements not explicitly documented in inspected sources."
+      },
+      {
+        "category": "requirements",
+        "status": "not-specified-by-source",
+        "summary": "Recommended CPU/GPU/RAM/storage figures are not given. No Windows minimum disk-space or DirectX version in inspected store section; do not invent them."
+      },
+      {
+        "category": "version-boundary",
+        "status": "important",
+        "summary": "All launch entries are pre-release official statements as observed before unlock, not launch-build measurements. Beta 6-second Untouchable / 100-coin Vase and 2025 trainer reps/shield behavior must not be generalized to launch."
+      },
+      {
+        "category": "unread-media",
+        "status": "[blocked] not-text-verified",
+        "summary": "Other media-pack folder internals, screenshots, renders, trailers and gameplay footage not individually reviewed. No facts inferred from unseen image/video contents."
+      }
+    ],
+    "coverage": {
+      "main_game_official_announcements": {
+        "index_url": "https://steamcommunity.com/app/3569420/allnews/",
+        "count": 18,
+        "earliest_displayed_date": "2025-06-25",
+        "latest_displayed_date": "2026-10-12",
+        "completeness": "All 18 announcement bodies read. Community directory loaded until the site reported no more content.",
+        "terminal_message": "没有更多内容了。太伤感了。",
+        "note": "Scope is publicly exposed Steam announcements for main app at capture time, not deleted/private posts or every official social-media post."
+      },
+      "demo_news": {
+        "store_appid": 3978510,
+        "view_all_result_url": "https://store.steampowered.com/news/app/3569420",
+        "note": "Demo store View All opened the main-game news hub and showed the same current announcements. No separate Demo announcement set inferred."
+      },
+      "official_site": "read",
+      "factsheet": "full body recovered and read",
+      "media_kit": "Root and Character Renders directory read; other folders/assets not individually opened; image/video contents not reviewed.",
+      "user_wiki": "Not reread; no new articles drafted; no repository or settings changes."
+    }
+  },
+  "platformAndCommunity": {
+    "sources": [
+      {
+        "id": "steam_store",
+        "url": "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "title": "Chained Beasts on Steam",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Steam full-game listing observed before unlock; no build number",
+        "published": null,
+        "evidence": "1-4 player co-op; Full Controller Support; At least 1 gamepad is required for same-screen co-op"
+      },
+      {
+        "id": "save",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/",
+        "title": "Will this game feature mid-run saves?",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Announced full release, not the March demo; no build number",
+        "published": "2026-10-12 / 2026-10-13",
+        "evidence": "Post #5: checkpoint at start of each day for online host; #7 Sneaky B [developer]: that reply was me on my non-developer account; checkpoints work the same in singleplayer too."
+      },
+      {
+        "id": "shake",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/573795107742946598/",
+        "title": "Accessibility Feedback: Screenshake",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Full-release promise observed before launch; demo complaints distinct",
+        "published": null,
+        "evidence": "Latest post #5 Sneaky B [developer]: We will have an option to turn off screenshake. Page displayed 14 hours ago; exact post timezone not normalized."
+      },
+      {
+        "id": "russian",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/684111928013022319/",
+        "title": "Will there be Russian language?",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Full game, not proof of demo localization",
+        "published": "2026-10-14",
+        "evidence": "Sneaky B [developer], #1: Russian will now be available in the full game."
+      },
+      {
+        "id": "startup",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/568174304851738515/",
+        "title": "Game stuck on startup screen",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Pre-release player report; likely demo context but exact build not stated",
+        "published": "2026-10-15",
+        "evidence": "Stuck at featherweight logo after reinstall, PC/Steam restart and verifying files; 0 replies."
+      },
+      {
+        "id": "rpt_report",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/583929850218181190/",
+        "title": "cannot Remote Play Together",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Pre-release PC-host report; build unspecified",
+        "published": "2026-07-28",
+        "evidence": "Original body only: pc host; 0 replies."
+      },
+      {
+        "id": "online_report",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/582810101152303598/",
+        "title": "Online play not working?",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Pre-release online session; exact build not stated",
+        "published": "2026-10-05",
+        "evidence": "Joiner stuck after invite/join/room code; sole reply suggests verify game files, no developer confirmation."
+      },
+      {
+        "id": "movement",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/671726388306488577/",
+        "title": "Unable to Move in Multiplayer (both pages read)",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "2025 demo updates and later pre-release reports, not release-build certification",
+        "published": "2025-11-13; later reports 2026-07-18 / 2026-09-21",
+        "evidence": "Sneaky B #11: released an update to the demo; Bryan #12 confirmed fixed; later #21/#22 player reports in July/September 2026 have no later reply."
+      },
+      {
+        "id": "mac",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/562534024812314441/",
+        "title": "Friend on mac cant join",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "June 2026 pre-release Windows/Mac multiplayer; build not stated",
+        "published": "2026-06-18 / 2026-06-20",
+        "evidence": "Original reporter #2: Yeah its fixed now, many thanks. No developer-badged reply or repair steps."
+      },
+      {
+        "id": "bots",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/592907320284073267/",
+        "title": "Can we play singleplayer with AI/CPU bot companions?",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Pre-release request; no implementation or build confirmed",
+        "published": "2026-03-03",
+        "evidence": "Accepted #3 FW_Eren [developer]: We appreciate your feedback and thanks for supporting the game!"
+      },
+      {
+        "id": "lobby",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/685238092472260218/",
+        "title": "Is there a lobby or do you need to be friends to play?",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "2025 demo-era co-op; current matchmaking availability not established",
+        "published": "2025-11-20",
+        "evidence": "FW_Eren #2: You can add friends on Steam and send them an invite to your lobby when you select co-op."
+      },
+      {
+        "id": "roguelike",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/582810830272368108/",
+        "title": "Roguelike or Roguelite?",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Demo observation, not full-release guarantee",
+        "published": "2026-10-14",
+        "evidence": "Kalle #1 reports character/variant unlocks but no +HP/+DMG meta progression; accepted by author, no developer reply."
+      },
+      {
+        "id": "length",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/582810614213308117/",
+        "title": "Game Length / Playtime",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Demo-based estimate, not measured full-game completion time",
+        "published": null,
+        "evidence": "KJIIOIIIKA #1: I would assume around 60 minutes for a full-run; I might be wrong in my estimates."
+      },
+      {
+        "id": "progression",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/685238401800228993/",
+        "title": "Progression.",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "2025-2026 demo discussion; no developer reply",
+        "published": null,
+        "evidence": "Players describe animal variants/perks and debate meta-progression; no developer-badged reply in all 10 comments."
+      },
+      {
+        "id": "content",
+        "url": "https://store.steampowered.com/news/app/3569420/view/696526260588773495",
+        "title": "Chained Beasts - Launch Price Reveal",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Announced 1.0 content, before release",
+        "published": "2026-10-07",
+        "evidence": "9 battles across 3 acts before final encounter; 10 difficulty levels; over 70 afflictions, more than 70 skills, 40+ items; unlock 8 beasts and variants/cosmetics."
+      },
+      {
+        "id": "roadmap",
+        "url": "https://store.steampowered.com/news/app/3569420/view/696526260588776438",
+        "title": "Our Post-Launch Update Roadmap",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Planned post-1.0, not shipped content",
+        "published": "2026-10-12",
+        "evidence": "1.1 planned in December; PvP desired for Q1 2027; subsequent acts/beasts/variants are prospective."
+      },
+      {
+        "id": "platform_announce",
+        "url": "https://store.steampowered.com/news/app/3569420/view/713412222387225812",
+        "title": "Chained Beasts is Coming to Consoles & Game Pass on October 15!",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Scheduled full release on Steam, PS5, Xbox Series X|S, Nintendo Switch, Game Pass Xbox/Windows PC",
+        "published": "2026-09-16 (Steam displayed +08)",
+        "evidence": "Arena doors open October 15 at 10:00 AM PDT / 5:00 PM UTC; demo taken offline at launch."
+      },
+      {
+        "id": "rpt_help",
+        "url": "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "title": "Steam Remote Play official support",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Remote Play help; no client build; not a Chained Beasts fix",
+        "published": null,
+        "evidence": "Launch game; open overlay Shift+Tab; right-click friend and select Remote Play Together."
+      },
+      {
+        "id": "rpt_overview",
+        "url": "https://store.steampowered.com/remoteplay?l=english",
+        "title": "Steam Remote Play overview",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General supported local multiplayer streaming, not native cross-play",
+        "published": null,
+        "evidence": "Players use own controllers or share keyboard/mouse; host manages keyboard/mouse access."
+      },
+      {
+        "id": "input_devices",
+        "url": "https://partner.steamgames.com/doc/features/steam_controller/device?l=english",
+        "title": "Steam Input supported controller devices",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Input configurator documentation; published device list not exhaustive current hardware certification",
+        "published": null,
+        "evidence": "Supports major controllers including Xbox, PlayStation, Switch Pro and DirectInput gamepads."
+      },
+      {
+        "id": "input_player",
+        "url": "https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_players?l=english",
+        "title": "Steam Input: Getting Started for Players",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Input; includes older UI examples; not per-game settings recommendation",
+        "published": null,
+        "evidence": "Legacy bindings emulate keyboard/mouse/gamepad; gamepad events appear as XInput."
+      },
+      {
+        "id": "developer_site",
+        "url": "https://www.featherweightgames.com/chainedbeasts",
+        "title": "Featherweight Chained Beasts official page",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Announced Steam and console editions",
+        "published": null,
+        "evidence": "October 15, 2026; linked Steam/Xbox/PlayStation/Nintendo stores."
+      },
+      {
+        "id": "xbox_news",
+        "url": "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/",
+        "title": "Xbox Game Pass October 2026 wave 1",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Scheduled cloud, Xbox Series X|S and PC Game Pass release",
+        "published": "2026-10-07",
+        "evidence": "Chained Beasts (Cloud, XBOX Series X|S, and PC) – October 15; Game Pass Ultimate, PC Game Pass"
+      },
+      {
+        "id": "xbox_store",
+        "url": "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "title": "Chained Beasts Xbox store",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Xbox Series X|S / Microsoft PC listing; pre-release observation",
+        "published": null,
+        "evidence": "Coming soon to your subscription; local/online co-op 2-4; Xbox Play Anywhere; 13 supported languages; 6 accessibility features."
+      },
+      {
+        "id": "switch_store",
+        "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html",
+        "title": "Chained Beasts Nintendo UK store",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Nintendo Switch download software, UK; Switch 2 backward compatibility listing",
+        "published": null,
+        "evidence": "Multiplayer requires one compatible controller per player. Online play requires paid Nintendo Switch Online membership."
+      },
+      {
+        "id": "ps_store",
+        "url": "https://store.playstation.com/en-au/concept/10018409",
+        "title": "Chained Beasts PlayStation AU store",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "PS5 Australian listing; announced/countdown state",
+        "published": null,
+        "evidence": "Announced; Release:16/10/2026; PS Plus required for online play; 1-4 players; supports up to 4 online."
+      }
+    ],
+    "facts": [
+      {
+        "id": "SAVE01",
+        "topic": "save_checkpoint",
+        "fact": "The online host receives a checkpoint at the start of each in-game day.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Announced full release, not the March demo; no build number",
+        "status": "developer_confirmed",
+        "source": "save"
+      },
+      {
+        "id": "SAVE02",
+        "topic": "restore_online",
+        "fact": "The same host starts a new lobby; if a checkpoint exists, a lobby button restores it after everyone reconnects.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Announced full release, not the March demo; no build number",
+        "status": "developer_confirmed",
+        "source": "save",
+        "caveat": "Button label, host-transfer support and exact player-roster rules were not specified."
+      },
+      {
+        "id": "SAVE03",
+        "topic": "restore_solo",
+        "fact": "The developer confirmed that checkpoints work the same in single-player.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Announced full release, not the March demo; no build number",
+        "status": "developer_confirmed",
+        "source": "save"
+      },
+      {
+        "id": "SAVE04",
+        "topic": "demo_vs_release",
+        "fact": "The March developer correction said run restore would become available at launch, correcting an earlier claim that it already worked.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/805718895543526862/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "March 2026 demo vs announced full release",
+        "status": "historical_correction",
+        "source": "save",
+        "caveat": "Do not reuse the superseded quoted wording as proof of demo support."
+      },
+      {
+        "id": "COOP01",
+        "topic": "player_count",
+        "fact": "Steam describes the game as 1-4 players and lists single-player, online co-op and shared/split-screen co-op.",
+        "url": "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Steam full-game listing observed before unlock; no build number",
+        "status": "documented",
+        "source": "steam_store"
+      },
+      {
+        "id": "COOP02",
+        "topic": "local_inputs",
+        "fact": "At least one gamepad is required for same-screen co-op.",
+        "url": "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Steam full-game listing observed before unlock; no build number",
+        "status": "documented",
+        "source": "steam_store",
+        "caveat": "This does not specify the maximum number of independent keyboards or a precise controller/keyboard slot matrix."
+      },
+      {
+        "id": "COOP03",
+        "topic": "cross_play",
+        "fact": "Steam lists Cross-Platform Multiplayer.",
+        "url": "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Steam full-game listing observed before unlock; no build number",
+        "status": "documented",
+        "source": "steam_store",
+        "caveat": "The badge alone does not identify which pairs of storefronts/consoles can play together."
+      },
+      {
+        "id": "COOP04",
+        "topic": "invite_friends",
+        "fact": "A developer describes selecting co-op and inviting Steam friends to the lobby.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/685238092472260218/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "2025 demo-era co-op; current matchmaking availability not established",
+        "status": "historical_developer_workflow",
+        "source": "lobby",
+        "caveat": "Does not by itself prove that launch has no public matchmaking."
+      },
+      {
+        "id": "INPUT01",
+        "topic": "controller_support",
+        "fact": "Steam lists full controller support for Xbox and PlayStation controllers and says the developers recommend a controller.",
+        "url": "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Steam full-game listing observed before unlock; no build number",
+        "status": "documented",
+        "source": "steam_store",
+        "caveat": "Not proof of every model, wireless method, native glyph set or all Steam Input configurations."
+      },
+      {
+        "id": "LANG01",
+        "topic": "steam_languages",
+        "fact": "Steam lists 12 interface/subtitle languages: English, French, Italian, German, Japanese, Korean, Brazilian Portuguese, Simplified Chinese, Latin American Spanish, Traditional Chinese, Russian and Turkish. English alone is checked for full audio.",
+        "url": "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Steam full-game listing observed before unlock; no build number",
+        "status": "documented",
+        "source": "steam_store"
+      },
+      {
+        "id": "LANG02",
+        "topic": "russian",
+        "fact": "A developer confirms Russian for the full game.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/684111928013022319/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Full game, not proof of demo localization",
+        "status": "announced",
+        "source": "russian"
+      },
+      {
+        "id": "ACCESS01",
+        "topic": "screenshake",
+        "fact": "A developer promises an option to turn off screen shake.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/573795107742946598/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Full-release promise observed before launch; demo complaints distinct",
+        "status": "announced_not_tested",
+        "source": "shake",
+        "caveat": "No exact settings path or shipped toggle was verified; flashing-effects toggle was not confirmed."
+      },
+      {
+        "id": "REPLAY01",
+        "topic": "campaign_structure",
+        "fact": "Announced launch content includes nine battles across three acts, followed by a final encounter.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/696526260588773495",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Announced 1.0 content, before release",
+        "status": "announced",
+        "source": "content"
+      },
+      {
+        "id": "REPLAY02",
+        "topic": "difficulty",
+        "fact": "Announced launch content includes ten increasingly difficult levels.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/696526260588773495",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Announced 1.0 content, before release",
+        "status": "announced",
+        "source": "content"
+      },
+      {
+        "id": "REPLAY03",
+        "topic": "build_variety",
+        "fact": "Launch announcement lists over 70 afflictions, more than 70 skills and 40+ purchasable items.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/696526260588773495",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Announced 1.0 content, before release",
+        "status": "announced",
+        "source": "content"
+      },
+      {
+        "id": "REPLAY04",
+        "topic": "unlocks",
+        "fact": "Launch announcement lists eight unlockable beasts plus variants with different stats/abilities and cosmetics.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/696526260588773495",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Announced 1.0 content, before release",
+        "status": "announced",
+        "source": "content"
+      },
+      {
+        "id": "REPLAY05",
+        "topic": "meta_progression",
+        "fact": "An accepted player answer describes demo character/variant unlocks without permanent +HP/+DMG upgrades.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/582810830272368108/",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Demo observation, not full-release guarantee",
+        "status": "community_observation",
+        "source": "roguelike",
+        "caveat": "Accepted-answer status is not developer endorsement and does not certify 1.0 progression."
+      },
+      {
+        "id": "REPLAY06",
+        "topic": "run_duration",
+        "fact": "A player estimates around 60 minutes for a run and explicitly says the estimate may be wrong.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/582810614213308117/",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Demo-based estimate, not measured full-game completion time",
+        "status": "unverified_estimate",
+        "source": "length",
+        "caveat": "Do not publish as official completion time or measured game length."
+      },
+      {
+        "id": "REPLAY07",
+        "topic": "post_launch_pvp",
+        "fact": "The roadmap plans a December 1.1 arena/boss/weapon/enemy update and proposes PvP for Q1 2027.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/696526260588776438",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Planned post-1.0, not shipped content",
+        "status": "planned_not_shipped",
+        "source": "roadmap",
+        "caveat": "Additional acts, beasts, variants and cosmetics are exploratory, not committed shipped features."
+      },
+      {
+        "id": "PLATFORM01",
+        "topic": "release_timing",
+        "fact": "Developer schedules launch for October 15, 2026 at 17:00 UTC, which is October 16 at 01:00 in Singapore.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/713412222387225812",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Scheduled full release on Steam, PS5, Xbox Series X|S, Nintendo Switch, Game Pass Xbox/Windows PC",
+        "status": "scheduled",
+        "source": "platform_announce",
+        "caveat": "Steam displayed 16 Oct locally and was still unavailable when inspected; do not treat date difference as a delay."
+      },
+      {
+        "id": "PLATFORM02",
+        "topic": "editions",
+        "fact": "Developer announces Steam, PS5, Xbox Series X|S, Nintendo Switch and day-one Game Pass on Xbox and Windows PC.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/713412222387225812",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Scheduled full release on Steam, PS5, Xbox Series X|S, Nintendo Switch, Game Pass Xbox/Windows PC",
+        "status": "announced",
+        "source": "platform_announce"
+      },
+      {
+        "id": "PLATFORM03",
+        "topic": "demo_retirement",
+        "fact": "Developer says the Steam Carthage demo will be taken offline when the full game launches.",
+        "url": "https://store.steampowered.com/news/app/3569420/view/713412222387225812",
+        "checked_date": "2026-10-15",
+        "level": "official_game",
+        "applicable_version": "Scheduled full release on Steam, PS5, Xbox Series X|S, Nintendo Switch, Game Pass Xbox/Windows PC",
+        "status": "scheduled",
+        "source": "platform_announce"
+      },
+      {
+        "id": "ISSUE01",
+        "topic": "startup_freeze",
+        "fact": "A player reports a Featherweight-logo startup freeze despite reinstall/restarts/file verification; the thread has zero replies at inspection.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/568174304851738515/",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Pre-release player report; likely demo context but exact build not stated",
+        "status": "unresolved_report",
+        "source": "startup",
+        "caveat": "This verifies a report, not the cause, prevalence, persistence or a fix."
+      },
+      {
+        "id": "ISSUE02",
+        "topic": "remote_play_report",
+        "fact": "The PC-host Remote Play Together complaint has zero replies at inspection.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/583929850218181190/",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Pre-release PC-host report; build unspecified",
+        "status": "unresolved_report",
+        "source": "rpt_report",
+        "caveat": "Generic Steam help below must not be called a developer-confirmed fix for this report."
+      },
+      {
+        "id": "ISSUE03",
+        "topic": "online_join_stuck",
+        "fact": "A joiner-stuck report has one player reply suggesting file verification; no developer response or success confirmation is present.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/582810101152303598/",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "Pre-release online session; exact build not stated",
+        "status": "unresolved_report",
+        "source": "online_report"
+      },
+      {
+        "id": "ISSUE04",
+        "topic": "movement_demo_fix",
+        "fact": "A developer released a demo update in November 2025 for movement/potion-selection trouble, and one affected player confirmed success.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/671726388306488577/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "November 2025 demo only",
+        "status": "historical_fix",
+        "source": "movement",
+        "caveat": "Later July/September 2026 player posts report stuck/slow-motion symptoms with no later developer resolution. Do not collapse these into a universally fixed issue."
+      },
+      {
+        "id": "ISSUE05",
+        "topic": "mac_join_report",
+        "fact": "The Windows/Mac join-failure reporter said it was fixed on June 20, 2026.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/562534024812314441/",
+        "checked_date": "2026-10-15",
+        "level": "community",
+        "applicable_version": "June 2026 pre-release Windows/Mac multiplayer; build not stated",
+        "status": "community_success_report",
+        "source": "mac",
+        "caveat": "No patch number or repair steps; not evidence of current universal cross-play reliability."
+      },
+      {
+        "id": "ISSUE06",
+        "topic": "ai_companions",
+        "fact": "The accepted developer reply only thanks the requester; it does not confirm AI/CPU companions.",
+        "url": "https://steamcommunity.com/app/3569420/discussions/0/592907320284073267/",
+        "checked_date": "2026-10-15",
+        "level": "developer",
+        "applicable_version": "Pre-release request; no implementation or build confirmed",
+        "status": "not_confirmed",
+        "source": "bots"
+      },
+      {
+        "id": "RPT01",
+        "topic": "rpt_invite",
+        "fact": "Launch the supported game; ensure the friend is signed into Steam on a supported device; open the overlay with Shift+Tab; right-click the friend and select Remote Play Together.",
+        "url": "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Remote Play help; no client build; not a Chained Beasts fix",
+        "status": "general_platform_workflow",
+        "source": "rpt_help"
+      },
+      {
+        "id": "RPT02",
+        "topic": "rpt_ownership",
+        "fact": "Remote Play Together guests do not need to own or launch the game.",
+        "url": "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Remote Play help; no client build; not a Chained Beasts fix",
+        "status": "general_platform_rule",
+        "source": "rpt_help"
+      },
+      {
+        "id": "RPT03",
+        "topic": "rpt_inputs",
+        "fact": "Remote Play Together players can use their own controllers or share control of the keyboard and mouse.",
+        "url": "https://store.steampowered.com/remoteplay?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General supported local multiplayer streaming, not native cross-play",
+        "status": "general_platform_rule",
+        "source": "rpt_overview",
+        "caveat": "Multiple remote keyboards are not documented as independent player slots."
+      },
+      {
+        "id": "RPT04",
+        "topic": "rpt_permissions",
+        "fact": "The host can manage players’ access to shared keyboard/mouse, alongside volume and voice settings.",
+        "url": "https://store.steampowered.com/remoteplay?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General supported local multiplayer streaming, not native cross-play",
+        "status": "general_platform_workflow",
+        "source": "rpt_overview",
+        "caveat": "Exact permission-icon layout and game controller-slot assignment were not established."
+      },
+      {
+        "id": "RPT05",
+        "topic": "rpt_vs_native",
+        "fact": "Remote Play Together streams supported local multiplayer online even if a game has no native online play.",
+        "url": "https://store.steampowered.com/remoteplay?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General supported local multiplayer streaming, not native cross-play",
+        "status": "general_platform_rule",
+        "source": "rpt_overview",
+        "caveat": "It is distinct from native Chained Beasts online co-op and console cross-play."
+      },
+      {
+        "id": "RPT06",
+        "topic": "rpt_baseline",
+        "fact": "General troubleshooting recommends updating Steam on both PCs and verifying that the host can launch and run the updated game locally.",
+        "url": "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Remote Play help; no client build; not a Chained Beasts fix",
+        "status": "general_diagnostic_not_game_fix",
+        "source": "rpt_help"
+      },
+      {
+        "id": "RPT07",
+        "topic": "rpt_controller_diagnosis",
+        "fact": "If no streamed game recognizes a controller, check whether the client computer’s Big Picture controller settings recognize it.",
+        "url": "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Remote Play help; no client build; not a Chained Beasts fix",
+        "status": "general_diagnostic_not_game_fix",
+        "source": "rpt_help",
+        "caveat": "Published Big Picture terminology may differ from the current client."
+      },
+      {
+        "id": "RPT08",
+        "topic": "rpt_black_screen",
+        "fact": "For black screens, official help distinguishes game-specific failures from all-game failures; general tests include driver updates and host encoding/client decoding options.",
+        "url": "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Remote Play help; no client build; not a Chained Beasts fix",
+        "status": "general_diagnostic_not_game_fix",
+        "source": "rpt_help",
+        "caveat": "No settings were changed or live streaming tests performed in this research."
+      },
+      {
+        "id": "RPT09",
+        "topic": "rpt_limitations",
+        "fact": "Published Remote Play limitations exclude non-gamepad DirectInput devices such as wheels/flight controllers and warn about some raw-input games.",
+        "url": "https://help.steampowered.com/en/faqs/view/0689-74B8-92AC-10F2",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Remote Play help; no client build; not a Chained Beasts fix",
+        "status": "general_platform_limit",
+        "source": "rpt_help",
+        "caveat": "Do not confuse these streaming limits with Steam Input’s broader device support."
+      },
+      {
+        "id": "INPUT02",
+        "topic": "steam_input_devices",
+        "fact": "Steam Input documentation lists Steam Controller, PS4, Xbox 360/One, Switch Pro, Steam Link mobile touch controls, PS3 and DirectInput gamepads.",
+        "url": "https://partner.steamgames.com/doc/features/steam_controller/device?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Input configurator documentation; published device list not exhaustive current hardware certification",
+        "status": "general_platform_rule",
+        "source": "input_devices",
+        "caveat": "Not an exhaustive 2026 hardware list and not Chained Beasts-specific compatibility certification."
+      },
+      {
+        "id": "INPUT03",
+        "topic": "steam_input_variants",
+        "fact": "Protocol-compatible variant devices can fall under the PS4/Xbox 360/Xbox One categories, including fighting-game joysticks.",
+        "url": "https://partner.steamgames.com/doc/features/steam_controller/device?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Input configurator documentation; published device list not exhaustive current hardware certification",
+        "status": "general_platform_rule",
+        "source": "input_devices",
+        "caveat": "Not every specialty controller is guaranteed to work."
+      },
+      {
+        "id": "INPUT04",
+        "topic": "legacy_mapping",
+        "fact": "Steam Input legacy mode maps physical controls to keyboard, mouse or gamepad inputs; emulated gamepad buttons reach the game as XInput events.",
+        "url": "https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_players?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Input; includes older UI examples; not per-game settings recommendation",
+        "status": "general_platform_mechanism",
+        "source": "input_player",
+        "caveat": "Does not justify a blanket enable/disable Steam Input fix."
+      },
+      {
+        "id": "INPUT05",
+        "topic": "external_remapper_identity",
+        "fact": "When an external PS4 remapper exposes an Xbox 360 controller, Steam Input interacts with that emulated device rather than the PS4 device directly.",
+        "url": "https://partner.steamgames.com/doc/features/steam_controller/getting_started_for_players?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Input; includes older UI examples; not per-game settings recommendation",
+        "status": "general_platform_mechanism",
+        "source": "input_player",
+        "caveat": "An explanation of device identity, not a recommendation to install third-party remapping software."
+      },
+      {
+        "id": "XBOX01",
+        "topic": "game_pass_tiers",
+        "fact": "Xbox announces October 15 day-one availability on Cloud, Xbox Series X|S and PC, naming Game Pass Ultimate and PC Game Pass.",
+        "url": "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Scheduled cloud, Xbox Series X|S and PC Game Pass release",
+        "status": "scheduled",
+        "source": "xbox_news",
+        "caveat": "No other subscription tier or live access was verified."
+      },
+      {
+        "id": "XBOX02",
+        "topic": "xbox_coop",
+        "fact": "Xbox lists local and online co-op for 2-4, Xbox Play Anywhere and Xbox cross-platform co-op.",
+        "url": "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Xbox Series X|S / Microsoft PC listing; pre-release observation",
+        "status": "store_documented",
+        "source": "xbox_store",
+        "caveat": "Does not establish Steam/PS5/Switch cross-play or Steam ownership entitlement."
+      },
+      {
+        "id": "XBOX03",
+        "topic": "xbox_languages",
+        "fact": "Xbox lists 13 language entries: English US/UK, German, Spanish (Mexico), French, Italian, Japanese, Korean, Brazilian Portuguese, Russian, Simplified/Traditional Chinese and Turkish. English US/UK have audio; all entries have interface.",
+        "url": "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Xbox Series X|S / Microsoft PC listing; pre-release observation",
+        "status": "store_documented",
+        "source": "xbox_store",
+        "caveat": "The count includes two English locale entries, unlike Steam’s 12-language list."
+      },
+      {
+        "id": "XBOX04",
+        "topic": "xbox_subtitles",
+        "fact": "The Xbox language matrix marks subtitles for the interface languages except Simplified Chinese.",
+        "url": "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Xbox Series X|S / Microsoft PC listing; pre-release observation",
+        "status": "store_documented",
+        "source": "xbox_store",
+        "caveat": "A store metadata discrepancy with Steam; not in-game testing or proof that Chinese text is absent. Recheck before an edition-specific guide."
+      },
+      {
+        "id": "XBOX05",
+        "topic": "xbox_accessibility",
+        "fact": "Xbox lists multiple volume controls, stereo sound, difficulty levels, on-demand tutorials, pausable gameplay and Save anytime.",
+        "url": "https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Xbox Series X|S / Microsoft PC listing; pre-release observation",
+        "status": "store_documented",
+        "source": "xbox_store",
+        "caveat": "Save anytime is a store accessibility label, not documented mid-battle save semantics or contradiction-free proof against Steam’s day-start checkpoint description."
+      },
+      {
+        "id": "SWITCH01",
+        "topic": "switch_release",
+        "fact": "Nintendo UK lists an October 15, 2026 Switch release and supported Switch 2 compatibility with no issues found.",
+        "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Nintendo Switch download software, UK; Switch 2 backward compatibility listing",
+        "status": "store_documented",
+        "source": "switch_store",
+        "caveat": "Backward compatibility is not a separately verified native Switch 2 edition."
+      },
+      {
+        "id": "SWITCH02",
+        "topic": "switch_languages",
+        "fact": "Nintendo lists Japanese, English, Spanish, French, German, Italian, Portuguese, Russian, Korean and Chinese.",
+        "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Nintendo Switch download software, UK; Switch 2 backward compatibility listing",
+        "status": "store_documented",
+        "source": "switch_store",
+        "caveat": "Audio/interface/subtitle distinctions and Chinese variants were not specified in this list."
+      },
+      {
+        "id": "SWITCH03",
+        "topic": "switch_online",
+        "fact": "Online play requires a paid Nintendo Switch Online membership.",
+        "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Nintendo Switch download software, UK; Switch 2 backward compatibility listing",
+        "status": "store_documented",
+        "source": "switch_store",
+        "caveat": "Not evidence of game-catalogue inclusion or cross-platform matchmaking."
+      },
+      {
+        "id": "SWITCH04",
+        "topic": "switch_controllers",
+        "fact": "Multiplayer requires one compatible controller per player.",
+        "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Nintendo Switch download software, UK; Switch 2 backward compatibility listing",
+        "status": "store_documented",
+        "source": "switch_store",
+        "caveat": "Single-Joy-Con sufficiency and PC controller requirements are not established by this statement."
+      },
+      {
+        "id": "PS501",
+        "topic": "ps5_release",
+        "fact": "The Australian PS5 listing displayed Announced, wishlist/countdown and a local October 16, 2026 release date.",
+        "url": "https://store.playstation.com/en-au/concept/10018409",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "PS5 Australian listing; announced/countdown state",
+        "status": "scheduled",
+        "source": "ps_store"
+      },
+      {
+        "id": "PS502",
+        "topic": "ps5_players",
+        "fact": "PS5 lists 1-4 players, optional online play, up to four online players and PS Plus required for online play.",
+        "url": "https://store.playstation.com/en-au/concept/10018409",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "PS5 Australian listing; announced/countdown state",
+        "status": "store_documented",
+        "source": "ps_store",
+        "caveat": "The PS Plus requirement does not mean inclusion in a PS Plus game catalogue."
+      },
+      {
+        "id": "PS503",
+        "topic": "ps5_features",
+        "fact": "PS5 lists Remote Play support and DualSense vibration.",
+        "url": "https://store.playstation.com/en-au/concept/10018409",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "PS5 Australian listing; announced/countdown state",
+        "status": "store_documented",
+        "source": "ps_store",
+        "caveat": "PlayStation Remote Play is not Steam Remote Play Together, nor proof of adaptive-trigger support."
+      }
+    ],
+    "unknowns": [
+      {
+        "topic": "Exact PC keyboard/controller player-slot matrix",
+        "status": "not_established",
+        "sources": [
+          "steam_store"
+        ],
+        "next_check": "Developer FAQ or released in-game local lobby; do not infer one keyboard plus three controllers."
+      },
+      {
+        "topic": "Simultaneous local-plus-native-online mixed co-op",
+        "status": "not_established",
+        "sources": [
+          "steam_store"
+        ],
+        "next_check": "Explicit developer instructions or controlled release-build test."
+      },
+      {
+        "topic": "Steam/Microsoft PC/Xbox/PS5/Switch pairwise cross-play and version parity",
+        "status": "not_established",
+        "sources": [
+          "steam_store",
+          "platform_announce",
+          "xbox_store"
+        ],
+        "next_check": "Developer cross-play matrix or tested pairwise matchmaking; platform availability is not enough."
+      },
+      {
+        "topic": "Exact Remote Play enable toggle/overlay enable menu and no-Steam-account invitation links",
+        "status": "not_established_in_inspected_help",
+        "sources": [
+          "rpt_help"
+        ],
+        "next_check": "Current official client guide; inspected FAQ documents Steam-friend flow only."
+      },
+      {
+        "topic": "Steam save path, cloud-conflict repair, backup/import and host transfer",
+        "status": "not_established",
+        "sources": [
+          "save",
+          "steam_store"
+        ],
+        "next_check": "Release-version developer documentation; Steam Cloud badge is not a recovery procedure."
+      },
+      {
+        "topic": "Screen-flash toggle and full photosensitivity safety",
+        "status": "not_confirmed",
+        "sources": [
+          "shake"
+        ],
+        "next_check": "Released accessibility options; screen-shake promise alone is insufficient."
+      },
+      {
+        "topic": "Permanent stat upgrades in 1.0 and guaranteed run completion time",
+        "status": "not_established",
+        "sources": [
+          "roguelike",
+          "progression",
+          "length",
+          "content"
+        ],
+        "next_check": "Developer confirmation or release-build testing."
+      },
+      {
+        "topic": "PS5 language matrix; Switch/PS5 comprehensive accessibility",
+        "status": "not_verified",
+        "sources": [
+          "ps_store",
+          "switch_store"
+        ],
+        "next_check": "Edition-specific official fields or released options."
+      }
+    ]
+  },
+  "platformAddendum": {
+    "checked": "2026-10-15",
+    "facts": [
+      {
+        "id": "C01",
+        "topic": "automatic_sync",
+        "url": "https://partner.steamgames.com/doc/features/cloud?language=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Cloud; current official documentation, no client build specified",
+        "fact": "Configured Cloud files are replicated after game exit and downloaded to another computer before launch; Steam normally synchronizes before and after each session.",
+        "caveat": "Only files selected by the developer are covered; this is not continuous arbitrary mid-run saving."
+      },
+      {
+        "id": "C02",
+        "topic": "developer_scope",
+        "url": "https://help.steampowered.com/zh-cn/faqs/view/68D2-35AB-09A9-7678",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Cloud; current official documentation, no client build specified",
+        "fact": "Developers control which files/settings use Steam Cloud; a Cloud badge does not identify the precise covered save files."
+      },
+      {
+        "id": "C03",
+        "topic": "conflict_choice",
+        "url": "https://help.steampowered.com/zh-cn/faqs/view/68D2-35AB-09A9-7678",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Cloud; current official documentation, no client build specified",
+        "fact": "A conflict can occur when local and cloud copies differ after unsynchronized changes. Compare timestamps with actual gameplay progress before choosing a version.",
+        "caveat": "Do not automatically choose cloud or blindly choose the newest timestamp."
+      },
+      {
+        "id": "C04",
+        "topic": "offline_limit",
+        "url": "https://help.steampowered.com/zh-cn/faqs/view/68D2-35AB-09A9-7678",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Cloud; current official documentation, no client build specified",
+        "fact": "Offline play cannot synchronize until Steam is online again, and can cause conflicts."
+      },
+      {
+        "id": "C05",
+        "topic": "sync_error",
+        "url": "https://help.steampowered.com/zh-cn/faqs/view/68D2-35AB-09A9-7678",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Cloud; current official documentation, no client build specified",
+        "fact": "Steam recommends resolving synchronization failures before starting the game; ignoring the warning can cause local/cloud conflicts and lost progress."
+      },
+      {
+        "id": "C06",
+        "topic": "switching_computers",
+        "url": "https://help.steampowered.com/zh-cn/faqs/view/68D2-35AB-09A9-7678",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Cloud; current official documentation, no client build specified",
+        "fact": "If progress is missing on another computer, the original computer may still hold unsynchronized progress; Steam suggests checking synchronization there.",
+        "caveat": "Recovery is not guaranteed; Steam Support cannot restore lost saves or resolve a user’s choice of conflicting copies."
+      },
+      {
+        "id": "C07",
+        "topic": "cross_os_limit",
+        "url": "https://help.steampowered.com/zh-cn/faqs/view/68D2-35AB-09A9-7678",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "General Steam Cloud; current official documentation, no client build specified",
+        "fact": "Steam supports cross-operating-system Cloud integration, but not all games implement it.",
+        "caveat": "Does not establish Windows/macOS save compatibility for Chained Beasts or any console cross-save."
+      },
+      {
+        "id": "A01",
+        "topic": "achievement_support",
+        "url": "https://store.steampowered.com/app/3569420/Chained_Beasts/?l=english",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Steam app 3569420 store, pre-unlock observation",
+        "fact": "The inspected game store lists the Steam Achievements feature; the badge target is a general store category search, not the game’s achievement list.",
+        "caveat": "Actual achievement names, counts, conditions, percentages and hidden entries remain unknown."
+      },
+      {
+        "id": "X01",
+        "topic": "digital_purchase_entitlement",
+        "url": "https://www.xbox.com/en-US/games/xbox-play-anywhere",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Participating Xbox Play Anywhere digital editions on Xbox console and Windows 10/11 PC; current en-US FAQ",
+        "fact": "Xbox Play Anywhere applies to eligible digital games bought from Xbox Store, Windows Store or participating retailers’ digital codes, with no additional platform charge.",
+        "caveat": "Not a disc entitlement or a Steam/PS5/Switch purchase entitlement; subscription access is not a purchase."
+      },
+      {
+        "id": "X02",
+        "topic": "same_account",
+        "url": "https://www.xbox.com/en-US/games/xbox-play-anywhere",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Participating Xbox Play Anywhere digital editions on Xbox console and Windows 10/11 PC; current en-US FAQ",
+        "fact": "Sign into the same Xbox Live/Microsoft account to download the eligible purchase on supported devices."
+      },
+      {
+        "id": "X03",
+        "topic": "progress_boundary",
+        "url": "https://www.xbox.com/en-US/games/xbox-play-anywhere",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Participating Xbox Play Anywhere digital editions on Xbox console and Windows 10/11 PC; current en-US FAQ",
+        "fact": "Xbox-saved game progress carries between the supported Xbox and Windows PC editions, including saves, add-ons and achievements.",
+        "caveat": "This is the platform program guarantee, not a tested Chained Beasts transfer or Steam Cloud bridge."
+      },
+      {
+        "id": "X04",
+        "topic": "dlc_boundary",
+        "url": "https://www.xbox.com/en-US/games/xbox-play-anywhere",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Participating Xbox Play Anywhere digital editions on Xbox console and Windows 10/11 PC; current en-US FAQ",
+        "fact": "Bought or earned content for owned Play Anywhere games carries across supported devices, including add-ons, Season Passes, consumables and in-game unlocks.",
+        "caveat": "Do not extend this entitlement to other storefront editions."
+      },
+      {
+        "id": "X05",
+        "topic": "simultaneous_use",
+        "url": "https://www.xbox.com/en-US/games/xbox-play-anywhere",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Participating Xbox Play Anywhere digital editions on Xbox console and Windows 10/11 PC; current en-US FAQ",
+        "fact": "The same game cannot be signed into simultaneously on multiple supported devices."
+      },
+      {
+        "id": "X06",
+        "topic": "shared_achievements",
+        "url": "https://www.xbox.com/en-US/games/xbox-play-anywhere",
+        "checked_date": "2026-10-15",
+        "level": "official_platform",
+        "applicable_version": "Participating Xbox Play Anywhere digital editions on Xbox console and Windows 10/11 PC; current en-US FAQ",
+        "fact": "A Play Anywhere game has a single shared set of Gamerscore and achievements rather than awarding them twice across Xbox and Windows PC.",
+        "caveat": "Not proof that Steam achievements share unlocks or progress."
+      }
+    ],
+    "boundaries": [
+      "Platform help is general guidance, not a Chained Beasts-specific recovery fix.",
+      "Steam Cloud does not establish the game’s exact save files, checkpoint timing or console cross-save.",
+      "Xbox Play Anywhere rights/progress must not be extended to Steam, PS5 or Switch.",
+      "No achievement endpoints were guessed and no unpublished data was bypassed."
+    ]
+  }
+}
