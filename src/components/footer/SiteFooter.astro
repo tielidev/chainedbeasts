@@ -1,5 +1,6 @@
 ---
 import GameBrand from '~/components/GameBrand.astro';
+import PreferredSourceButton from '~/components/PreferredSourceButton.astro';
 /**
  * Site footer — social links, legal links, copyright.
  * All text comes from locale JSON (footer.* namespace).
@@ -49,6 +50,7 @@ const legalLinks: Array<keyof typeof footer> = ['about', 'faq', 'privacyPolicy',
             {shared.allTags}
           </a>
         </p>
+        <PreferredSourceButton locale={locale} placement="footer" />
       </div>
 
       {/* Socials */}
