@@ -70,9 +70,7 @@ export const site: SiteConfig = {
   domain: 'chained-beasts.com',
   tagline: 'Survive the arena. Together.',
   legalNotice: 'An independent fan site. Not affiliated with Featherweight Games. Game artwork and trademarks belong to their respective owners.',
-  // Set a real address if you run no social channels — the contact page
-  // renders it as a mailto link.
-  contactEmail: '',
+  contactEmail: 'contact@chained-beasts.com',
   contactUrl: 'https://github.com/tielidev/chainedbeasts/issues',
   defaultTheme: 'dark',
   social: {
