@@ -11,11 +11,11 @@ const {page}=Astro.props;
  <h2>Corrections</h2><p>Use our <a href="/contact/">contact page</a> to report a mistake or raise a rights concern. Reading the site requires no account.</p>
 </>}
 {page==='contact'&&<>
- <p>For corrections, broken links or feedback about this independent website, <a href={site.contactUrl}>open an issue in our GitHub repository</a>. A GitHub account is required to post there. Do not include passwords, account details or other private information in a public issue.</p>
+ {site.contactEmail&&<p>For site questions, guide corrections, privacy requests or rights inquiries, email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>. No GitHub account is needed to contact us by email. This address is for the independent website, not the game's developer.</p>}
+ <p>You can also report non-sensitive corrections by <a href={site.contactUrl}>opening an issue in our GitHub repository</a>. A GitHub account is required to post there. Do not include passwords, account details or other private information in a public issue.</p>
  <h2>Reporting a correction</h2><p>Include the page URL, the statement that needs changing, the game version or platform if relevant, and a source or screenshot supporting the correction.</p>
  <h2>Rights requests</h2><p>Identify the affected material, its URL, your relationship to the rights holder and the requested action. We will review substantiated requests and remove or replace material where appropriate.</p>
  <h2>Game support</h2><p>For purchases, multiplayer account problems or game bugs, use the <a href={site.social.official}>official game channels linked from Steam</a>. The game's support team does not operate this website.</p>
- {site.contactEmail&&<p>Email: <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a></p>}
 </>}
 {page==='privacy-policy'&&<>
  <p>This page describes how {site.name} handles information. This is a static information site with no user accounts, public comments or on-site contact form.</p>
@@ -25,6 +25,7 @@ const {page}=Astro.props;
  <p>See <a href="https://adsterra.com/privacy-policy/">Adsterra's privacy policy</a> for its practices. Advertising approval and availability do not affect our editorial conclusions. We do not sell user accounts or submitted personal information.</p>
  <h2>Analytics</h2><p>With your consent, Google Analytics 4 helps us understand page visits, reading engagement, outbound links and file downloads. Google may process browser and device information, identifiers, visited URLs and interaction events. Analytics cookies and requests load only after you accept the consent prompt. Declining prevents these optional requests. We do not enable Google Signals or advertising personalization. See <a href="https://policies.google.com/privacy">Google's privacy policy</a> for more information.</p>
  <h2>External links and media</h2><p>Official game screenshots are served locally. Following links to Steam, GitHub, console stores or other services exposes your request to those services under their policies. We do not currently embed video players.</p>
+ <h2>Correspondence</h2><p>If you email us, we use your address and the information you provide to respond to your request. Please send only the information needed to explain the issue; do not send passwords, account credentials or payment details.</p>
  <h2>Your choices and contact</h2><p>You can block optional cookies or scripts in your browser, clear local storage, or <a href="/contact/">contact the site operator</a> with a privacy question. Do not put personal information in a public GitHub issue.</p>
  <button type="button" class="btn-outline" id="reset-consent">Reset analytics and advertising consent choice</button><p id="consent-reset-result" role="status"></p>
  <h2>Updates</h2><p>We will revise this notice when the services used by the site change. The date at the top indicates the latest revision.</p>
