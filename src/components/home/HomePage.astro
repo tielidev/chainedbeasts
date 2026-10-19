@@ -3,14 +3,20 @@ import { Image } from 'astro:assets';
 import { Icon } from 'astro-icon/components';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import QuickStart from '~/components/home/QuickStart.astro';
+import HomeGuide from '~/components/home/HomeGuide.astro';
+import FaqSection from '~/components/home/FaqSection.astro';
+import AllGuides from '~/components/home/AllGuides.astro';
+import { faqPageJsonLd } from '~/lib/seo';
 import { site } from '~/config/site';
 import { getUi } from '~/i18n/ui';
 import { type Locale } from '~/i18n/routing';
 import { getEntriesByCategory, parseEntryId } from '~/lib/content';
 import { detailPath } from '~/lib/url';
 interface Props { locale: Locale; jsonLd?: Record<string, unknown>[]; alternates?: Array<{hreflang:string;href:string}>; }
-const {locale,jsonLd=[],alternates=[]}=Astro.props;
+const {locale,jsonLd: baseJsonLd=[],alternates=[]}=Astro.props;
 const home=getUi(locale).home;
+// Homepage FAQ: the visible FaqSection below renders exactly these answers.
+const jsonLd=[...baseJsonLd,...(home.homeFaq.items.length>0?[faqPageJsonLd(home.homeFaq.items)]:[])];
 const news=(await getEntriesByCategory('news',locale)).slice(0,3);
 const guides=(await getEntriesByCategory('guides',locale)).slice(0,3);
 const hrefFor=(entry: typeof guides[number])=>{const p=parseEntryId(entry.id);if(!p)throw new Error(`Invalid content ID: ${entry.id}`);return detailPath(p.category,p.slug,locale);};
@@ -37,6 +43,7 @@ const hrefFor=(entry: typeof guides[number])=>{const p=parseEntryId(entry.id);if
     <div class="section-heading"><div><p class="eyebrow">{home.popular.badge}</p><h2>{home.featuredTitle}</h2><p>{home.featuredDescription}</p></div><a href="/combat/" class="section-link">{getUi(locale).nav.combat}<Icon name="lucide:arrow-up-right" class="h-4 w-4"/></a></div>
     <div class="feature-grid">{home.featured.map(f=><a href={f.href} class="feature-card"><img src={f.image} alt={f.alt} width="960" height="540" loading="lazy"/><div class="feature-shade"></div><div class="feature-copy"><span class="eyebrow">{f.label}</span><h3>{f.title}</h3><p>{f.text}</p><span class="feature-arrow"><Icon name="lucide:arrow-up-right" class="h-5 w-5"/></span></div></a>)}</div>
   </section>
+  <HomeGuide about={home.about} platforms={home.platforms} firstHour={home.firstHour}/>
   <section class="field-section">
     <div class="section-heading"><div><p class="eyebrow">{home.start.badge}</p><h2>{home.closingCta.title}</h2></div><a href="/guides/" class="section-link">{home.guidesLink}<Icon name="lucide:arrow-right" class="h-4 w-4"/></a></div>
     <div class="article-grid">{guides.map((entry)=><a href={hrefFor(entry)} class="field-article">{entry.data.image&&<Image src={entry.data.image} alt={entry.data.title} width={600} height={338} loading="lazy"/>}<div class="field-article-body"><span class="eyebrow">{getUi(locale).nav.guides}</span><h3>{entry.data.title}</h3><p>{entry.data.description}</p><span class="read-link">{home.cardLink}<Icon name="lucide:arrow-right" class="h-4 w-4"/></span></div></a>)}</div>
@@ -45,5 +52,7 @@ const hrefFor=(entry: typeof guides[number])=>{const p=parseEntryId(entry.id);if
     <div class="section-heading"><div><p class="eyebrow">{getUi(locale).nav.news}</p><h2>{home.updates.title}</h2></div><a href="/news/" class="section-link">{home.newsLink}<Icon name="lucide:arrow-right" class="h-4 w-4"/></a></div>
     <div class="news-grid">{news.map(entry=><a href={hrefFor(entry)} class="news-card">{entry.data.image&&<Image src={entry.data.image} alt={entry.data.title} width={480} height={270} loading="lazy"/>}<div><time datetime={entry.data.date.toISOString()}>{entry.data.date.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'})}</time><h3>{entry.data.title}</h3><p>{entry.data.description}</p><Icon name="lucide:arrow-up-right" class="mt-4 h-5 w-5 text-nav"/></div></a>)}</div>
   </section>
+  <FaqSection title={home.homeFaq.title} description={home.homeFaq.description} items={home.homeFaq.items} headingLevel="h2" moreLabel={home.homeFaq.moreLabel}/>
+  <AllGuides locale={locale} badge={home.allGuides.badge} title={home.allGuides.title} description={home.allGuides.description} viewAll={home.allGuides.viewAll}/>
   <section class="editorial-note"><Icon name="lucide:book-open-check" class="h-8 w-8 shrink-0 text-nav"/><div><h2>{home.editorial.label}</h2><p>{home.editorial.text}</p></div><a href={home.editorial.href} class="section-link">{home.editorial.link}<Icon name="lucide:arrow-up-right" class="h-4 w-4"/></a></section>
 </LocaleLayout>

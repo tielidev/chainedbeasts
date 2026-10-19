@@ -20,9 +20,6 @@ export function organizationJsonLd() {
     logo: `${siteUrl}/android-chrome-512x512.png`,
     image: `${siteUrl}/images/hero.webp`,
     description: site.description,
-    // Entity association: link the wiki to the game's canonical pages
-    // (Steam / official site / Wikipedia) — knowledge-graph signal.
-    ...(site.sameAs && site.sameAs.length > 0 ? { sameAs: site.sameAs } : {}),
   };
 }
 
@@ -290,10 +287,17 @@ export function videoGameJsonLd() {
     '@type': 'VideoGame',
     name: site.game.name,
     description: site.description,
-    url: siteUrl,
+    // The game's own official page, not this wiki — the wiki is described
+    // by the WebSite/Organization entities.
+    url: site.social.official,
     genre: site.game.genre,
     gamePlatform: site.game.platform,
+    applicationCategory: 'Game',
+    author: { '@type': 'Organization', name: site.game.developer },
     publisher: { '@type': 'Organization', name: site.game.developer },
     ...(site.game.releaseDate ? { datePublished: site.game.releaseDate } : {}),
+    // Entity association: the game's canonical pages (official site, store
+    // listings) — knowledge-graph signal.
+    ...(site.sameAs && site.sameAs.length > 0 ? { sameAs: site.sameAs } : {}),
   };
 }

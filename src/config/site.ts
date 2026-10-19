@@ -36,8 +36,9 @@ export interface SiteConfig {
   };
   /**
    * Canonical URLs about the GAME (Steam page, official site, Wikipedia entry…).
-   * Emitted as Organization JSON-LD `sameAs` — helps Google / AI engines link
-   * this wiki to the game's knowledge-graph entity.
+   * Emitted as the homepage VideoGame JSON-LD `sameAs` — helps Google / AI
+   * engines link the game this wiki covers to its knowledge-graph entity.
+   * (Not on Organization: the wiki is not the same entity as these pages.)
    */
   sameAs?: string[];
   game: {
@@ -76,6 +77,13 @@ export const site: SiteConfig = {
   social: {
     official: 'https://store.steampowered.com/app/3569420/Chained_Beasts/',
   },
+  sameAs: [
+    'https://www.featherweightgames.com/chainedbeasts',
+    'https://store.steampowered.com/app/3569420/Chained_Beasts/',
+    'https://store.playstation.com/en-us/concept/10018409',
+    'https://www.xbox.com/en-US/games/store/chained-beasts/9pkzrn4rjrc9',
+    'https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Chained-Beasts-3203165.html',
+  ],
   game: {
     name: 'Chained Beasts',
     platform: 'PC, PlayStation 5, Xbox Series X|S, Nintendo Switch',
