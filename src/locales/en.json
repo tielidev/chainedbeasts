@@ -440,7 +440,7 @@
         },
         {
           "question": "Is Chained Beasts cross-platform?",
-          "answer": "The developer advertises online cross-play, and Steam lists cross-platform multiplayer. The sources do not yet document every platform pairing, so check the current store listing for your system.",
+          "answer": "Yes. The developer advertises online cross-play for up to four players, and Steam lists cross-platform multiplayer. In launch gameplay the online lobby has a Crossplay checkbox; the sources do not yet document every platform pairing.",
           "href": "/co-op/crossplay-and-platforms/"
         },
         {
