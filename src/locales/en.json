@@ -363,7 +363,7 @@
       "rows": [
         {
           "platform": "Steam (Windows)",
-          "coop": "Shared-screen co-op with at least one gamepad, online co-op and Remote Play Together.",
+          "coop": "Same-screen local co-op with at least one gamepad, online co-op and Remote Play Together.",
           "href": "/guides/pc-system-requirements/",
           "linkLabel": "PC system requirements"
         },
@@ -435,7 +435,7 @@
       "items": [
         {
           "question": "Does Chained Beasts have split screen?",
-          "answer": "Steam lists shared-screen co-op rather than separate split-screen views: local players share one screen, and at least one gamepad is required. Steam also lists Remote Play Together for friends playing over the internet.",
+          "answer": "Chained Beasts has local couch co-op for up to four players on one system, but no official source confirms a split-screen view: the developer calls it same-screen co-op, and Steam requires at least one gamepad. Steam also lists Remote Play Together for friends playing over the internet.",
           "href": "/co-op/local-co-op/"
         },
         {
