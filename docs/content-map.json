@@ -1,7 +1,7 @@
 {
   "checked": "2026-10-19",
   "target": 53,
-  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents. On 2026-10-19 the user approved SEO batch 3 (all-beasts roster, tier list, tips), replacing the playable-beasts-roster research draft.",
+  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents. On 2026-10-19 the user approved SEO batch 3 (all-beasts roster, tier list, tips), replacing the playable-beasts-roster research draft. On 2026-10-19 the user also approved SEO batch 4 (achievements, bosses, the Senate), replacing the achievements-and-trophies and praefectus-encounter research drafts.",
   "articles": [
     {
       "title": "Rhino and Ibex in Chained Beasts: What Is Confirmed?",
@@ -934,9 +934,9 @@
       "version": "Launch (v1.0)",
       "image": "../../../../assets/covers/boss.webp",
       "status": "ready",
-      "publication": "awaiting-release-approval",
+      "publication": "published",
       "demandEvidence": "Keyword list: praefectus, jupiter, the senate.",
-      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed. Awaiting user release approval (not in release.urls).",
+      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed.",
       "reviewedAt": "2026-10-19"
     },
     {
@@ -960,10 +960,10 @@
       "version": "Launch (v1.0)",
       "image": "../../../../assets/covers/combat.webp",
       "status": "ready",
-      "publication": "awaiting-release-approval",
+      "publication": "published",
       "demandEvidence": "Keyword list: the senate.",
       "reviewedAt": "2026-10-19",
-      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed. Awaiting user release approval (not in release.urls)."
+      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed."
     },
     {
       "title": "Chained Beasts Arena Hazards and Environmental Attacks",
@@ -1149,9 +1149,9 @@
       "version": "Launch (v1.0)",
       "image": "../../../../assets/covers/trainer.webp",
       "status": "ready",
-      "publication": "awaiting-release-approval",
+      "publication": "published",
       "demandEvidence": "GSC/keyword research: chained beasts achievements (KD 26.7).",
-      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed. Awaiting user release approval (not in release.urls).",
+      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed.",
       "reviewedAt": "2026-10-19"
     },
     {
@@ -1258,9 +1258,9 @@
   "releaseStatus": "approved-for-validation-and-publication",
   "reviewLimitations": "40 reviewed articles: 17 expanded originals and 23 new articles. Ten research topics are not public article files. No hands-on game test claimed. Mobile acceptance remains limited by the available Aside API.",
   "release": {
-    "target": 43,
+    "target": 46,
     "authorizedAt": "2026-10-15",
-    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred. 2026-10-19: user approved publishing SEO batch 3 pages (/beasts/all-beasts/, /beasts/tier-list/, /guides/tips/) in chat.",
+    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred. 2026-10-19: user approved publishing SEO batch 3 pages (/beasts/all-beasts/, /beasts/tier-list/, /guides/tips/) in chat. 2026-10-19: user approved publishing SEO batch 4 pages (/guides/achievements/, /combat/bosses/, /combat/the-senate/) in chat.",
     "urls": [
       "/beasts/rhino-and-ibex/",
       "/beasts/unlocks-and-variants/",
@@ -1304,7 +1304,10 @@
       "/guides/report-bugs-and-find-updates/",
       "/beasts/all-beasts/",
       "/beasts/tier-list/",
-      "/guides/tips/"
+      "/guides/tips/",
+      "/guides/achievements/",
+      "/combat/bosses/",
+      "/combat/the-senate/"
     ]
   }
 }
