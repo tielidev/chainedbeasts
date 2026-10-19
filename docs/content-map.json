@@ -1,7 +1,7 @@
 {
   "checked": "2026-10-19",
-  "target": 52,
-  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents. On 2026-10-19 the user approved SEO batch 3 (all-beasts roster, tier list, tips), replacing the playable-beasts-roster research draft.",
+  "target": 53,
+  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents. On 2026-10-19 the user approved SEO batch 3 (all-beasts roster, tier list, tips), replacing the playable-beasts-roster research draft. On 2026-10-19 the user also approved SEO batch 4 (achievements, bosses, the Senate), replacing the achievements-and-trophies and praefectus-encounter research drafts.",
   "articles": [
     {
       "title": "Rhino and Ibex in Chained Beasts: What Is Confirmed?",
@@ -283,7 +283,8 @@
         "https://store.steampowered.com/app/3569420/Chained_Beasts/",
         "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705172",
         "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925838",
-        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292"
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292",
+        "https://www.youtube.com/watch?v=siz5XrGdUk0"
       ],
       "version": "Launch information",
       "image": "../../../../assets/covers/germania.webp",
@@ -431,7 +432,7 @@
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
     },
     {
-      "title": "Chained Beasts Difficulty Levels Explained",
+      "title": "Chained Beasts Difficulty Levels: Names, Modifiers and Jupiter",
       "url": "/guides/difficulty-levels/",
       "category": "guides",
       "primaryQuery": "chained beasts difficulty levels",
@@ -440,19 +441,25 @@
         "chained beasts demo difficulty names",
         "chained beasts difficulty unlock evidence"
       ],
-      "distinctScope": "Difficulty selection and documented modifiers; no invented unlock thresholds.",
+      "distinctScope": "Ten announced levels; on-screen names and modifiers labeled by build (launch vs open beta); unverified numbers left blank; no invented unlock thresholds.",
       "sources": [
         "https://steamcommunity.com/gid/103582791475150628/announcements/detail/696526260588773496",
+        "https://steamcommunity.com/stats/3569420/achievements/",
+        "https://www.youtube.com/watch?v=IfZy4p6mQpM",
+        "https://www.youtube.com/watch?v=siz5XrGdUk0",
+        "https://www.youtube.com/watch?v=DYBTa62998Y",
+        "https://www.youtube.com/watch?v=4QNaGuCYutk",
+        "https://www.youtube.com/watch?v=pEpqSDYDKE4",
         "https://steamcommunity.com/gid/103582791475150628/announcements/detail/675123381079639510",
         "https://steamcommunity.com/gid/103582791475150628/announcements/detail/509591996910797131"
       ],
-      "version": "Version-labelled",
+      "version": "Launch (v1.0)",
       "image": "../../../../assets/covers/goliath.webp",
       "status": "ready",
       "publication": "approved-current-release",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
-      "reviewedAt": "2026-10-15",
-      "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+      "reviewedAt": "2026-10-19",
+      "reviewNote": "Rewritten 2026-10-19 with on-screen difficulty names from launch gameplay (Legate from open beta). No hands-on gameplay claimed."
     },
     {
       "title": "Chained Beasts Demo vs Full Game: What Changes?",
@@ -899,26 +906,64 @@
       "status": "research-draft",
       "publication": "not-written-not-public",
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
-      "reviewNote": "Developer preview establishes jumps and ground slams, but no complete move sequence, tells or tested counters.",
+      "reviewNote": "Goliath is now covered in /combat/bosses/ (official beta description plus video-observed arena details). A dedicated page still needs move-level evidence.",
       "requiredEvidence": "Developer preview establishes jumps and ground slams, but no complete move sequence, tells or tested counters."
     },
     {
-      "title": "Chained Beasts Praefectus and the Praetorian Guard",
-      "url": "/combat/praefectus-encounter/",
+      "title": "Chained Beasts Bosses: Barca, Goliath, Praefectus and the Senate",
+      "url": "/combat/bosses/",
       "category": "combat",
-      "primaryQuery": "chained beasts praefectus boss",
+      "primaryQuery": "chained beasts bosses",
       "relatedQueries": [
+        "chained beasts praefectus",
+        "chained beasts barca",
+        "chained beasts goliath",
         "chained beasts final boss"
       ],
-      "distinctScope": "Final encounter tactics require current evidence beyond the announcement of its identity.",
-      "sources": [],
-      "version": "Pending source review",
+      "distinctScope": "Boss order and names from on-screen health bars in three launch runs, official achievement conditions per boss, and labeled tips. Replaces the praefectus-encounter research draft; no attack-by-attack claims.",
+      "sources": [
+        "https://steamcommunity.com/stats/3569420/achievements/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705172",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706678663",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292",
+        "https://www.youtube.com/watch?v=siz5XrGdUk0",
+        "https://www.youtube.com/watch?v=4QNaGuCYutk",
+        "https://www.youtube.com/watch?v=v3uRgy4LDFk",
+        "https://www.youtube.com/watch?v=jyYtuFGyn3g"
+      ],
+      "version": "Launch (v1.0)",
       "image": "../../../../assets/covers/boss.webp",
-      "status": "research-draft",
-      "publication": "not-written-not-public",
-      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
-      "reviewNote": "Encounter identity alone cannot support an actionable, verified boss walkthrough.",
-      "requiredEvidence": "Encounter identity alone cannot support an actionable, verified boss walkthrough."
+      "status": "ready",
+      "publication": "published",
+      "demandEvidence": "Keyword list: praefectus, jupiter, the senate.",
+      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed.",
+      "reviewedAt": "2026-10-19"
+    },
+    {
+      "title": "Chained Beasts The Senate: Final Stage, Machinatrix and the Emperor",
+      "url": "/combat/the-senate/",
+      "category": "combat",
+      "primaryQuery": "chained beasts the senate",
+      "relatedQueries": [
+        "chained beasts final boss",
+        "chained beasts emperor",
+        "chained beasts machinatrix"
+      ],
+      "distinctScope": "Act IV / Day X final stage: Praefectus and Machinatrix double boss, the Emperor, Night IX preparation and rewards, from three launch runs.",
+      "sources": [
+        "https://steamcommunity.com/stats/3569420/achievements/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706678663",
+        "https://www.youtube.com/watch?v=siz5XrGdUk0",
+        "https://www.youtube.com/watch?v=4QNaGuCYutk",
+        "https://www.youtube.com/watch?v=v3uRgy4LDFk"
+      ],
+      "version": "Launch (v1.0)",
+      "image": "../../../../assets/covers/combat.webp",
+      "status": "ready",
+      "publication": "published",
+      "demandEvidence": "Keyword list: the senate.",
+      "reviewedAt": "2026-10-19",
+      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed."
     },
     {
       "title": "Chained Beasts Arena Hazards and Environmental Attacks",
@@ -1081,22 +1126,33 @@
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
     },
     {
-      "title": "Chained Beasts Achievements and Trophies",
-      "url": "/guides/achievements-and-trophies/",
+      "title": "Chained Beasts Achievements: All 60 Steam Achievements and How to Get Them",
+      "url": "/guides/achievements/",
       "category": "guides",
       "primaryQuery": "chained beasts achievements",
       "relatedQueries": [
-        "chained beasts trophy guide"
+        "chained beasts steam achievements",
+        "chained beasts rarest achievement",
+        "chained beasts king of the gods"
       ],
-      "distinctScope": "Official achievement conditions and verifiable routes; never guess hidden requirements.",
-      "sources": [],
-      "version": "Pending source review",
-      "image": "../../../../assets/covers/boss.webp",
-      "status": "research-draft",
-      "publication": "not-written-not-public",
-      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
-      "reviewNote": "The Steam feature badge is confirmed; actual names, conditions and trophy differences are not available in reviewed sources.",
-      "requiredEvidence": "The Steam feature badge is confirmed; actual names, conditions and trophy differences are not available in reviewed sources."
+      "distinctScope": "All 60 official Steam achievements with descriptions and global unlock rates, grouped by type, with labeled video-observed hints. Replaces the achievements-and-trophies research draft; console trophy lists remain unverified and are not covered.",
+      "sources": [
+        "https://steamcommunity.com/stats/3569420/achievements/",
+        "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=3569420",
+        "https://www.youtube.com/watch?v=siz5XrGdUk0",
+        "https://www.youtube.com/watch?v=4QNaGuCYutk",
+        "https://www.youtube.com/watch?v=jyYtuFGyn3g",
+        "https://www.youtube.com/watch?v=DYBTa62998Y",
+        "https://www.youtube.com/watch?v=pEpqSDYDKE4",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329257292"
+      ],
+      "version": "Launch (v1.0)",
+      "image": "../../../../assets/covers/trainer.webp",
+      "status": "ready",
+      "publication": "published",
+      "demandEvidence": "GSC/keyword research: chained beasts achievements (KD 26.7).",
+      "reviewNote": "Steam data is official; boss names, difficulty screens and camp details are video-observed in cited launch gameplay (Legate from open-beta footage), labeled per claim. No hands-on gameplay claimed.",
+      "reviewedAt": "2026-10-19"
     },
     {
       "title": "Chained Beasts Steam Cloud: Sync and Save Conflicts",
@@ -1197,14 +1253,14 @@
     }
   ],
   "deferredTopics": [],
-  "readyCount": 43,
-  "remainingCount": 9,
+  "readyCount": 46,
+  "remainingCount": 7,
   "releaseStatus": "approved-for-validation-and-publication",
   "reviewLimitations": "40 reviewed articles: 17 expanded originals and 23 new articles. Ten research topics are not public article files. No hands-on game test claimed. Mobile acceptance remains limited by the available Aside API.",
   "release": {
-    "target": 43,
+    "target": 46,
     "authorizedAt": "2026-10-15",
-    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred. 2026-10-19: user approved publishing SEO batch 3 pages (/beasts/all-beasts/, /beasts/tier-list/, /guides/tips/) in chat.",
+    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred. 2026-10-19: user approved publishing SEO batch 3 pages (/beasts/all-beasts/, /beasts/tier-list/, /guides/tips/) in chat. 2026-10-19: user approved publishing SEO batch 4 pages (/guides/achievements/, /combat/bosses/, /combat/the-senate/) in chat.",
     "urls": [
       "/beasts/rhino-and-ibex/",
       "/beasts/unlocks-and-variants/",
@@ -1248,7 +1304,10 @@
       "/guides/report-bugs-and-find-updates/",
       "/beasts/all-beasts/",
       "/beasts/tier-list/",
-      "/guides/tips/"
+      "/guides/tips/",
+      "/guides/achievements/",
+      "/combat/bosses/",
+      "/combat/the-senate/"
     ]
   }
 }
