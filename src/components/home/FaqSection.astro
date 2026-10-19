@@ -11,18 +11,25 @@ import { Icon } from 'astro-icon/components';
 interface FaqItem {
   question: string;
   answer: string;
+  /** Optional link to the full guide behind this answer. */
+  href?: string;
 }
 
 interface Props {
   title: string;
   description?: string;
   items: FaqItem[];
+  /** 'h2' when embedded in a page that already owns the H1 (homepage). */
+  headingLevel?: 'h1' | 'h2';
+  /** Label for per-item `href` links. */
+  moreLabel?: string;
 }
-const { title, description, items = [] } = Astro.props;
+const { title, description, items = [], headingLevel = 'h1', moreLabel = 'Read more' } = Astro.props;
+const Heading = headingLevel;
 ---
 
 <section class="section">
-  <h1 class="text-3xl font-extrabold tracking-tight md:text-4xl">{title}</h1>
+  <Heading class="text-3xl font-extrabold tracking-tight md:text-4xl">{title}</Heading>
   {description && <p class="mt-2 text-muted-foreground">{description}</p>}
   <div class="mt-8 space-y-2" data-faq-group>
     {
@@ -35,7 +42,15 @@ const { title, description, items = [] } = Astro.props;
             {item.question}
             <Icon name="lucide:chevron-down" class="h-4 w-4 transition group-open:rotate-180" />
           </summary>
-          <div class="px-4 pb-4 text-sm text-muted-foreground">{item.answer}</div>
+          <div class="px-4 pb-4 text-sm text-muted-foreground">
+            {item.answer}
+            {item.href && (
+              <a href={item.href} class="ml-1 inline-flex items-center gap-1 text-nav hover:underline">
+                {moreLabel}
+                <Icon name="lucide:arrow-right" class="h-3 w-3" />
+              </a>
+            )}
+          </div>
         </details>
       ))
     }

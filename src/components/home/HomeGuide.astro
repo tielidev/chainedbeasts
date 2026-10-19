@@ -1,0 +1,111 @@
+---
+/**
+ * HomeGuide — the homepage's own answer content: what the game is, a quick
+ * facts table, where to play it, and a first-hour checklist. All copy comes
+ * from locale JSON (`home.about` / `home.platforms` / `home.firstHour`) so
+ * the homepage can rank for site-level queries instead of acting as a pure
+ * link directory.
+ */
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  about: {
+    badge: string;
+    title: string;
+    paragraphs: string[];
+    factsTitle: string;
+    facts: Array<{ label: string; value: string }>;
+    factsNote: string;
+  };
+  platforms: {
+    badge: string;
+    title: string;
+    description: string;
+    columns: { platform: string; coop: string; guide: string };
+    rows: Array<{ platform: string; coop: string; href: string; linkLabel: string }>;
+    crossplay: string;
+    crossplayLink: { label: string; href: string };
+  };
+  firstHour: {
+    badge: string;
+    title: string;
+    steps: Array<{ title: string; text: string; href: string; linkLabel: string }>;
+  };
+}
+const { about, platforms, firstHour } = Astro.props;
+---
+
+<section class="field-section home-about">
+  <div>
+    <p class="eyebrow">{about.badge}</p>
+    <h2 class="home-h2">{about.title}</h2>
+    <div class="home-prose">{about.paragraphs.map((p) => <p>{p}</p>)}</div>
+  </div>
+  <aside class="home-facts">
+    <h3>{about.factsTitle}</h3>
+    <dl>
+      {about.facts.map((f) => (
+        <div>
+          <dt>{f.label}</dt>
+          <dd>{f.value}</dd>
+        </div>
+      ))}
+    </dl>
+    <p>{about.factsNote}</p>
+  </aside>
+</section>
+
+<section class="field-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">{platforms.badge}</p>
+      <h2>{platforms.title}</h2>
+      <p>{platforms.description}</p>
+    </div>
+  </div>
+  <div class="home-table-wrap">
+    <table class="home-table">
+      <thead>
+        <tr>
+          <th scope="col">{platforms.columns.platform}</th>
+          <th scope="col">{platforms.columns.coop}</th>
+          <th scope="col">{platforms.columns.guide}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {platforms.rows.map((r) => (
+          <tr>
+            <th scope="row">{r.platform}</th>
+            <td>{r.coop}</td>
+            <td><a href={r.href}>{r.linkLabel}</a></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="home-note">
+    {platforms.crossplay}{' '}
+    <a href={platforms.crossplayLink.href}>{platforms.crossplayLink.label}<Icon name="lucide:arrow-right" class="ml-1 inline h-3 w-3" /></a>
+  </p>
+</section>
+
+<section class="field-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">{firstHour.badge}</p>
+      <h2>{firstHour.title}</h2>
+    </div>
+  </div>
+  <ol class="home-steps">
+    {firstHour.steps.map((s, i) => (
+      <li>
+        <span class="home-step-num">{String(i + 1).padStart(2, '0')}</span>
+        <div>
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+          <a href={s.href}>{s.linkLabel}<Icon name="lucide:arrow-right" class="ml-1 inline h-3 w-3" /></a>
+        </div>
+      </li>
+    ))}
+  </ol>
+</section>

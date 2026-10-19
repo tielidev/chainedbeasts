@@ -115,34 +115,34 @@
   "overview": {
     "guides": {
       "overviewTitle": "Chained Beasts Guides",
-      "overviewDescription": "Getting started, solo runs, controls and progression."
+      "overviewDescription": "Chained Beasts guides for beginners, solo players and every platform: controls, system requirements, saves, difficulty and campaign progression."
     },
     "beasts": {
-      "overviewTitle": "Chained Beasts Beasts",
-      "overviewDescription": "Understand beast unlocks and variants without unverified rankings."
+      "overviewTitle": "Chained Beasts Beast Guide",
+      "overviewDescription": "How Chained Beasts beast unlocks, variants and beast XP work, plus confirmed Rhino and Ibex details, without unverified rankings."
     },
     "combat": {
-      "overviewTitle": "Chained Beasts Combat",
-      "overviewDescription": "Weapons, afflictions, crowd support and arena survival."
+      "overviewTitle": "Chained Beasts Combat Guide",
+      "overviewDescription": "Chained Beasts combat guide: weapons and thrown objects, skills and shopping, afflictions and healing, arena hazards, shields and crowd approval."
     },
     "co-op": {
-      "overviewTitle": "Chained Beasts Co-op",
-      "overviewDescription": "Local and online play, cross-play and chain coordination."
+      "overviewTitle": "Chained Beasts Co-op Guide",
+      "overviewDescription": "Chained Beasts co-op: online and local multiplayer, shared-screen play, Remote Play Together, cross-play and PS5, Xbox and Switch requirements."
     },
     "news": {
-      "overviewTitle": "Chained Beasts News",
-      "overviewDescription": "Official announcements, launch details and planned updates."
+      "overviewTitle": "Chained Beasts News & Updates",
+      "overviewDescription": "Official Chained Beasts news: release date and platforms, the post-launch roadmap, Update 1.1 plans and the planned PvP mode."
     }
   },
   "home": {
     "meta": {
-      "title": "Chained Beasts Wiki — Guides, Co-op Tips & News",
-      "description": "Chained Beasts guides, co-op tips, combat mechanics, beasts and official news. An independent English resource with clearly sourced advice."
+      "title": "Chained Beasts Wiki & Guide: Co-op, Combat, Beasts",
+      "description": "Chained Beasts wiki and guide hub: beginner guide, solo and co-op setup, system requirements, combat, beasts and official news, with every fact sourced."
     },
     "hero": {
       "badge": "THE INDEPENDENT PLAYER FIELD GUIDE",
-      "title": "Survive the arena.\nTogether.",
-      "description": "One chain. Four gladiators. Countless ways for a plan to go wrong. Find your footing with clear guides to Chained Beasts.",
+      "title": "Chained Beasts\nWiki & Guides",
+      "description": "Survive the arena, together. Sourced Chained Beasts guides for your first run, solo and co-op setup, combat, beasts and the latest official news.",
       "ctaPrimary": "Get the game",
       "ctaSecondary": "Start surviving",
       "videoId": ""
@@ -312,7 +312,165 @@
         "alt": "Players preparing between rounds in the gladiator camp",
         "label": "BETWEEN BATTLES"
       }
-    ]
+    ],
+    "about": {
+      "badge": "THE GAME AT A GLANCE",
+      "title": "What is Chained Beasts?",
+      "paragraphs": [
+        "Chained Beasts is a co-op gladiator roguelike from Featherweight Games for one to four players. Your party fights through arena battles while chained together, so every dodge, throw and retreat also moves the people attached to you. The developer describes synchronized teams tripping enemies with the chain, while uncoordinated teams get tangled around pillars.",
+        "Weapons are only part of the fight. The developer highlights thrown weapons, thrown objects, arena hazards and crowd approval, and recovery between rounds comes with a price: healing can add afflictions that affect movement, perception or decisions. The launch overview announces more than seventy skills, over forty items, eight unlockable beasts with variants, three acts and ten difficulty levels.",
+        "The game launched on October 15, 2026, on Steam (Windows and macOS), PlayStation 5, Xbox Series X|S with Game Pass, and Nintendo Switch, with online cross-play advertised at launch. Featherweight Games has also published a roadmap that targets Update 1.1 in December 2026 and a desired PvP mode in early 2027.",
+        "This wiki is an independent player resource, not the official site. Every guide separates what Featherweight Games and the platform stores have confirmed from our own suggestions, links its sources, and records when it was last checked, so you can tell launch facts apart from old Demo details."
+      ],
+      "factsTitle": "Quick facts",
+      "facts": [
+        {
+          "label": "Developer",
+          "value": "Featherweight Games"
+        },
+        {
+          "label": "Genre",
+          "value": "Co-op gladiator roguelike"
+        },
+        {
+          "label": "Players",
+          "value": "1–4 (solo, local and online co-op)"
+        },
+        {
+          "label": "Release date",
+          "value": "October 15, 2026"
+        },
+        {
+          "label": "Platforms",
+          "value": "PC, Mac, PS5, Xbox Series X|S, Switch"
+        },
+        {
+          "label": "Launch price (US)",
+          "value": "$19.99, announced $12.99 launch offer"
+        }
+      ],
+      "factsNote": "Figures come from the developer and official store listings; each linked guide lists its sources."
+    },
+    "platforms": {
+      "badge": "PLATFORMS AND CO-OP",
+      "title": "Where to play Chained Beasts",
+      "description": "What each official listing confirms about local co-op, online play and requirements.",
+      "columns": {
+        "platform": "Platform",
+        "coop": "What the listing confirms",
+        "guide": "Guide"
+      },
+      "rows": [
+        {
+          "platform": "Steam (Windows)",
+          "coop": "Shared-screen co-op with at least one gamepad, online co-op and Remote Play Together.",
+          "href": "/guides/pc-system-requirements/",
+          "linkLabel": "PC system requirements"
+        },
+        {
+          "platform": "Steam (macOS)",
+          "coop": "macOS 11 minimum, with Apple M1 or Intel i7-8850H listed as example processors.",
+          "href": "/guides/mac-system-requirements/",
+          "linkLabel": "Mac requirements"
+        },
+        {
+          "platform": "PlayStation 5",
+          "coop": "One to four players; PS Plus is required for online play.",
+          "href": "/co-op/ps5-local-coop/",
+          "linkLabel": "PS5 co-op guide"
+        },
+        {
+          "platform": "Xbox Series X|S and PC Game Pass",
+          "coop": "Local and online co-op, Xbox Play Anywhere, Game Pass Ultimate and PC Game Pass.",
+          "href": "/guides/game-pass-guide/",
+          "linkLabel": "Game Pass guide"
+        },
+        {
+          "platform": "Nintendo Switch",
+          "coop": "One to four players on one system with a compatible controller each; online play needs Nintendo Switch Online.",
+          "href": "/co-op/switch-local-coop/",
+          "linkLabel": "Switch co-op guide"
+        }
+      ],
+      "crossplay": "Online cross-play is advertised by the developer, but not every platform pairing is documented yet.",
+      "crossplayLink": {
+        "label": "What cross-play covers",
+        "href": "/co-op/crossplay-and-platforms/"
+      }
+    },
+    "firstHour": {
+      "badge": "YOUR FIRST HOUR",
+      "title": "How to start Chained Beasts",
+      "steps": [
+        {
+          "title": "Check your controls first",
+          "text": "Steam recommends a gamepad, and same-screen co-op needs at least one. Confirm your bindings in the installed version before the first arena.",
+          "href": "/guides/controls-and-controller/",
+          "linkLabel": "Controls and controller setup"
+        },
+        {
+          "title": "Learn how the chain moves you",
+          "text": "Agree on a direction with your party and make short movement calls. A clear route for one fighter can drag another into a hazard.",
+          "href": "/co-op/chain-teamwork/",
+          "linkLabel": "Chain teamwork guide"
+        },
+        {
+          "title": "Fight for position, not just damage",
+          "text": "Thrown weapons, objects and arena hazards all hurt enemies. Keep a replacement weapon and an exit route in mind before you commit.",
+          "href": "/combat/combat-basics/",
+          "linkLabel": "Combat basics"
+        },
+        {
+          "title": "Read the price of every heal",
+          "text": "Recovery between rounds can add afflictions. Judge a heal by how well you can handle the next fight, not by the health bar alone.",
+          "href": "/combat/afflictions-and-healing/",
+          "linkLabel": "Afflictions and healing"
+        }
+      ]
+    },
+    "homeFaq": {
+      "title": "Chained Beasts questions players ask",
+      "description": "Short answers, each with a link to the full sourced guide.",
+      "moreLabel": "Read the guide",
+      "items": [
+        {
+          "question": "Does Chained Beasts have split screen?",
+          "answer": "Steam lists shared-screen co-op rather than separate split-screen views: local players share one screen, and at least one gamepad is required. Steam also lists Remote Play Together for friends playing over the internet.",
+          "href": "/co-op/local-co-op/"
+        },
+        {
+          "question": "Is Chained Beasts cross-platform?",
+          "answer": "The developer advertises online cross-play, and Steam lists cross-platform multiplayer. The sources do not yet document every platform pairing, so check the current store listing for your system.",
+          "href": "/co-op/crossplay-and-platforms/"
+        },
+        {
+          "question": "Is Chained Beasts on Game Pass?",
+          "answer": "Yes. Xbox announced Chained Beasts for Game Pass Ultimate and PC Game Pass on cloud, Xbox Series X|S and PC at launch.",
+          "href": "/guides/game-pass-guide/"
+        },
+        {
+          "question": "What are the Chained Beasts PC system requirements?",
+          "answer": "The official Windows minimum is 64-bit Windows 10, an Intel Core i5-5257U or AMD Ryzen 3 1200, 8 GB RAM and a GTX 1050 or Radeon RX 460. No detailed recommended specification was published.",
+          "href": "/guides/pc-system-requirements/"
+        },
+        {
+          "question": "How much does Chained Beasts cost?",
+          "answer": "Featherweight Games announced a regular US price of $19.99 and a $12.99 launch offer for two weeks. Regional prices and taxes vary by store.",
+          "href": "/guides/price-and-launch-discount/"
+        },
+        {
+          "question": "Will Chained Beasts get new content after launch?",
+          "answer": "The developer roadmap targets Update 1.1 in December 2026 with a new arena, boss, weapon and enemies, followed by a desired PvP mode in Q1 2027. These are plans, not released features.",
+          "href": "/news/post-launch-roadmap/"
+        }
+      ]
+    },
+    "allGuides": {
+      "badge": "EVERY GUIDE",
+      "title": "Browse the Chained Beasts wiki by topic",
+      "description": "Every published guide, grouped by category.",
+      "viewAll": "View category"
+    }
   },
   "footer": {
     "playGame": "Get Chained Beasts",

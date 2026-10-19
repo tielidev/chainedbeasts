@@ -1,0 +1,64 @@
+---
+/**
+ * AllGuides — a homepage link wall listing every published article, grouped
+ * by category. Gives each article a one-hop internal link from the homepage
+ * (crawl discovery + link equity), driven entirely by the content collection.
+ */
+import { Icon } from 'astro-icon/components';
+import { NAVIGATION_CONFIG } from '~/config/navigation';
+import { getUi } from '~/i18n/ui';
+import { type Locale } from '~/i18n/routing';
+import { getEntriesByCategory, parseEntryId } from '~/lib/content';
+import { detailPath, listPath } from '~/lib/url';
+
+interface Props {
+  locale: Locale;
+  badge: string;
+  title: string;
+  description: string;
+  viewAll: string;
+}
+const { locale, badge, title, description, viewAll } = Astro.props;
+const nav = getUi(locale).nav as Record<string, string>;
+const groups = (
+  await Promise.all(
+    NAVIGATION_CONFIG.map(async (item) => ({
+      key: item.key,
+      icon: item.icon,
+      label: nav[item.key] ?? item.key,
+      entries: (await getEntriesByCategory(item.key, locale)).flatMap((e) => {
+        const p = parseEntryId(e.id);
+        return p ? [{ title: e.data.title, href: detailPath(p.category, p.slug, locale) }] : [];
+      }),
+    })),
+  )
+).filter((g) => g.entries.length > 0);
+---
+
+{groups.length > 0 && (
+  <section class="field-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">{badge}</p>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
+    </div>
+    <div class="all-guides">
+      {groups.map((g) => (
+        <div class="all-guides-group">
+          <h3>
+            <Icon name={g.icon} class="h-4 w-4 text-nav" />
+            <a href={listPath(g.key, locale)}>{g.label}</a>
+          </h3>
+          <ul>
+            {g.entries.map((e) => (
+              <li><a href={e.href}>{e.title}</a></li>
+            ))}
+          </ul>
+          <a href={listPath(g.key, locale)} class="section-link">{viewAll}<Icon name="lucide:arrow-right" class="h-4 w-4" /></a>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
