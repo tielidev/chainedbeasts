@@ -12,7 +12,9 @@ if (productionOnly && process.env.CF_PAGES_BRANCH !== 'main') {
 const map = JSON.parse(fs.readFileSync('docs/content-map.json', 'utf8'));
 const failures = [];
 const articles = map.articles;
-if (map.target !== 50 || articles.length !== 50) failures.push('The release map must contain exactly 50 article entries.');
+if (!Number.isInteger(map.target) || map.target < 1 || articles.length !== map.target) {
+  failures.push(`The release map must contain exactly ${map.target} article entries (found ${articles.length}).`);
+}
 if (new Set(articles.map(a => a.url)).size !== articles.length) failures.push('Duplicate article URLs in the map.');
 const release = map.release;
 const approvedUrls = release?.urls ?? [];

@@ -56,6 +56,16 @@ describe('complete content release gate', () => {
     expect(f.run().stderr).toContain('missing review date or sources');
   });
 
+  it('follows map.target instead of a fixed map size', () => {
+    const f = fixture();
+    f.map.articles.push({ url: '/guides/extra-draft/', status: 'research-draft', reviewedAt: '2026-10-19', sources: [] });
+    f.save();
+    expect(f.run().stderr).toContain('exactly 50 article entries (found 51)');
+    f.map.target = 51;
+    f.save();
+    expect(f.run('main', ['--production']).status).toBe(0);
+  });
+
   it('releases only 40 approved articles while keeping ten research topics unpublished', () => {
     const f = fixture();
     f.map.release.target = 40;

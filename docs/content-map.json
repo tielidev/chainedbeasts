@@ -1,7 +1,7 @@
 {
-  "checked": "2026-10-15",
-  "target": 50,
-  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents.",
+  "checked": "2026-10-19",
+  "target": 52,
+  "policy": "Publish the 40 source-reviewed articles now, as authorized by the user on October 15, 2026. Retain ten research topics until reliable evidence supports them. Candidate keywords are not search-volume estimates; merge overlapping intents. On 2026-10-19 the user approved SEO batch 3 (all-beasts roster, tier list, tips), replacing the playable-beasts-roster research draft.",
   "articles": [
     {
       "title": "Rhino and Ibex in Chained Beasts: What Is Confirmed?",
@@ -1031,22 +1031,30 @@
       "requiredEvidence": "No current complete skill text or verified active/passive classification was found."
     },
     {
-      "title": "Chained Beasts Playable Beasts: Verified Roster",
-      "url": "/beasts/playable-beasts-roster/",
+      "title": "Chained Beasts All Beasts: Full Character Roster and Unlocks",
+      "url": "/beasts/all-beasts/",
       "category": "beasts",
       "primaryQuery": "chained beasts all characters",
       "relatedQueries": [
-        "chained beasts beasts roster"
+        "chained beasts all beasts",
+        "chained beasts beasts roster",
+        "chained beasts characters",
+        "chained beasts classes"
       ],
-      "distinctScope": "Name-and-evidence roster distinct from unlock and variant progression.",
-      "sources": [],
-      "version": "Pending source review",
+      "distinctScope": "Supersedes the playable-beasts-roster research draft: all eight beast names (Steam achievements), unlock conditions and on-screen variant traits (video-observed), distinct from the unlock-progression explainer.",
+      "sources": [
+        "https://steamcommunity.com/stats/3569420/achievements/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706678663",
+        "https://www.youtube.com/watch?v=4QNaGuCYutk",
+        "https://www.youtube.com/watch?v=DYBTa62998Y"
+      ],
+      "version": "Launch (v1.0)",
       "image": "../../../../assets/covers/beasts.webp",
-      "status": "research-draft",
-      "publication": "not-written-not-public",
-      "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
-      "reviewNote": "Eight beasts are announced, but artwork filenames do not prove complete playable names, abilities or unlock conditions.",
-      "requiredEvidence": "Eight beasts are announced, but artwork filenames do not prove complete playable names, abilities or unlock conditions."
+      "status": "ready",
+      "publication": "published",
+      "demandEvidence": "GSC 2026-10-14..17: \"chained beasts all characters\" 43 impressions, \"all beasts\" 6.",
+      "reviewedAt": "2026-10-19",
+      "reviewNote": "Names from Steam achievements; unlock conditions and variant text read from launch gameplay select screens. Unseen variants listed as unconfirmed."
     },
     {
       "title": "Chained Beasts Price and Announced Launch Discount",
@@ -1138,17 +1146,65 @@
       "demandEvidence": "Editorial candidate; search intent and evidence require verification.",
       "reviewedAt": "2026-10-15",
       "reviewNote": "Source-based editorial review; no hands-on gameplay claimed. Version boundaries stated in the article."
+    },
+    {
+      "title": "Chained Beasts Tier List: Best Beasts Ranked for Solo and Co-op",
+      "url": "/beasts/tier-list/",
+      "category": "beasts",
+      "primaryQuery": "chained beasts tier list",
+      "relatedQueries": [
+        "chained beasts best beast",
+        "chained beasts best character",
+        "chained beasts best build"
+      ],
+      "distinctScope": "Editorial ranking with stated criteria; separate from the factual roster.",
+      "sources": [
+        "https://steamcommunity.com/stats/3569420/achievements/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706678663",
+        "https://www.youtube.com/watch?v=siz5XrGdUk0",
+        "https://www.youtube.com/watch?v=jyYtuFGyn3g"
+      ],
+      "version": "Launch (v1.0)",
+      "image": "../../../../assets/covers/beasts.webp",
+      "status": "ready",
+      "publication": "published",
+      "demandEvidence": "GSC 2026-10-14..17: \"chained beasts tier list\" 22 impressions at position 3; \"best character\" 4.",
+      "reviewedAt": "2026-10-19",
+      "reviewNote": "Labeled editorial judgment from select-screen traits and launch gameplay; not datamined or hands-on benchmarked."
+    },
+    {
+      "title": "Chained Beasts Tips and Tricks: 15 Things to Know Before You Fight",
+      "url": "/guides/tips/",
+      "category": "guides",
+      "primaryQuery": "chained beasts tips",
+      "relatedQueries": [
+        "chained beasts tips and tricks",
+        "chained beast tips"
+      ],
+      "distinctScope": "Practical tip list grounded in official achievement text; complements the first-run beginner guide.",
+      "sources": [
+        "https://steamcommunity.com/stats/3569420/achievements/",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706678663",
+        "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772228988"
+      ],
+      "version": "Launch (v1.0)",
+      "image": "../../../../assets/covers/chains.webp",
+      "status": "ready",
+      "publication": "published",
+      "demandEvidence": "GSC 2026-10-14..17: \"chained beasts tips\" 20 impressions, \"chained beast tips\" 4.",
+      "reviewedAt": "2026-10-19",
+      "reviewNote": "Each mechanic tip cites an official Steam achievement or developer post; boss tactics are video-observed."
     }
   ],
   "deferredTopics": [],
-  "readyCount": 40,
-  "remainingCount": 10,
+  "readyCount": 43,
+  "remainingCount": 9,
   "releaseStatus": "approved-for-validation-and-publication",
   "reviewLimitations": "40 reviewed articles: 17 expanded originals and 23 new articles. Ten research topics are not public article files. No hands-on game test claimed. Mobile acceptance remains limited by the available Aside API.",
   "release": {
-    "target": 40,
+    "target": 43,
     "authorizedAt": "2026-10-15",
-    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred.",
+    "authorization": "User explicitly approved publishing these 40 articles and the official logo/favicon now, with ten evidence-gated topics deferred. 2026-10-19: user approved publishing SEO batch 3 pages (/beasts/all-beasts/, /beasts/tier-list/, /guides/tips/) in chat.",
     "urls": [
       "/beasts/rhino-and-ibex/",
       "/beasts/unlocks-and-variants/",
@@ -1189,7 +1245,10 @@
       "/combat/demo-enemy-types/",
       "/guides/price-and-launch-discount/",
       "/guides/steam-cloud-saves/",
-      "/guides/report-bugs-and-find-updates/"
+      "/guides/report-bugs-and-find-updates/",
+      "/beasts/all-beasts/",
+      "/beasts/tier-list/",
+      "/guides/tips/"
     ]
   }
 }
