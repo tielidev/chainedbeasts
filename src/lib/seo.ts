@@ -295,7 +295,14 @@ export function videoGameJsonLd() {
     applicationCategory: 'Game',
     author: { '@type': 'Organization', name: site.game.developer },
     publisher: { '@type': 'Organization', name: site.game.developer },
-    ...(site.game.releaseDate ? { datePublished: site.game.releaseDate } : {}),
+    // Schema.org dates need a time and offset; a bare YYYY-MM-DD release date gets noon +08:00.
+    ...(site.game.releaseDate
+      ? {
+          datePublished: /^\d{4}-\d{2}-\d{2}$/.test(site.game.releaseDate)
+            ? `${site.game.releaseDate}T12:00:00+08:00`
+            : site.game.releaseDate,
+        }
+      : {}),
     // Entity association: the game's canonical pages (official site, store
     // listings) — knowledge-graph signal.
     ...(site.sameAs && site.sameAs.length > 0 ? { sameAs: site.sameAs } : {}),
