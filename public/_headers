@@ -44,6 +44,15 @@
   Cache-Control: no-store
   X-Robots-Tag: noindex, nofollow
 
+# Machine-readable site guides for AI answer engines; plain text, short cache.
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
 # Ad unit pages (public/ads/*.html) exist only to be iframed by this same
 # site — restrict who may frame them. Scoped to /ads/* on purpose: a
 # site-wide CSP stays out (see the note at the top), this only fences the

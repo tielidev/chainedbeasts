@@ -53,6 +53,8 @@ export const GET: APIRoute = async () => {
     '',
     `Wiki for ${site.game.name} (${site.game.platform}, by ${site.game.developer}).`,
     '',
+    `All pages in one file: ${siteUrl}/llms-full.txt`,
+    '',
     '## Articles',
     '',
   ];
